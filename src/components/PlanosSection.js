@@ -140,9 +140,6 @@ const PlanosSection = () => {
             </thead>
             <tbody>
               <tr className='bg-gray-100'>
-
-                <td colspan="4" className="border px-4 lg:py-2">Atrair</td>
-=======
                 <td colspan="4" className="border px-4 py-2">O que está incluso</td>
               </tr>
               {
