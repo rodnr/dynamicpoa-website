@@ -1,10 +1,25 @@
+@media screen and (min-width: 768px) { 
+    .div-payment-types{
+        margin: auto!important;
+        width: 365px;
+        height: 50px;
+    
+    }
+  } 
 
-.div-payment-types{
-    margin: auto!important;
-    width: 365px;
-    height: 50px;
+@media screen and (max-width: 768px) { 
+    .div-payment-types{
+        margin: auto!important;
+        width: 75%;
+        height: 50px;
+    
+    }
+    .table-planos table{
+        /* display: none; */
+    }
+  } 
 
-}
+
 .payment-types:after{
     content:"";
     clear:both}

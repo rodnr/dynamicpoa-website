@@ -24,6 +24,9 @@ const Footer = () => (
           <li><Link className="px-4" to="/planilhas-gratuitas">
             Planilhas Gratuitas
           </Link></li>
+          <li><Link className="px-4" to="/planos">
+            Planos
+          </Link></li>
         </ul>
       </div>
       <div className="flex-1 px-3 text-center lg:text-right">

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import checkImage from '../images/check.svg';
 import seta from '../images/seta.svg';
 import icon from '../images/icon.png';
-import Card from './Card';
+import Plan from './Plan';
 import '../css/app.css';
 
 import Button from './Button';
@@ -55,7 +55,7 @@ const PlanosSection = () => {
   return(
       <section id="planos" className="my-0 pb-0 ">
         <div className="px-16  mx-auto text-center" style={{background: "linear-gradient(to bottom, #3B5F9E 0%,  #5B87B5 70%, #fff 70%, #fff 100%)"}}>
-          <h2 className="text-white text-6xl text-center font-bold pt-24 mx-4 md:mx-0">Planos de Consultoria</h2>
+          <h2 className="text-white text-4xl lg:text-6xl text-center font-bold pt-24 mx-4 md:mx-0">Planos de Consultoria</h2>
 
           <p className="mb-5 text-white text-xl font-thin mx-4 md:mx-0"> Contrate um especialista no Microsoft 365 </p>
 
@@ -73,8 +73,8 @@ const PlanosSection = () => {
           </div>
 
           <div style={{color: '#595959'}} className="flex flex-col md:flex-row md:-mx-3 mt-12">
-            <div className="flex-1 px-3 m-6 md:m-2">
-              <Card className="py-6 h-full">
+            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
+              <Plan className="py-6 h-full">
                 <p className=" mb-2 font-black text-xl">Simples</p>       
                 <hr className="mb-1" style={{marginTop : '5px', marginLeft : '10px', marginRight : '10px',border: '0.3px solid'}} />         
                 {(tipoPlano == 'Mensal') 
@@ -83,10 +83,10 @@ const PlanosSection = () => {
                   }
                 <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '5h/mês - até 2 pessoas' : '5h/mês - até 2 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>              
-              </Card>
+              </Plan>
             </div>
-            <div className="flex-1 px-3 m-6 md:m-2">
-            <Card className="py-6 h-full">
+            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
+            <Plan className="py-6 h-full">
                 <p className="mb-1 font-black text-xl">Padrão</p>
                 <hr className="mb-1" style={{marginTop : '5px', marginLeft : '10px', marginRight : '10px',border: '0.3px solid'}} />         
                 {(tipoPlano == 'Mensal') 
@@ -95,10 +95,10 @@ const PlanosSection = () => {
                   }
                 <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '15h/mês - até 5 pessoas' : '15h/mês - até 5 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>  
-              </Card>
+              </Plan>
             </div>
-            <div className="flex-1 px-3 m-6 md:m-2">        
-              <Card className="py-6 h-full">
+            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">        
+              <Plan className="py-6 h-full">
                 <p className="mb-2 font-black text-xl">Completo</p>
                 <hr className="mb-1" style={{marginTop : '5px', marginLeft : '10px', marginRight : '10px',border: '0.3px solid'}} />        
                 {(tipoPlano == 'Mensal') 
@@ -107,10 +107,10 @@ const PlanosSection = () => {
                   }
                 <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '30h/mês - até 15 pessoas' : '30h/mês - até 15 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>  
-              </Card>
+              </Plan>
             </div>
-            <div className="flex-1 px-3 m-6 md:m-2">
-              <Card className="py-6 h-full">
+            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
+              <Plan className="py-6 h-full">
                 <p className="font-black text-xl">Personalizado</p>
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?">
                   <Button marginTop="20">Entrar em contato</Button>
@@ -118,28 +118,31 @@ const PlanosSection = () => {
                 <p className="p-6 font-hairline">
                 para equipes maiores ou planos com mais disponibilidade mensal
                 </p>
-              </Card>
+              </Plan>
             </div>
           </div>
         </div>
 
         <div className="table-planos">
 
-          <h2 className="text-black text-6xl text-center font-bold mx-4 md:mx-0">Compare os planos</h2>
+          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mx-4 md:mx-0">Compare os planos</h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">Entenda como vamos ajudar sua empresa a aumentar a produtividade</p>
 
           <table className="table-auto" style={{marginTop:'60px'}}>
             <thead>
               <tr>
-                <th className="px-4 py-2"></th>
-                <th className="px-4 py-2">Simples</th>
-                <th className="px-4 py-2">Padrão</th>
-                <th className="px-4 py-2">Completo</th>
+                <th className="lg:px-4 lg:py-2"></th>
+                <th className="lg:px-4 lg:py-2">Simples</th>
+                <th className="lg:px-4 lg:py-2">Padrão</th>
+                <th className="lg:px-4 lg:py-2">Completo</th>
               </tr>
             </thead>
             <tbody>
               <tr className='bg-gray-100'>
+
+                <td colspan="4" className="border px-4 lg:py-2">Atrair</td>
+=======
                 <td colspan="4" className="border px-4 py-2">O que está incluso</td>
               </tr>
               {
@@ -150,16 +153,16 @@ const PlanosSection = () => {
                       (data.father > 0)?
                         (sonActives.indexOf(data.father) > -1) &&
                           <tr  data-father={data.father}>
-                            <td className={(data.father < 1)?'border px-4 py-2':'border px-12 py-2'}>
+                            <td className={(data.father < 1)?'border lg:px-4 lg:py-2':'border lg:px-12 lg:py-2'}>
                             {data.name}
                             </td>
-                            <td className="border px-4 py-2" >{(data.simples === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.simples}</label>}</td>
-                            <td className="border px-4 py-2" >{(data.padrao === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.padrao}</label>}</td>
-                            <td className="border px-4 py-2" >{(data.completo === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.completo}</label>}</td>
+                            <td className="border lg:px-4 lg:py-2" >{(data.simples === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.simples}</label>}</td>
+                            <td className="border lg:px-4 lg:py-2" >{(data.padrao === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.padrao}</label>}</td>
+                            <td className="border lg:px-4 lg:py-2" >{(data.completo === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.completo}</label>}</td>
                         </tr>
                       :
                         <tr  data-father={data.father}>
-                            <td className={(data.father < 1)?'border px-4 py-2':'border px-12 py-2'}>
+                            <td className={(data.father < 1)?'border lg:px-4 lg:py-2':'border lg:px-12 lg:py-2'}>
                               {
                                 (data.father == 0)?
                                   <button onClick={((e) => handleClick(e,data.id))} >
@@ -170,9 +173,9 @@ const PlanosSection = () => {
       
                             {data.name}
                             </td>
-                            <td className="border px-4 py-2" >{(data.simples === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.simples}</label>}</td>
-                            <td className="border px-4 py-2" >{(data.padrao === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.padrao}</label>}</td>
-                            <td className="border px-4 py-2" >{(data.completo === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.completo}</label>}</td>
+                            <td className="border lg:px-4 lg:py-2" >{(data.simples === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.simples}</label>}</td>
+                            <td className="border lg:px-4 lg:py-2" >{(data.padrao === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.padrao}</label>}</td>
+                            <td className="border lg:px-4 lg:py-2" >{(data.completo === 1)?<img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}} src={checkImage} alt='Logo'/>:<label style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '10px'}}>{data.completo}</label>}</td>
                         </tr>
                 }
                   </>
