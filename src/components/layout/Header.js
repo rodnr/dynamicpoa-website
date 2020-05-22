@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'gatsby'
+import { Link } from 'gatsby';
 import Button from '../Button';
-import DynamicLogo from '../../svg/DynamicLogo'
-import {Whatsapp} from '../../svg/SocialIcons'
+import DynamicLogo from '../../svg/DynamicLogo';
+import { Whatsapp } from '../../svg/SocialIcons';
 
 const Header = () => (
   <header className="sticky z-10 top-0 bg-white shadow">
@@ -22,20 +22,26 @@ const Header = () => (
           Para Você
         </Link>
       </div>
-      <a 
-        href="/planos" 
-        className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">Planos</a>
-      <a 
-        target="_blank" 
-        href="https://api.whatsapp.com/send?phone=5551996936418" 
-        className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mt-3 md:mt-0 lg:mr-6 rounded"><Whatsapp /></a>
+      <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">
+        Planos
+      </Link>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://api.whatsapp.com/send?phone=5551996936418"
+        className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mt-3 md:mt-0 lg:mr-6 rounded"
+      >
+        <Whatsapp />
+      </a>
       <div className="hidden md:block">
-        <Link to="/planilhas-gratuitas"><Button className="text-sm">Planilhas Gratuitas</Button></Link>
+        <Link to="/planilhas-gratuitas">
+          <Button className="text-sm">Planilhas Gratuitas</Button>
+        </Link>
       </div>
       <div className="block pt-4 sm:pt-0 md:hidden">
-      <Link className="px-4" to="/planilhas-gratuitas">
-        Planilhas Gratuitas
-      </Link>
+        <Link className="px-4" to="/planilhas-gratuitas">
+          Planilhas Gratuitas
+        </Link>
       </div>
     </div>
   </header>
