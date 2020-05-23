@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      'sans': ['Roboto', 'Helvetica', 'Arial']
+      sans: ['Roboto', 'Helvetica', 'Arial']
     },
     extend: {
       colors: {
@@ -10,8 +10,8 @@ module.exports = {
           default: '#3B5F9E',
           darker: '#243066'
         },
-        muttoni: {
-          default: '#6250A1'
+        chima: {
+          default: '#4B846A'
         }
       }
     }
