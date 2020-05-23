@@ -14,13 +14,17 @@
     "gatsby-plugin-manifest": "^2.2.48",
     "gatsby-plugin-react-helmet": "^3.1.24",
     "gatsby-plugin-sitemap": "^2.2.30",
+    "gatsby-plugin-styled-components": "^3.3.2",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-theme-codebushi": "1.0.0",
     "react": "^16.12.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-lottie": "^1.2.3"
+    "react-icons": "^3.10.0",
+    "react-lottie": "^1.2.3",
+    "styled-components": "^5.1.0",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
