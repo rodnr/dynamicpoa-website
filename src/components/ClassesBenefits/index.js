@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  FaCertificate,
+  FaAward,
   FaCloud,
   FaStopwatch,
   FaLightbulb,
@@ -17,7 +17,7 @@ const ClassesBenefits = () => (
     <S.BenefitsWrapper>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaCertificate color="#5B87B5" size={52} />
+          <FaAward color="#5B87B5" size={52} />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Certificado</S.BenefitTitle>
