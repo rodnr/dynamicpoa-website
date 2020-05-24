@@ -21,7 +21,7 @@ export const BenefitsWrapper = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
 
-  ${media.lessThan('large')`
+  ${media.lessThan('medium')`
     max-width: 90vw;
     grid-template-columns: repeat(1, 1fr);
   `}
