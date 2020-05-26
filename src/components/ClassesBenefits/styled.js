@@ -47,6 +47,7 @@ export const SingleBenefit = styled.div`
 
 export const BenefitIcon = styled.div`
   margin-right: 2rem;
+  max-width: 100px;
 
   ${media.lessThan('large')`
     margin-right: 0;

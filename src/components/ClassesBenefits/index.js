@@ -9,6 +9,13 @@ import {
   FaPencilAlt
 } from 'react-icons/fa';
 
+import certificadoIcon from '../../images/benefits/certificado.svg';
+import onlineIcon from '../../images/benefits/online.svg';
+import flexivelIcon from '../../images/benefits/flexivel.svg';
+import consultoriaIcon from '../../images/benefits/consultoria.svg';
+import instantaneoIcon from '../../images/benefits/instantaneo.svg';
+import exerciciosIcon from '../../images/benefits/exercicios.svg';
+
 import * as S from './styled';
 
 const ClassesBenefits = () => (
@@ -17,7 +24,7 @@ const ClassesBenefits = () => (
     <S.BenefitsWrapper>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaAward color="#5B87B5" size={52} />
+          <img src={certificadoIcon} alt="Certificado" />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Certificado</S.BenefitTitle>
@@ -29,7 +36,7 @@ const ClassesBenefits = () => (
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaCloud color="#5B87B5" size={52} />
+          <img src={onlineIcon} alt="Online" />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Online</S.BenefitTitle>
@@ -41,7 +48,7 @@ const ClassesBenefits = () => (
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaStopwatch color="#5B87B5" size={52} />
+          <img src={flexivelIcon} alt="Flexivel" />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Flexível</S.BenefitTitle>
@@ -52,7 +59,7 @@ const ClassesBenefits = () => (
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaLightbulb color="#5B87B5" size={52} />
+          <img src={consultoriaIcon} alt="Consultoria" />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Consultoria</S.BenefitTitle>
@@ -63,7 +70,7 @@ const ClassesBenefits = () => (
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaCommentAlt color="#5B87B5" size={52} />
+          <img src={instantaneoIcon} alt="Instantaneo" />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Instantâneo</S.BenefitTitle>
@@ -75,7 +82,7 @@ const ClassesBenefits = () => (
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <FaPencilAlt color="#5B87B5" size={52} />
+          <img src={exerciciosIcon} alt="Exercicios" />
         </S.BenefitIcon>
         <S.BenefitContent>
           <S.BenefitTitle>Exercícios</S.BenefitTitle>
