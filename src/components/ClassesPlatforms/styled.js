@@ -6,7 +6,7 @@ export const PlatformsSection = styled.section`
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(to right, #5b87b5, #3b5f9e);
-  padding: 2rem 0;
+  padding: 4rem 0;
 
   margin: 4rem 0;
 `;
