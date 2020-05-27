@@ -48,28 +48,28 @@ const ClassesPlatforms = () => {
                 description="Aprenda o básico sobre planilhas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="299"
-                link="https://paypal.com"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
               />
               <ClassesPlan
                 name="Nível Intermediário (4h)"
                 description="Crie fórmulas complexas e tabelas dinâmicas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="499"
-                link="https://paypal.com"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
               />
               <ClassesPlan
                 name="Nível Avançado (10h)"
                 description="Explore a programação do Excel usando VBA e UserForm"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="879"
-                link="https://paypal.com"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RUTCWVSXDNLBL"
               />
               <ClassesPlan
                 name="Dashboards (6h)"
                 description="Aprenda a criar Dashboards dinâmicos e com uma visualização impecável"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="699"
-                link="https://paypal.com"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
               />
             </>
           )}
@@ -81,6 +81,7 @@ const ClassesPlatforms = () => {
               price=""
               link="https://paypal.com"
             />
+           </>
           )}
           {platform === 'Microsoft Word' && (
             <ClassesPlan
@@ -90,6 +91,7 @@ const ClassesPlatforms = () => {
               price=""
               link="https://paypal.com"
             />
+           </>
           )}
           {platform === 'Power BI' && (
             <ClassesPlan
@@ -97,22 +99,23 @@ const ClassesPlatforms = () => {
               description="Conheça a plataforma que cada vez mais cresce no mercado"
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
               price="391"
-              link="https://paypal.com"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
             />
             <ClassesPlan
               name="Nível Intermediário (5h)"
               description="Aprenda técnicas e conceitos de BI, UI, UX e Design na criação de Dashboards"
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
               price="573"
-              link="https://paypal.com"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VY63CURS6LBQE"
             />
             <ClassesPlan
               name="Nível Avançado (8h)"
               description="Domine a linguagem M e o DAX"
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
               price="1152"
-              link="https://paypal.com"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5A3HWHGNWR4"
             />
+           </>
           )}
           {platform === 'Power Apps' && (
             <ClassesPlan
@@ -120,8 +123,9 @@ const ClassesPlatforms = () => {
               description="Aprenda a criar aplicativos empresariais sem precisar programar"
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
               price="531"
-              link="https://paypal.com"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K4LGMALZFWQNY"
             />
+           </>
           )}
           {platform === 'Microsoft Flow' && (
             <ClassesPlan
@@ -131,6 +135,7 @@ const ClassesPlatforms = () => {
               price=""
               link="https://paypal.com"
             />
+           </>
           )}
         </S.PlansWrapper>
       )}
