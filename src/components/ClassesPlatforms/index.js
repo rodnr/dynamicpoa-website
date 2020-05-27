@@ -81,7 +81,6 @@ const ClassesPlatforms = () => {
               price=""
               link="https://paypal.com"
             />
-           </>
           )}
           {platform === 'Microsoft Word' && (
             <ClassesPlan
@@ -91,7 +90,6 @@ const ClassesPlatforms = () => {
               price=""
               link="https://paypal.com"
             />
-           </>
           )}
           {platform === 'Power BI' && (
             <ClassesPlan
@@ -115,7 +113,6 @@ const ClassesPlatforms = () => {
               price="1152"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5A3HWHGNWR4"
             />
-           </>
           )}
           {platform === 'Power Apps' && (
             <ClassesPlan
@@ -125,7 +122,6 @@ const ClassesPlatforms = () => {
               price="531"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K4LGMALZFWQNY"
             />
-           </>
           )}
           {platform === 'Microsoft Flow' && (
             <ClassesPlan
@@ -135,7 +131,6 @@ const ClassesPlatforms = () => {
               price=""
               link="https://paypal.com"
             />
-           </>
           )}
         </S.PlansWrapper>
       )}
