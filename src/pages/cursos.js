@@ -27,11 +27,9 @@ const CursosPage = () => (
             Aulas particulares online para aprofundar os conhecimentos nas ferramentas da Microsoft.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button>
-              <AnchorLink className="text-white hover:text-white" href="#planos">
-                Ver preços
-              </AnchorLink>
-            </Button>
+            <AnchorLink className="text-white hover:text-white" href="#platformsSection">
+              <Button>Ver preços</Button>
+            </AnchorLink>
           </p>
         </div>
         <div className="m-0 hidden lg:w-1/2 lg:block">

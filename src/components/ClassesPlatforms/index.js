@@ -16,7 +16,7 @@ const ClassesPlatforms = () => {
   const [platform, setPlatform] = useState(null);
 
   return (
-    <S.PlatformsSection>
+    <S.PlatformsSection id="platformsSection">
       <S.PlatformsTitle>Qual plataforma você deseja aprender?</S.PlatformsTitle>
       <S.PlatformsWrapper>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>
