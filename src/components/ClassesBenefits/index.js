@@ -1,14 +1,5 @@
 import React from 'react';
 
-import {
-  FaAward,
-  FaCloud,
-  FaStopwatch,
-  FaLightbulb,
-  FaCommentAlt,
-  FaPencilAlt
-} from 'react-icons/fa';
-
 import certificadoIcon from '../../images/benefits/certificado.svg';
 import onlineIcon from '../../images/benefits/online.svg';
 import flexivelIcon from '../../images/benefits/flexivel.svg';
