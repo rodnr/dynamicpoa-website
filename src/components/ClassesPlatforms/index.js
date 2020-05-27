@@ -22,7 +22,7 @@ const ClassesPlatforms = () => {
         <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>
           <img src={excelIcon} alt="Excel" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Powerpoint')}>
+        <S.PlatformBox onClick={() => setPlatform('Microsoft PowerPoint')}>
           <img src={pptIcon} alt="PowerPoint" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Word')}>
@@ -34,7 +34,7 @@ const ClassesPlatforms = () => {
         <S.PlatformBox onClick={() => setPlatform('Power Apps')}>
           <img src={powerAppsIcon} alt="Power Apps" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Flow')}>
+        <S.PlatformBox onClick={() => setPlatform('Power Automate')}>
           <img src={flowIcon} alt="Power Automate" />
         </S.PlatformBox>
       </S.PlatformsWrapper>
@@ -42,7 +42,7 @@ const ClassesPlatforms = () => {
       {platform !== null && (
         <S.PlansWrapper>
           {platform === 'Microsoft Excel' && (
-           <>
+            <>
               <ClassesPlan
                 name="Nível Básico (4h)"
                 description="Aprenda o básico sobre planilhas"
@@ -73,7 +73,7 @@ const ClassesPlatforms = () => {
               />
             </>
           )}
-          {platform === 'Microsoft Powerpoint' && (
+          {platform === 'Microsoft PowerPoint' && (
             <ClassesPlan
               name="EM BREVE"
               description=""
@@ -92,29 +92,29 @@ const ClassesPlatforms = () => {
             />
           )}
           {platform === 'Power BI' && (
-          <>
-            <ClassesPlan
-              name="Nível Básico (4h)"
-              description="Conheça a plataforma que cada vez mais cresce no mercado"
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="391"
-              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
-            />
-            <ClassesPlan
-              name="Nível Intermediário (5h)"
-              description="Aprenda técnicas e conceitos de BI, UI, UX e Design na criação de Dashboards"
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="573"
-              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VY63CURS6LBQE"
-            />
-            <ClassesPlan
-              name="Nível Avançado (8h)"
-              description="Domine a linguagem M e o DAX"
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="1152"
-              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5A3HWHGNWR4"
-            />
-          </>
+            <>
+              <ClassesPlan
+                name="Nível Básico (4h)"
+                description="Conheça a plataforma que cada vez mais cresce no mercado"
+                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                price="391"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
+              />
+              <ClassesPlan
+                name="Nível Intermediário (5h)"
+                description="Aprenda técnicas e conceitos de BI, UI, UX e Design na criação de Dashboards"
+                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                price="573"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VY63CURS6LBQE"
+              />
+              <ClassesPlan
+                name="Nível Avançado (8h)"
+                description="Domine a linguagem M e o DAX"
+                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                price="1152"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5A3HWHGNWR4"
+              />
+            </>
           )}
           {platform === 'Power Apps' && (
             <ClassesPlan
@@ -125,7 +125,7 @@ const ClassesPlatforms = () => {
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K4LGMALZFWQNY"
             />
           )}
-          {platform === 'Microsoft Flow' && (
+          {platform === 'Power Automate' && (
             <ClassesPlan
               name="EM BREVE"
               description=""
