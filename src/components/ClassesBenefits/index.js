@@ -20,7 +20,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Certificado</S.BenefitTitle>
           <S.BenefitDescription>
-            Ao concluir um nível, você recebe um certificado digital autentiacdo para complementar o
+            Ao concluir um nível, você recebe um certificado digital autenticado para complementar o
             currículo.
           </S.BenefitDescription>
         </S.BenefitContent>
