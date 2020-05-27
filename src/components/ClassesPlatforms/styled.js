@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import media from 'styled-media-query';
 
 export const PlatformsSection = styled.section`
   display: flex;
@@ -24,12 +23,8 @@ export const PlatformsWrapper = styled.div`
   justify-content: center;
   width: 80vw;
   display: grid;
-  grid-template-columns: repeat(6, 125px);
+  grid-template-columns: repeat(auto-fit, 125px);
   grid-gap: 20px;
-
-  ${media.lessThan('medium')`
-    grid-template-columns: repeat(auto-fill, 125px);
-  `}
 `;
 
 export const PlatformBox = styled.div`
