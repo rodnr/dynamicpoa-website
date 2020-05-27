@@ -20,13 +20,13 @@ const ClassesPlatforms = () => {
       <S.PlatformsTitle>Qual plataforma você deseja aprender?</S.PlatformsTitle>
       <S.PlatformsWrapper>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>
-          <img src={excelIcon} alt="Microsoft Excel" />
+          <img src={excelIcon} alt="Excel" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Powerpoint')}>
-          <img src={pptIcon} alt="Microsoft Powerpoint" />
+          <img src={pptIcon} alt="PowerPoint" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Word')}>
-          <img src={wordIcon} alt="Microsoft Word" />
+          <img src={wordIcon} alt="Word" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Power BI')}>
           <img src={powerBIIcon} alt="Power BI" />
@@ -35,7 +35,7 @@ const ClassesPlatforms = () => {
           <img src={powerAppsIcon} alt="Power Apps" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Flow')}>
-          <img src={flowIcon} alt="Microsoft Flow" />
+          <img src={flowIcon} alt="Power Automate" />
         </S.PlatformBox>
       </S.PlatformsWrapper>
       {platform !== null && <S.PlatformTitle>{platform}</S.PlatformTitle>}
@@ -44,63 +44,91 @@ const ClassesPlatforms = () => {
           {platform === 'Microsoft Excel' && (
             <>
               <ClassesPlan
-                name="Nível Básico"
+                name="Nível Básico (4h)"
                 description="Aprenda o básico sobre planilhas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
-                price="369"
+                price="299"
                 link="https://paypal.com"
               />
               <ClassesPlan
-                name="Nível Intermediário"
-                description="Aprenda o básico sobre planilhas"
+                name="Nível Intermediário (4h)"
+                description="Crie fórmulas complexas e tabelas dinâmicas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
-                price="369"
+                price="499"
+                link="https://paypal.com"
+              />
+              <ClassesPlan
+                name="Nível Avançado (10h)"
+                description="Explore a programação do Excel usando VBA e UserForm"
+                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                price="879"
+                link="https://paypal.com"
+              />
+              <ClassesPlan
+                name="Dashboards (6h)"
+                description="Aprenda a criar Dashboards dinâmicos e com uma visualização impecável"
+                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                price="699"
                 link="https://paypal.com"
               />
             </>
           )}
           {platform === 'Microsoft Powerpoint' && (
             <ClassesPlan
-              name="Nível Básico"
-              description="Aprenda o básico sobre planilhas"
+              name="EM BREVE"
+              description=""
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="369"
+              price=""
               link="https://paypal.com"
             />
           )}
           {platform === 'Microsoft Word' && (
             <ClassesPlan
-              name="Nível Básico"
-              description="Aprenda o básico sobre planilhas"
+              name="EM BREVE"
+              description=""
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="369"
+              price=""
               link="https://paypal.com"
             />
           )}
           {platform === 'Power BI' && (
             <ClassesPlan
-              name="Nível Básico"
-              description="Aprenda o básico sobre planilhas"
+              name="Nível Básico (4h)"
+              description="Conheça a plataforma que cada vez mais cresce no mercado"
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="369"
+              price="391"
+              link="https://paypal.com"
+            />
+            <ClassesPlan
+              name="Nível Intermediário (5h)"
+              description="Aprenda técnicas e conceitos de BI, UI, UX e Design na criação de Dashboards"
+              icon={<FaGraduationCap size={48} color="#5b87b5" />}
+              price="573"
+              link="https://paypal.com"
+            />
+            <ClassesPlan
+              name="Nível Avançado (8h)"
+              description="Domine a linguagem M e o DAX"
+              icon={<FaGraduationCap size={48} color="#5b87b5" />}
+              price="1152"
               link="https://paypal.com"
             />
           )}
           {platform === 'Power Apps' && (
             <ClassesPlan
-              name="Nível Básico"
-              description="Aprenda o básico sobre planilhas"
+              name="Nível Básico (5h)"
+              description="Aprenda a criar aplicativos empresariais sem precisar programar"
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="369"
+              price="531"
               link="https://paypal.com"
             />
           )}
           {platform === 'Microsoft Flow' && (
             <ClassesPlan
-              name="Nível Básico"
-              description="Aprenda o básico sobre planilhas"
+              name="EM BREVE"
+              description=""
               icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price="369"
+              price=""
               link="https://paypal.com"
             />
           )}
