@@ -18,7 +18,7 @@ const Header = () => (
         <Link className="px-4" to="/" activeClassName="bg-primary text-white">
           Para Empresas
         </Link>
-        <Link className="px-4" to="/cursos" activeClassName="bg-primary text-white">
+        <Link className="px-4" to="/aulas" activeClassName="bg-primary text-white">
           Para Você
         </Link>
       </div>

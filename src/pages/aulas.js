@@ -4,7 +4,6 @@ import SEO from '../components/seo';
 
 import Layout from '../components/layout/Layout';
 import Button from '../components/Button';
-import LineButton from '../components/LineButton';
 import DynamicIcon from '../svg/DynamicIcon';
 import LottieProgramming from '../components/LottieProgramming';
 
@@ -14,7 +13,7 @@ import ClassesBenefits from '../components/ClassesBenefits';
 const AulasPage = () => (
   <Layout>
     <SEO
-      title="Cursos"
+      title="Aulas"
       description="Conheça nossas soluções para você se destacar com as ferramentas Microsoft! Soluções para Excel, PowerPoint, Power BI, entre outras."
     />
     <section className="pt-20 mb-32" id="top">

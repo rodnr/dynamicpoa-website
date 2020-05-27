@@ -26,7 +26,7 @@ const Footer = () => (
             </Link>
           </li>
           <li>
-            <Link className="px-4" to="/cursos">
+            <Link className="px-4" to="/aulas">
               Para Você
             </Link>
           </li>
