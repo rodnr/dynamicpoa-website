@@ -5,6 +5,13 @@ import { FaGraduationCap } from 'react-icons/fa';
 import * as S from './styled';
 import ClassesPlan from '../ClassesPlan';
 
+import excelIcon from '../../images/apps/Excel.svg';
+import pptIcon from '../../images/apps/PPT.svg';
+import wordIcon from '../../images/apps/Word.svg';
+import powerBIIcon from '../../images/apps/PowerBI.svg';
+import powerAppsIcon from '../../images/apps/PowerApps.svg';
+import flowIcon from '../../images/apps/Flow.svg';
+
 const ClassesPlatforms = () => {
   const [platform, setPlatform] = useState(null);
 
@@ -12,14 +19,24 @@ const ClassesPlatforms = () => {
     <S.PlatformsSection>
       <S.PlatformsTitle>Qual plataforma você deseja aprender?</S.PlatformsTitle>
       <S.PlatformsWrapper>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>Excel</S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Powerpoint')}>
-          Powerpoint
+        <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>
+          <img src={excelIcon} alt="" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Word')}>Word</S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Power BI')}>PowerBI</S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Power Apps')}>PowerApps</S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Flow')}>Flow</S.PlatformBox>
+        <S.PlatformBox onClick={() => setPlatform('Microsoft Powerpoint')}>
+          <img src={pptIcon} alt="" />
+        </S.PlatformBox>
+        <S.PlatformBox onClick={() => setPlatform('Microsoft Word')}>
+          <img src={wordIcon} alt="" />
+        </S.PlatformBox>
+        <S.PlatformBox onClick={() => setPlatform('Power BI')}>
+          <img src={powerBIIcon} alt="" />
+        </S.PlatformBox>
+        <S.PlatformBox onClick={() => setPlatform('Power Apps')}>
+          <img src={powerAppsIcon} alt="" />
+        </S.PlatformBox>
+        <S.PlatformBox onClick={() => setPlatform('Microsoft Flow')}>
+          <img src={flowIcon} alt="" />
+        </S.PlatformBox>
       </S.PlatformsWrapper>
       {platform !== null && (
         <S.PlansWrapper>

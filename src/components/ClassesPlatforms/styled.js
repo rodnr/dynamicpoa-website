@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const PlatformsSection = styled.section`
   display: flex;
@@ -20,25 +21,42 @@ export const PlatformsTitle = styled.h2`
 `;
 
 export const PlatformsWrapper = styled.div`
+  justify-content: center;
   width: 80vw;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-template-columns: repeat(auto-fill, 175px);
   grid-gap: 20px;
+
+  ${media.lessThan('large')`
+    grid-template-columns: repeat(auto-fill, 125px);
+  `}
 `;
 
 export const PlatformBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 125px;
+  height: 175px;
   background-color: #fff;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.05);
   border-radius: 17.5px;
   transition: background-color 0.3s ease;
 
+  ${media.lessThan('large')`
+    height: 125px;
+  `}
+
   &:hover {
     cursor: pointer;
     background-color: #3b5f9e;
+  }
+
+  img {
+    height: 105px;
+
+    ${media.lessThan('large')`
+      height: 75px;
+    `}
   }
 `;
 
