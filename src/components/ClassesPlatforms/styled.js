@@ -24,10 +24,10 @@ export const PlatformsWrapper = styled.div`
   justify-content: center;
   width: 80vw;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 175px);
+  grid-template-columns: repeat(6, 125px);
   grid-gap: 20px;
 
-  ${media.lessThan('large')`
+  ${media.lessThan('medium')`
     grid-template-columns: repeat(auto-fill, 125px);
   `}
 `;
@@ -36,15 +36,11 @@ export const PlatformBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 175px;
+  height: 125px;
   background-color: #fff;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.05);
   border-radius: 17.5px;
   transition: background-color 0.3s ease;
-
-  ${media.lessThan('large')`
-    height: 125px;
-  `}
 
   &:hover {
     cursor: pointer;
@@ -52,11 +48,7 @@ export const PlatformBox = styled.div`
   }
 
   img {
-    height: 105px;
-
-    ${media.lessThan('large')`
-      height: 75px;
-    `}
+    height: 75px;
   }
 `;
 
