@@ -38,6 +38,7 @@ const ClassesPlatforms = () => {
           <img src={flowIcon} alt="Microsoft Flow" />
         </S.PlatformBox>
       </S.PlatformsWrapper>
+      {platform !== null && <S.PlatformTitle>{platform}</S.PlatformTitle>}
       {platform !== null && (
         <S.PlansWrapper>
           {platform === 'Microsoft Excel' && (

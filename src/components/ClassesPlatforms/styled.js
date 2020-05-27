@@ -47,9 +47,16 @@ export const PlatformBox = styled.div`
   }
 `;
 
+export const PlatformTitle = styled.h3`
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+`;
+
 export const PlansWrapper = styled.div`
   max-width: 85vw;
-  margin-top: 4rem;
+  margin-top: 3rem;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
