@@ -37,9 +37,16 @@ export const PlatformBox = styled.div`
   border-radius: 17.5px;
   transition: background-color 0.3s ease;
 
+  &.active {
+    box-shadow: 4px 4px 3px 0 rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right, #5b87b5, #3b5f9e);
+  }
+
   &:hover {
     cursor: pointer;
-    background-color: #3b5f9e;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.05);
+    opacity: 0.8;
   }
 
   img {

@@ -19,22 +19,40 @@ const ClassesPlatforms = () => {
     <S.PlatformsSection id="platformsSection">
       <S.PlatformsTitle>Qual plataforma você deseja aprender?</S.PlatformsTitle>
       <S.PlatformsWrapper>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>
+        <S.PlatformBox
+          className={platform === 'Microsoft Excel' && 'active'}
+          onClick={() => setPlatform('Microsoft Excel')}
+        >
           <img src={excelIcon} alt="Excel" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft PowerPoint')}>
+        <S.PlatformBox
+          className={platform === 'Microsoft PowerPoint' && 'active'}
+          onClick={() => setPlatform('Microsoft PowerPoint')}
+        >
           <img src={pptIcon} alt="PowerPoint" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Microsoft Word')}>
+        <S.PlatformBox
+          className={platform === 'Microsoft Word' && 'active'}
+          onClick={() => setPlatform('Microsoft Word')}
+        >
           <img src={wordIcon} alt="Word" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Power BI')}>
+        <S.PlatformBox
+          className={platform === 'Power BI' && 'active'}
+          onClick={() => setPlatform('Power BI')}
+        >
           <img src={powerBIIcon} alt="Power BI" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Power Apps')}>
+        <S.PlatformBox
+          className={platform === 'Power Apps' && 'active'}
+          onClick={() => setPlatform('Power Apps')}
+        >
           <img src={powerAppsIcon} alt="Power Apps" />
         </S.PlatformBox>
-        <S.PlatformBox onClick={() => setPlatform('Power Automate')}>
+        <S.PlatformBox
+          className={platform === 'Power Automate' && 'active'}
+          onClick={() => setPlatform('Power Automate')}
+        >
           <img src={flowIcon} alt="Power Automate" />
         </S.PlatformBox>
       </S.PlatformsWrapper>
