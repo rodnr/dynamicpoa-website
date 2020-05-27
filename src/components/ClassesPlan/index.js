@@ -1,10 +1,17 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
+
+import { FaRegClock } from 'react-icons/fa';
 
 import * as S from './styled';
 
-const ClassesPlan = ({ name, description, icon, price, link }) => (
+const ClassesPlan = ({ name, hours, description, icon, price, link }) => (
   <S.PlanWrapper>
     <S.PlanName>{name}</S.PlanName>
+    <S.PlanHours>
+      <FaRegClock size={18} color="#808080" />
+      {hours} horas
+    </S.PlanHours>
     <S.PlanDescription>{description}</S.PlanDescription>
     <S.PlanIcon>{icon}</S.PlanIcon>
     <S.PlanPrice>

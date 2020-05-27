@@ -44,28 +44,32 @@ const ClassesPlatforms = () => {
           {platform === 'Microsoft Excel' && (
             <>
               <ClassesPlan
-                name="Nível Básico (4h)"
+                name="Nível Básico"
+                hours="4"
                 description="Aprenda o básico sobre planilhas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="299"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
               />
               <ClassesPlan
-                name="Nível Intermediário (4h)"
+                name="Nível Intermediário"
+                hours="4"
                 description="Crie fórmulas complexas e tabelas dinâmicas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="499"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
               />
               <ClassesPlan
-                name="Nível Avançado (10h)"
+                name="Nível Avançado"
+                hours="10"
                 description="Explore a programação do Excel usando VBA e UserForm"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="879"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RUTCWVSXDNLBL"
               />
               <ClassesPlan
-                name="Dashboards (6h)"
+                name="Dashboards"
+                hours="6"
                 description="Aprenda a criar Dashboards dinâmicos e com uma visualização impecável"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
                 price="699"

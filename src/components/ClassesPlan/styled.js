@@ -14,11 +14,25 @@ export const PlanWrapper = styled.div`
 `;
 
 export const PlanName = styled.h4`
+  text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+`;
+
+export const PlanHours = styled.div`
+  margin: 0.4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #808080;
+  svg {
+    margin-right: 0.5rem;
+    display: inline-block;
+  }
 `;
 
 export const PlanDescription = styled.p`
+  text-align: center;
   font-size: 1rem;
   margin-bottom: 0.5rem;
   color: #696969;
