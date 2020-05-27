@@ -20,22 +20,22 @@ const ClassesPlatforms = () => {
       <S.PlatformsTitle>Qual plataforma você deseja aprender?</S.PlatformsTitle>
       <S.PlatformsWrapper>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Excel')}>
-          <img src={excelIcon} alt="" />
+          <img src={excelIcon} alt="Microsoft Excel" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Powerpoint')}>
-          <img src={pptIcon} alt="" />
+          <img src={pptIcon} alt="Microsoft Powerpoint" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Word')}>
-          <img src={wordIcon} alt="" />
+          <img src={wordIcon} alt="Microsoft Word" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Power BI')}>
-          <img src={powerBIIcon} alt="" />
+          <img src={powerBIIcon} alt="Power BI" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Power Apps')}>
-          <img src={powerAppsIcon} alt="" />
+          <img src={powerAppsIcon} alt="Power Apps" />
         </S.PlatformBox>
         <S.PlatformBox onClick={() => setPlatform('Microsoft Flow')}>
-          <img src={flowIcon} alt="" />
+          <img src={flowIcon} alt="Microsoft Flow" />
         </S.PlatformBox>
       </S.PlatformsWrapper>
       {platform !== null && (
