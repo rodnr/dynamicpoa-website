@@ -58,20 +58,15 @@ export const PlanPrice = styled.div`
 `;
 
 export const PlanButton = styled.a`
+  font-size: 1rem;
   text-decoration: none;
-  padding: 0.5rem 2rem;
-  background-color: #5b87b5;
-  box-shadow: 0 5px 0 #4d7099;
+  padding: 0.75rem 2rem;
+  background-color: #46cc6e;
+  border-radius: 0.25rem;
   color: #fff;
 
   &:hover {
+    background-color: #349952;
     color: #fff;
-    transform: translateY(1px);
-    box-shadow: 0 4px 0 #4d7099;
-  }
-
-  &:active {
-    transform: translateY(5px);
-    box-shadow: 0 0 0 #4d7099;
   }
 `;
