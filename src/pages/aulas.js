@@ -11,7 +11,7 @@ import LottieProgramming from '../components/LottieProgramming';
 import ClassesPlatforms from '../components/ClassesPlatforms';
 import ClassesBenefits from '../components/ClassesBenefits';
 
-const CursosPage = () => (
+const AulasPage = () => (
   <Layout>
     <SEO
       title="Cursos"
@@ -42,4 +42,4 @@ const CursosPage = () => (
   </Layout>
 );
 
-export default CursosPage;
+export default AulasPage;
