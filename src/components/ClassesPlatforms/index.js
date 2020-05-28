@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { FaGraduationCap } from 'react-icons/fa';
+import { FaGraduationCap , FaCalculator, FaCode , FaChartPie , FaChalkboardTeacher, FaFileAlt , FaMobileAlt, FaChartBar , FaPalette , FaDatabase , FaSitemap} from 'react-icons/fa';
 
 import * as S from './styled';
 import ClassesPlan from '../ClassesPlan';
@@ -62,34 +62,34 @@ const ClassesPlatforms = () => {
           {platform === 'Microsoft Excel' && (
             <>
               <ClassesPlan
-                name="Nível Básico"
+                name="Básico"
                 hours="4"
-                description="Aprenda o básico sobre planilhas"
+                description="Aprenda o fundamental sobre planilhas"
                 icon={<FaGraduationCap size={48} color="#5b87b5" />}
-                price="299"
+                price="291"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
               />
               <ClassesPlan
-                name="Nível Intermediário"
+                name="Intermediário"
                 hours="4"
                 description="Crie fórmulas complexas e tabelas dinâmicas"
-                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                icon={<FaCalculator size={48} color="#5b87b5" />}
                 price="499"
-                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=28DRFJLD3XH9L"
               />
               <ClassesPlan
-                name="Nível Avançado"
+                name="Avançado"
                 hours="10"
-                description="Explore a programação do Excel usando VBA e UserForm"
-                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                description="Explore a programação do Excel usando VBA"
+                icon={<FaCode size={48} color="#5b87b5" />}
                 price="879"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RUTCWVSXDNLBL"
               />
               <ClassesPlan
                 name="Dashboards"
                 hours="6"
-                description="Aprenda a criar Dashboards dinâmicos e com uma visualização impecável"
-                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                description="Desenvolva Dashboards com design modernos"
+                icon={<FaChartPie size={48} color="#5b87b5" />}
                 price="699"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
               />
@@ -97,42 +97,47 @@ const ClassesPlatforms = () => {
           )}
           {platform === 'Microsoft PowerPoint' && (
             <ClassesPlan
-              name="EM BREVE"
-              description=""
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price=""
-              link="https://paypal.com"
+              name="Básico"
+              hours="4"
+              description="Aprenda o fundamental sobre apresentações"
+              icon={<FaChalkboardTeacher size={48} color="#5b87b5" />}
+              price="291"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4ACPX42PDUWMU"
             />
           )}
           {platform === 'Microsoft Word' && (
             <ClassesPlan
-              name="EM BREVE"
-              description=""
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price=""
-              link="https://paypal.com"
+              name="Básico"
+              hours="4"
+              description="Aprenda o fundamental sobre documentos"
+              icon={<FaFileAlt size={48} color="#5b87b5" />}
+              price="291"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2K4LFD87TTFHN"
             />
           )}
           {platform === 'Power BI' && (
             <>
               <ClassesPlan
-                name="Nível Básico (4h)"
+                name="Básico"
+                hours="4"
                 description="Conheça a plataforma que cada vez mais cresce no mercado"
-                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                icon={<FaChartBar size={48} color="#5b87b5" />}
                 price="391"
-                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
+                link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3V7WP6DM46LFW"
               />
               <ClassesPlan
-                name="Nível Intermediário (5h)"
+                name="Intermediário"
+                hours="5"
                 description="Aprenda técnicas e conceitos de BI, UI, UX e Design na criação de Dashboards"
-                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                icon={<FaPalette size={48} color="#5b87b5" />}
                 price="573"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VY63CURS6LBQE"
               />
               <ClassesPlan
-                name="Nível Avançado (8h)"
-                description="Domine a linguagem M e o DAX"
-                icon={<FaGraduationCap size={48} color="#5b87b5" />}
+                name="Avançado"
+                hours="8"
+                description="Domine a linguagem M, o DAX e a conexão com APIs"
+                icon={<FaDatabase size={48} color="#5b87b5" />}
                 price="1152"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5A3HWHGNWR4"
               />
@@ -140,20 +145,22 @@ const ClassesPlatforms = () => {
           )}
           {platform === 'Power Apps' && (
             <ClassesPlan
-              name="Nível Básico (5h)"
+              name="Nível Básico"
+              hours="5"
               description="Aprenda a criar aplicativos empresariais sem precisar programar"
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
+              icon={<FaMobileAlt size={48} color="#5b87b5" />}
               price="531"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K4LGMALZFWQNY"
             />
           )}
           {platform === 'Power Automate' && (
             <ClassesPlan
-              name="EM BREVE"
-              description=""
-              icon={<FaGraduationCap size={48} color="#5b87b5" />}
-              price=""
-              link="https://paypal.com"
+              name="Nível Básico"
+              hours="4"
+              description="Saiba como automatizar processos criando fluxos entre APIs"
+              icon={<FaSitemap size={48} color="#5b87b5" />}
+              price="399"
+              link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WMK58QZTMVJVW"
             />
           )}
         </S.PlansWrapper>
