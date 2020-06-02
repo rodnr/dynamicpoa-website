@@ -32,7 +32,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Online</S.BenefitTitle>
           <S.BenefitDescription>
-            As aulas são realizadas através do Microsoft Teams e você pode revêlas a qualquer
+            As aulas são realizadas através do Microsoft Teams e você pode revê-las a qualquer
             momento.
           </S.BenefitDescription>
         </S.BenefitContent>
