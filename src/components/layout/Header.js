@@ -22,8 +22,8 @@ const Header = () => (
           Para Você
         </Link>
       </div>
-      <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">
-        Planos
+      <Link to="/precos" className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">
+        Preços
       </Link>
       <a
         target="_blank"
