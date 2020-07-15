@@ -17,9 +17,9 @@ const SolucoesSection = () => (
       <div className="flex-1 px-3 m-6 md:m-2">
         <Card className="p-12 h-full">
           <DevIcon />
-          <p className="font-semibold text-xl">Desenvolvimento</p>
+          <p className="font-semibold text-xl">Projeto</p>
           <p className="mt-4 mb-8">
-          Desenvolva uma projeto personalizado para sua empresa. Planilhas inteligentes, dashboards, sistemas automatizados em VBA ou aplicativos empresariais, com as ferramentas mais integradas no mercado.
+          Desenvolva um projeto personalizado para sua empresa. Planilhas automatizadas com VBA, dashboards, aplicativos empresariais, formulários e muito mais com as ferramentas mais integradas no mercado.
           </p>
         </Card>
       </div>
@@ -28,8 +28,7 @@ const SolucoesSection = () => (
           <BulbIcon />
           <p className="font-semibold text-xl">Consultoria</p>
           <p className="mt-4">
-          Uma das melhores opções para sua empresa, permitindo contratar planos de suporte remoto de um especialista em planilhas, apresentações e documentos.
-
+          Uma das melhores opções para sua empresa, permitindo contratar planos de suporte e desenvolvimento remoto de um especialista nas ferramentas da Microsoft.
           </p>
         </Card>
       </div>
