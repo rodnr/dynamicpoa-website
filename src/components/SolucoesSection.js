@@ -11,15 +11,15 @@ import ClassIcon from '../svg/ClassIcon';
 const SolucoesSection = () => (
   <section id="solucoes" className="my-20 py-16 pb-20 lg:mb-40 lg:mt-48" style={{background: "linear-gradient(29deg, #5B87B5, #3B5F9E 70%)"}}>
   <div className="container mx-auto text-center">
-    <h2 className="text-3xl lg:text-5xl  text-white mx-4 md:mx-0">Transforme a sua empresa com os nossos serviços</h2>
-    <p className="mt-4 text-white text-xl font-thin mx-4 md:mx-0">Soluções personalizadas e pensadas no seu negócio</p>
+    <h2 className="text-3xl lg:text-5xl  text-white mx-4 md:mx-0">Veja como podemos ajudar a sua empresa</h2>
+    <p className="mt-4 text-white text-xl font-thin mx-4 md:mx-0">Implemente, treine, desenvolva ou receba suporte nas ferramentas da Microsoft</p>
     <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
       <div className="flex-1 px-3 m-6 md:m-2">
         <Card className="p-12 h-full">
           <DevIcon />
           <p className="font-semibold text-xl">Projeto</p>
           <p className="mt-4 mb-8">
-          Desenvolva um projeto personalizado para sua empresa. Planilhas automatizadas com VBA, dashboards, aplicativos empresariais, formulários e muito mais com as ferramentas mais integradas no mercado.
+          Desenvolva projetos personalizados para sua empresa. Planilhas automatizadas com VBA, dashboards, aplicativos empresariais, formulários, processos automatizados e muito mais com as ferramentas mais integradas no mercado.
           </p>
         </Card>
       </div>
@@ -28,7 +28,7 @@ const SolucoesSection = () => (
           <BulbIcon />
           <p className="font-semibold text-xl">Consultoria</p>
           <p className="mt-4">
-          Uma das melhores opções para sua empresa, permitindo contratar planos de suporte e desenvolvimento remoto de um especialista nas ferramentas da Microsoft.
+          Uma das melhores opções para quem usa diariamente as ferramentas da Microsoft, permitindo contratar suporte e desenvolvimento remoto de um especialista.
           </p>
         </Card>
       </div>
