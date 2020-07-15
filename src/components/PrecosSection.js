@@ -12,31 +12,31 @@ const PrecosSection = () => {
   const [dataTable] = useState([
     {
       id: 1,
-      name: 'Descontos em projetos e treinamentos',
-      simples: '5%',
-      padrao: '10%',
-      completo: '20%',
+      name: 'Horas disponíveis/mês',
+      simples: '5h ',
+      padrao: '10h ',
+      completo: '15h ',
       father: -1
     },
     {
       id: 2,
-      name: 'Horas disponíveis/mês',
-      simples: '5h',
-      padrao: '15h',
-      completo: '30h',
+      name: 'Desconto em projetos e treinamentos',
+      simples: '10% ',
+      padrao: '20% ',
+      completo: '30% ',
       father: -1
     },
     {
       id: 3,
-      name: 'Tamanho máximo da equipe',
-      simples: '2',
-      padrao: '5',
-      completo: '15',
+      name: 'Suporte e configuração do Administrador do Microsoft 365',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
       father: -1
     },
     {
       id: 4,
-      name: 'Dicas, sugestões e resolução de dúvidas em geral (licenciamento, segurança, etc.)',
+      name: 'Suporte e resolução de dúvidas em geral sobre licenciamento',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -52,25 +52,25 @@ const PrecosSection = () => {
     },
     {
       id: 6,
-      name: 'Criação/edição de códigos em VBA (macros)',
-      simples: '-',
+      name: 'Contato com o Suporte do Microsoft Office para resolução de problemas',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: -1
     },
     {
       id: 7,
-      name: 'Criação/padronização de layouts de acordo com a identidade visual',
-      simples: '-',
+      name: 'Instalação e implementação das ferramentas do Microsoft 365 e Plataforma Power',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: -1
     },
     { id: 8, name: 'Suporte em Microsoft Excel', simples: 1, padrao: 1, completo: 1, father: 0 },
-    { id: 9, name: 'Criação de planilhas', simples: 1, padrao: 1, completo: 1, father: 8 },
+    { id: 9, name: 'Criação de planilhas/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 8 },
     {
       id: 10,
-      name: 'Edição de planilhas (fórmulas, layout, correções, configurações, etc.)',
+      name: 'Edição de planilhas (fórmulas, layout, correções, configurações, VBA, etc.)',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -84,19 +84,19 @@ const PrecosSection = () => {
       completo: 1,
       father: 8
     },
-    { id: 12, name: 'Correção de erros e falhas', simples: 1, padrao: 1, completo: 1, father: 8 },
+    { id: 12, name: 'Correção de erros em planilhas/códigos VBA', simples: 1, padrao: 1, completo: 1, father: 8 },
     { id: 13, name: 'Digitação', simples: 1, padrao: 1, completo: 1, father: 8 },
     {
       id: 14,
-      name: 'Extração de dados, análises, padronização, etc.',
-      simples: '-',
+      name: 'Criação de planilhas colaborativas/multiusuários, com login e senha',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 8
     },
     {
       id: 15,
-      name: 'Conexão com dados externos e tratamento de fontes de dados',
+      name: 'Conexão com dados externos/APIs e tratamento de fontes de dados via Power Query',
       simples: '-',
       padrao: 1,
       completo: 1,
@@ -110,7 +110,7 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 17, name: 'Criação de apresentações', simples: 1, padrao: 1, completo: 1, father: 16 },
+    { id: 17, name: 'Criação de apresentações/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 16 },
     {
       id: 18,
       name: 'Edição de apresentações (animações, layout, design, configurações, etc.)',
@@ -122,7 +122,7 @@ const PrecosSection = () => {
     { id: 19, name: 'Criação de gráficos', simples: 1, padrao: 1, completo: 1, father: 16 },
     { id: 20, name: 'Revisão de apresentações', simples: 1, padrao: 1, completo: 1, father: 16 },
     { id: 21, name: 'Suporte em Microsoft Word', simples: 1, padrao: 1, completo: 1, father: 0 },
-    { id: 22, name: 'Criação de documentos', simples: 1, padrao: 1, completo: 1, father: 21 },
+    { id: 22, name: 'Criação de documentos/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 21 },
     {
       id: 23,
       name: 'Edição de documentos (formatação, design, configurações, etc.)',
@@ -132,7 +132,182 @@ const PrecosSection = () => {
       father: 21
     },
     { id: 24, name: 'Criação de gráficos', simples: 1, padrao: 1, completo: 1, father: 21 },
-    { id: 25, name: 'Digitação', simples: 1, padrao: 1, completo: 1, father: 21 }
+    { id: 25, name: 'Digitação', simples: 1, padrao: 1, completo: 1, father: 21 },
+    {
+      id: 26,
+      name: 'Suporte em Microsoft Forms',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 27, name: 'Criação de formulários/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 26 },
+    {
+      id: 28,
+      name: 'Suporte em Microsoft OneDrive',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 29, name: 'Instalação e configuração do OneDrive como ambiente compartilhado entre os usuários', simples: 1, padrao: 1, completo: 1, father: 28 },
+    { id: 30, name: 'Estruturação das permissões em arquivos compartilhados', simples: 1, padrao: 1, completo: 1, father: 28 },
+    { id: 31, name: 'Criação de planilhas do Excel Online como base de dados em nuvem simples para outras ferramentas', simples: '-', padrao: 1, completo: 1, father: 28 },
+    { id: 32, name: 'Automatização de criação, cópia e edição de arquivos', simples: '-', padrao: '-', completo: 1, father: 28 },
+    {
+      id: 33,
+      name: 'Suporte em Microsoft Outlook',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 34, name: 'Instalação e configuração do Outlook', simples: 1, padrao: 1, completo: 1, father: 33 },
+    { id: 35, name: 'Criação de regras e personalizações', simples: 1, padrao: 1, completo: 1, father: 33 },
+    { id: 36, name: 'Estruturação dos contatos e reuniões/eventos', simples: 1, padrao: 1, completo: 1, father: 33 },
+    { id: 37, name: 'Automatização de criação de contatos', simples: '-', padrao: 1, completo: 1, father: 33 },
+    { id: 38, name: 'Automatização de criação de eventos/reuniões', simples: '-', padrao: 1, completo: 1, father: 33 },
+    { id: 39, name: 'Automatização de envio, cópia e encaminhamento de e-mails', simples: '-', padrao: 1, completo: 1, father: 33 },
+    {
+      id: 40,
+      name: 'Suporte em Microsoft Teams',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 41, name: 'Configurações de equipes e canais', simples: 1, padrao: 1, completo: 1, father: 40 },
+    { id: 42, name: 'Configurações de membros/convidados/acessos externos', simples: 1, padrao: 1, completo: 1, father: 40 },
+    {
+      id: 43,
+      name: 'Suporte em Microsoft SharePoint',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 44, name: 'Criação de sites personalizados', simples: 1, padrao: 1, completo: 1, father: 43 },
+    { id: 45, name: 'Automatização de criação, cópia e edição de arquivos e listas', simples: '-', padrao: '-', completo: 1, father: 43 },
+    {
+      id: 46,
+      name: 'Suporte em Microsoft Power BI',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 47, name: 'Criação de novos relatórios', simples: 1, padrao: 1, completo: 1, father: 46 },
+    { id: 48, name: 'Criação de painéis', simples: 1, padrao: 1, completo: 1, father: 46 },
+    { id: 49, name: 'Edição de relatórios (consultas, medidas, layout, design, configurações, etc.)', simples: 1, padrao: 1, completo: 1, father: 46 },
+    { id: 50, name: 'Conexão com planilhas de Excel', simples: 1, padrao: 1, completo: 1, father: 46 },
+    { id: 51, name: 'Configurações de alertas/atualizações agendadas', simples: 1, padrao: 1, completo: 1, father: 46 },
+    { id: 52, name: 'Conexão com banco de dados SQL', simples: '-', padrao: 1, completo: 1, father: 46 },
+    { id: 53, name: 'Configurações de funções/RLS', simples: '-', padrao: 1, completo: 1, father: 46 },
+    { id: 54, name: 'Configurações de gateway', simples: '-', padrao: 1, completo: 1, father: 46 },
+    { id: 55, name: 'Configurações de pacote de conteúdo organizacional/aplicativos', simples: '-', padrao: 1, completo: 1, father: 46 },
+    { id: 56, name: 'Conexão com APIs ou outras fontes', simples: '-', padrao: '-', completo: 1, father: 46 },
+    {
+      id: 57,
+      name: 'Suporte em Microsoft Power Apps',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 58, name: 'Criação de aplicativos de uso interno', simples: 1, padrao: 1, completo: 1, father: 57 },
+    { id: 59, name: 'Criação de portais', simples: '-', padrao: '-', completo: 1, father: 57 },
+    { id: 60, name: 'Criação de CDS (Common Data Service)', simples: '-', padrao: '-', completo: 1, father: 57 },
+    {
+      id: 61,
+      name: 'Suporte em Microsoft Power Automate',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    { id: 62, name: 'Criação de fluxos de automação entre ferramentas do Microsoft 365', simples: 1, padrao: 1, completo: 1, father: 61 },
+    { id: 63, name: 'Conexão com banco de dados/gateways', simples: '-', padrao: '-', completo: 1, father: 61 },
+    { id: 64, name: 'Criação de fluxos de automação entre ferramentas externas', simples: '-', padrao: '-', completo: 1, father: 61 },
+    {
+      id: 65,
+      name: 'Suporte em Microsoft Power Virtual Agents',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 0
+    },
+    {
+      id: 66,
+      name: 'Suporte em Microsoft Publisher',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+    {
+      id: 67,
+      name: 'Suporte em Microsoft Stream',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 68,
+      name: 'Suporte em Microsoft Delve',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 69,
+      name: 'Suporte em Microsoft Yammer',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 70,
+      name: 'Suporte em Microsoft Visio',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 71,
+      name: 'Suporte em Microsoft Planner',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 72,
+      name: 'Suporte em Microsoft Access',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 73,
+      name: 'Suporte em Microsoft Project',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
+     {
+      id: 74,
+      name: 'Suporte em Microsoft Sway',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 0
+    },
   ]);
 
   const [sonActives, setSonActives] = useState([]);
@@ -357,7 +532,7 @@ const PrecosSection = () => {
             <tbody>
               <tr className="bg-gray-100">
                 <td colSpan="4" className="border px-4 py-2">
-                  O que está incluso
+                  Serviços oferecidos em cada plano
                 </td>
               </tr>
               {dataTable.map((data, index) => {
