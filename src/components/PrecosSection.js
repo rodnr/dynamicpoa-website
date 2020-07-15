@@ -165,7 +165,7 @@ const PrecosSection = () => {
 
           <p className="mb-5 text-white text-xl font-thin mx-4 md:mx-0">
             {' '}
-            Contrate um especialista no Microsoft 365{' '}
+            Contrate um especialista nas ferramentas da Microsoft para ficar à disposição da sua empresa{' '}
           </p>
 
           <div className="stv-radio-buttons-wrapper div-payment-types pb-4">
@@ -181,7 +181,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-m" className="p-1">
-                  Pagamento Mensal
+                  Trimestral
                 </label>
               </li>
               <li className="payment-type">
@@ -195,7 +195,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-y" className="p-1">
-                  Pagamento Trimestral
+                  Semestral
                 </label>
               </li>
             </ul>
@@ -209,25 +209,25 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      86
+                      590
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /h
+                      /mês
                     </div>
                   </div>
                 ) : (
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      69
+                      472
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /h
+                      /mês
                     </div>
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '5h/mês - até 2 pessoas' : '5h/mês - até 2 pessoas'}
+                  {tipoPlano == 'Mensal' ? '5 horas mensais disponíveis' : '5 horas mensais disponíveis'}
                 </p>
                 <img
                   style={{
@@ -248,25 +248,25 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      73
+                      890
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /h
+                      /mês
                     </div>
                   </div>
                 ) : (
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      58
+                      712
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /h
+                      /mês
                     </div>
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '15h/mês - até 5 pessoas' : '15h/mês - até 5 pessoas'}
+                  {tipoPlano == 'Mensal' ? '10 horas mensais disponíveis' : '10 horas mensais disponíveis'}
                 </p>
                 <img
                   style={{
@@ -287,25 +287,25 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      59
+                      1790
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /h
+                      /mês
                     </div>
                   </div>
                 ) : (
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      46
+                      1432
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /h
+                      /mês
                     </div>
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '30h/mês - até 15 pessoas' : '30h/mês - até 15 pessoas'}
+                  {tipoPlano == 'Mensal' ? '30 horas mensais disponíveis' : '30 horas mensais disponíveis'}
                 </p>
                 <img
                   style={{
@@ -329,7 +329,7 @@ const PrecosSection = () => {
                   <Button marginTop="20">Entrar em contato</Button>
                 </a>
                 <p className="p-6 font-hairline">
-                  para equipes maiores ou planos com mais disponibilidade mensal
+                  para planos com disponibilidade mensal ou períodos de contratações maiores
                 </p>
               </Plan>
             </div>
@@ -342,7 +342,7 @@ const PrecosSection = () => {
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Entenda como vamos ajudar sua empresa a aumentar a produtividade
+            Entenda como podemos ajudar a sua empresa a usar melhor os produtos da Microsoft
           </p>
 
           <table className="table-auto" style={{ marginTop: '60px' }}>
@@ -562,17 +562,17 @@ const PrecosSection = () => {
         </div>
       </section>
       <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Ficou com alguma dúvida?</h3>
+        <h3 className="text-5xl font-semibold">Quer contratar um plano?</h3>
         <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-          Estamos à sua disposição! A Dynamic tem a solução ideal para a sua empresa.
+          Entre em contato com a gente para realizar a contratação.
         </p>
         <p>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?"
+            href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20plano%20de%20consultoria"
           >
-            <Button size="lg">Fale com a gente</Button>
+            <Button size="lg">Entre em contato</Button>
           </a>
         </p>
       </section>
