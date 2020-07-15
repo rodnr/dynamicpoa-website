@@ -234,7 +234,7 @@ const PrecosSection = () => {
       simples: '-',
       padrao: '-',
       completo: 1,
-      father: 0
+      father: -1
     },
     {
       id: 66,
@@ -242,7 +242,7 @@ const PrecosSection = () => {
       simples: '-',
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
     {
       id: 67,
@@ -250,7 +250,7 @@ const PrecosSection = () => {
       simples: 1,
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 68,
@@ -258,7 +258,7 @@ const PrecosSection = () => {
       simples: 1,
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 69,
@@ -266,7 +266,7 @@ const PrecosSection = () => {
       simples: 1,
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 70,
@@ -274,7 +274,7 @@ const PrecosSection = () => {
       simples: 1,
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 71,
@@ -282,7 +282,7 @@ const PrecosSection = () => {
       simples: 1,
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 72,
@@ -290,7 +290,7 @@ const PrecosSection = () => {
       simples: '-',
       padrao: '-',
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 73,
@@ -298,7 +298,7 @@ const PrecosSection = () => {
       simples: '-',
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
      {
       id: 74,
@@ -306,7 +306,7 @@ const PrecosSection = () => {
       simples: 1,
       padrao: 1,
       completo: 1,
-      father: 0
+      father: -1
     },
   ]);
 
