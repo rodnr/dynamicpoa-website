@@ -209,7 +209,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      599
+                      489
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -219,7 +219,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      469
+                      389
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -248,7 +248,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      899
+                      789
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -258,7 +258,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      699
+                      629
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -287,7 +287,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      1799
+                      989
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -297,7 +297,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      1399
+                      789
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -305,7 +305,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '30h/mês disponíveis' : '30h/mês disponíveis'}
+                  {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
                 </p>
                 <img
                   style={{
