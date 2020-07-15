@@ -227,7 +227,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '5 horas mensais disponíveis' : '5 horas mensais disponíveis'}
+                  {tipoPlano == 'Mensal' ? '5h/mês disponíveis' : '5h/mês disponíveis'}
                 </p>
                 <img
                   style={{
@@ -266,7 +266,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '10 horas mensais disponíveis' : '10 horas mensais disponíveis'}
+                  {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
                 </p>
                 <img
                   style={{
@@ -305,7 +305,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '30 horas mensais disponíveis' : '30 horas mensais disponíveis'}
+                  {tipoPlano == 'Mensal' ? '30h/mês disponíveis' : '30h/mês disponíveis'}
                 </p>
                 <img
                   style={{
@@ -329,7 +329,7 @@ const PrecosSection = () => {
                   <Button marginTop="20">Entrar em contato</Button>
                 </a>
                 <p className="p-6 font-hairline">
-                  para planos com disponibilidade mensal ou períodos de contratações maiores
+                  para planos com disponibilidade mensal ou períodos maiores
                 </p>
               </Plan>
             </div>
