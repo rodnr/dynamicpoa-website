@@ -28,13 +28,12 @@ export default () => (
             <DynamicIcon className="" />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft para a sua
-            empresa.
+            Soluções nas ferramentas do Microsoft 365 e Plataforma Power.
           </p>
           <p className="mt-8 md:mt-12">
             <Button>
               <AnchorLink className="text-white hover:text-white" href="#solucoes">
-                Conheça as Soluções
+                Conheça as soluções
               </AnchorLink>
             </Button>
           </p>
@@ -51,8 +50,8 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">
-            Conheça nossas soluções em planilhas, apresentações, documentos e criação de Dashboards.
-            Substitua as tarefas repetitivas na sua empresa por ferramentas automatizadas.
+            Planilhas, apresentações, dashboards, fórmularios, etc.
+            Substitua as tarefas repetitivas e manuais na sua empresa por processos automatizados.
           </p>
           <svg overflow="hidden" viewBox="0 0 467 119">
             <defs>
@@ -318,7 +317,7 @@ export default () => (
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ficou com alguma dúvida?</h3>
       <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-        Estamos à sua disposição! A Dynamic tem a solução ideal para a sua empresa.
+        Estamos à sua disposição! Vamos encontrar a solução ideal para você ou sua empresa.
       </p>
       <p>
         <a
