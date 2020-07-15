@@ -13,17 +13,17 @@ const PrecosSection = () => {
     {
       id: 1,
       name: 'Horas disponíveis/mês',
-      simples: '5h ',
-      padrao: '10h ',
-      completo: '15h ',
+      simples: '5h',
+      padrao: '10h',
+      completo: '15h',
       father: -1
     },
     {
       id: 2,
       name: 'Desconto em projetos e treinamentos',
-      simples: '10% ',
-      padrao: '20% ',
-      completo: '30% ',
+      simples: '10%',
+      padrao: '20%',
+      completo: '30%',
       father: -1
     },
     {
@@ -340,7 +340,7 @@ const PrecosSection = () => {
 
           <p className="mb-5 text-white text-xl font-thin mx-4 md:mx-0">
             {' '}
-            Contrate um especialista nas ferramentas da Microsoft para ficar à disposição da sua empresa{' '}
+            Tenha um especialista nas ferramentas da Microsoft à disposição da sua empresa{' '}
           </p>
 
           <div className="stv-radio-buttons-wrapper div-payment-types pb-4">
@@ -517,7 +517,7 @@ const PrecosSection = () => {
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Entenda como podemos ajudar a sua empresa a usar melhor os produtos da Microsoft
+            Entenda como podemos ajudar a sua empresa a aproveitar o máximo dos produtos da Microsoft
           </p>
 
           <table className="table-auto" style={{ marginTop: '60px' }}>
@@ -532,7 +532,7 @@ const PrecosSection = () => {
             <tbody>
               <tr className="bg-gray-100">
                 <td colSpan="4" className="border px-4 py-2">
-                  Serviços oferecidos em cada plano
+                  Serviços inclusos
                 </td>
               </tr>
               {dataTable.map((data, index) => {
@@ -739,7 +739,7 @@ const PrecosSection = () => {
       <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Quer contratar um plano?</h3>
         <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-          Entre em contato com a gente para realizar a contratação e começar a utilizar os nossos serviços hoje mesmo.
+          Clique no botão para realizar a contratação e começar a utilizar os nossos serviços hoje mesmo.
         </p>
         <p>
           <a
