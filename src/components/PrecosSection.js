@@ -204,7 +204,7 @@ const PrecosSection = () => {
           <div style={{ color: '#595959' }} className="flex flex-col md:flex-row md:-mx-3 mt-12">
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
               <Plan className="py-6 h-full">
-                <p className=" mb-2 font-black text-xl montserrat">Simples</p>
+                <p className=" mb-2 font-black text-xl montserrat">Básico</p>
                 {tipoPlano == 'Mensal' ? (
                   <div>
                     R$
@@ -349,7 +349,7 @@ const PrecosSection = () => {
             <thead>
               <tr>
                 <th className="lg:px-4 lg:py-2" />
-                <th className="lg:px-4 lg:py-2">Simples</th>
+                <th className="lg:px-4 lg:py-2">Básico</th>
                 <th className="lg:px-4 lg:py-2">Padrão</th>
                 <th className="lg:px-4 lg:py-2">Completo</th>
               </tr>
@@ -564,7 +564,7 @@ const PrecosSection = () => {
       <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Quer contratar um plano?</h3>
         <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-          Entre em contato com a gente para realizar a contratação.
+          Entre em contato com a gente para realizar a contratação e começar a utilizar os nossos serviços hoje mesmo.
         </p>
         <p>
           <a
