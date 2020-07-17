@@ -622,7 +622,7 @@ const PrecosSection = () => {
                   {tipoPlano == 'Mensal' ? '5h/mês disponíveis' : '5h/mês disponíveis'}
                 <a
                   target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?"
+                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
                 >
                   <Button marginTop="20">Contratar</Button>
                 </a>
@@ -655,6 +655,12 @@ const PrecosSection = () => {
                 )}
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+                >
+                  <Button marginTop="20">Contratar</Button>
+                </a>
                 </p>
               </Plan>
             </div>
@@ -684,15 +690,21 @@ const PrecosSection = () => {
                 )}
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+                >
+                  <Button marginTop="20">Contratar</Button>
+                </a>
                 </p>
               </Plan>
             </div>
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
               <Plan className="py-6 h-full">
                 <p className="font-black text-xl">Personalizado</p>
-                <a
+               <a
                   target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?"
+                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
                 >
                   <Button marginTop="20">Entrar em contato</Button>
                 </a>
@@ -704,17 +716,18 @@ const PrecosSection = () => {
           </div>
         </div>
 
+       
+        <div className="table-planos">
+          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
+            Quais são os benefícios?
+          </h2>
+
         <div className="text-center mt-16">
           <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
         </div>
 
-        <div className="table-planos">
-          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            Compare os planos
-          </h2>
-
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Entenda como podemos ajudar a sua empresa a aproveitar o máximo dos produtos da
+            Entenda como podemos ajudar a sua empresa a produzir mais com as ferramentas da
             Microsoft
           </p>
 
