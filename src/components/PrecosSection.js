@@ -620,6 +620,12 @@ const PrecosSection = () => {
                 )}
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '5h/mês disponíveis' : '5h/mês disponíveis'}
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?"
+                >
+                  <Button marginTop="20">Contratar</Button>
+                </a>
                 </p>
               </Plan>
             </div>
