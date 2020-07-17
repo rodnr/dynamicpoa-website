@@ -1,84 +1,83 @@
-@media screen and (min-width: 768px) { 
-    .div-payment-types{
-        margin: auto!important;
-        width: 365px;
-        height: 50px;
-    
-    }
-  } 
+@media screen and (min-width: 768px) {
+  .div-payment-types {
+    margin: auto !important;
+    width: 365px;
+    height: 50px;
+  }
+}
 
-@media screen and (max-width: 768px) { 
-    .div-payment-types{
-        margin: auto!important;
-        width: 75%;
-        height: 50px;
-    
-    }
-    .table-planos table{
-        /* display: none; */
-    }
-  } 
+@media screen and (max-width: 768px) {
+  .div-payment-types {
+    margin: auto !important;
+    width: 75%;
+    height: 50px;
+  }
+  .table-planos table {
+    /* display: none; */
+  }
+}
 
-
-.payment-types:after{
-    content:"";
-    clear:both}
+.payment-types:after {
+  content: '';
+  clear: both;
+}
 
 .payment-type {
-    box-sizing:border-box;
-    float:left;
-    height:35px;
-    position:relative;
-    width:190px;
-    margin-left:-8px;
+  box-sizing: border-box;
+  float: left;
+  height: 35px;
+  position: relative;
+  width: 190px;
+  margin-left: -8px;
 }
 
-.payment-type label{
-    background:#f7f7f7 no-repeat 50%;
-    color:#1f2129;bottom:1px;
-    cursor:pointer;
-    display:block;
-    font-size:14px;
-    left:1px;
-    position:absolute;
-    right:1px;
-    text-align:center;
-    top:1px;
-    white-space:nowrap;
-    border-radius:.25rem;
+.payment-type label {
+  background: #f7f7f7 no-repeat 50%;
+  color: #1f2129;
+  bottom: 1px;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  border-radius: 0.25rem;
 }
 
-.payment-type input:checked+label{
-    background: linear-gradient(29deg, rgb(91, 135, 181), rgb(59, 95, 158) 70%);
-    color:#f7f7f7;
-    border:2px solid #f7f7f7;
-    padding:2px 0!important
+.payment-type input:checked + label {
+  background: linear-gradient(29deg, rgb(91, 135, 181), rgb(59, 95, 158) 70%);
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  padding: 2px 0 !important;
 }
 
-.payment-types input:checked+label:after{
-    bottom:-10px;
-    content:"";
-    display:inline-block;
-    height:20px;
-    position:absolute;
-    right:-10px;
-    width:20px
+.payment-types input:checked + label:after {
+  bottom: -10px;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  width: 20px;
 }
 
 .payment-type s {
-    list-style: none;
-    padding: 0;
-    margin: 25px 0 0;
+  list-style: none;
+  padding: 0;
+  margin: 25px 0 0;
 }
 
-table{
-    width:97%;
-    margin:auto;
+table {
+  width: 97%;
+  margin: auto;
 }
 
 .table-planos {
-    background-color: #ffffff;
-    margin-top: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }

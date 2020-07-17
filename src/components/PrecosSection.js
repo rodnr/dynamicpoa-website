@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import checkImage from '../images/check.svg';
 import seta from '../images/seta.svg';
-import icon from '../images/icon.png';
 import Plan from './Plan';
 import '../css/app.css';
 
@@ -67,7 +66,14 @@ const PrecosSection = () => {
       father: -1
     },
     { id: 8, name: 'Suporte em Microsoft Excel', simples: 1, padrao: 1, completo: 1, father: 0 },
-    { id: 9, name: 'Criação de planilhas/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 8 },
+    {
+      id: 9,
+      name: 'Criação de planilhas/templates personalizados',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 8
+    },
     {
       id: 10,
       name: 'Edição de planilhas (fórmulas, layout, correções, configurações, VBA, etc.)',
@@ -84,7 +90,14 @@ const PrecosSection = () => {
       completo: 1,
       father: 8
     },
-    { id: 12, name: 'Correção de erros em planilhas/códigos VBA', simples: 1, padrao: 1, completo: 1, father: 8 },
+    {
+      id: 12,
+      name: 'Correção de erros em planilhas/códigos VBA',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 8
+    },
     { id: 13, name: 'Digitação', simples: 1, padrao: 1, completo: 1, father: 8 },
     {
       id: 14,
@@ -110,7 +123,14 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 17, name: 'Criação de apresentações/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 16 },
+    {
+      id: 17,
+      name: 'Criação de apresentações/templates personalizados',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 16
+    },
     {
       id: 18,
       name: 'Edição de apresentações (animações, layout, design, configurações, etc.)',
@@ -122,7 +142,14 @@ const PrecosSection = () => {
     { id: 19, name: 'Criação de gráficos', simples: 1, padrao: 1, completo: 1, father: 16 },
     { id: 20, name: 'Revisão de apresentações', simples: 1, padrao: 1, completo: 1, father: 16 },
     { id: 21, name: 'Suporte em Microsoft Word', simples: 1, padrao: 1, completo: 1, father: 0 },
-    { id: 22, name: 'Criação de documentos/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 21 },
+    {
+      id: 22,
+      name: 'Criação de documentos/templates personalizados',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 21
+    },
     {
       id: 23,
       name: 'Edição de documentos (formatação, design, configurações, etc.)',
@@ -141,7 +168,14 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 27, name: 'Criação de formulários/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 26 },
+    {
+      id: 27,
+      name: 'Criação de formulários/templates personalizados',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 26
+    },
     {
       id: 28,
       name: 'Suporte em Microsoft OneDrive',
@@ -150,10 +184,39 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 29, name: 'Instalação e configuração do OneDrive como ambiente compartilhado entre os usuários', simples: 1, padrao: 1, completo: 1, father: 28 },
-    { id: 30, name: 'Estruturação das permissões em arquivos compartilhados', simples: 1, padrao: 1, completo: 1, father: 28 },
-    { id: 31, name: 'Criação de planilhas do Excel Online como base de dados em nuvem simples para outras ferramentas', simples: '-', padrao: 1, completo: 1, father: 28 },
-    { id: 32, name: 'Automatização de criação, cópia e edição de arquivos', simples: '-', padrao: '-', completo: 1, father: 28 },
+    {
+      id: 29,
+      name: 'Instalação e configuração do OneDrive como ambiente compartilhado entre os usuários',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 28
+    },
+    {
+      id: 30,
+      name: 'Estruturação das permissões em arquivos compartilhados',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 28
+    },
+    {
+      id: 31,
+      name:
+        'Criação de planilhas do Excel Online como base de dados em nuvem simples para outras ferramentas',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 28
+    },
+    {
+      id: 32,
+      name: 'Automatização de criação, cópia e edição de arquivos',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 28
+    },
     {
       id: 33,
       name: 'Suporte em Microsoft Outlook',
@@ -162,12 +225,54 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 34, name: 'Instalação e configuração do Outlook', simples: 1, padrao: 1, completo: 1, father: 33 },
-    { id: 35, name: 'Criação de regras e personalizações', simples: 1, padrao: 1, completo: 1, father: 33 },
-    { id: 36, name: 'Estruturação dos contatos e reuniões/eventos', simples: 1, padrao: 1, completo: 1, father: 33 },
-    { id: 37, name: 'Automatização de criação de contatos', simples: '-', padrao: 1, completo: 1, father: 33 },
-    { id: 38, name: 'Automatização de criação de eventos/reuniões', simples: '-', padrao: 1, completo: 1, father: 33 },
-    { id: 39, name: 'Automatização de envio, cópia e encaminhamento de e-mails', simples: '-', padrao: 1, completo: 1, father: 33 },
+    {
+      id: 34,
+      name: 'Instalação e configuração do Outlook',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 33
+    },
+    {
+      id: 35,
+      name: 'Criação de regras e personalizações',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 33
+    },
+    {
+      id: 36,
+      name: 'Estruturação dos contatos e reuniões/eventos',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 33
+    },
+    {
+      id: 37,
+      name: 'Automatização de criação de contatos',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 33
+    },
+    {
+      id: 38,
+      name: 'Automatização de criação de eventos/reuniões',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 33
+    },
+    {
+      id: 39,
+      name: 'Automatização de envio, cópia e encaminhamento de e-mails',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 33
+    },
     {
       id: 40,
       name: 'Suporte em Microsoft Teams',
@@ -176,8 +281,22 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 41, name: 'Configurações de equipes e canais', simples: 1, padrao: 1, completo: 1, father: 40 },
-    { id: 42, name: 'Configurações de membros/convidados/acessos externos', simples: 1, padrao: 1, completo: 1, father: 40 },
+    {
+      id: 41,
+      name: 'Configurações de equipes e canais',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 40
+    },
+    {
+      id: 42,
+      name: 'Configurações de membros/convidados/acessos externos',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 40
+    },
     {
       id: 43,
       name: 'Suporte em Microsoft SharePoint',
@@ -186,8 +305,22 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 44, name: 'Criação de sites personalizados', simples: 1, padrao: 1, completo: 1, father: 43 },
-    { id: 45, name: 'Automatização de criação, cópia e edição de arquivos e listas', simples: '-', padrao: '-', completo: 1, father: 43 },
+    {
+      id: 44,
+      name: 'Criação de sites personalizados',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 43
+    },
+    {
+      id: 45,
+      name: 'Automatização de criação, cópia e edição de arquivos e listas',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 43
+    },
     {
       id: 46,
       name: 'Suporte em Microsoft Power BI',
@@ -198,14 +331,63 @@ const PrecosSection = () => {
     },
     { id: 47, name: 'Criação de novos relatórios', simples: 1, padrao: 1, completo: 1, father: 46 },
     { id: 48, name: 'Criação de painéis', simples: 1, padrao: 1, completo: 1, father: 46 },
-    { id: 49, name: 'Edição de relatórios (consultas, medidas, layout, design, configurações, etc.)', simples: 1, padrao: 1, completo: 1, father: 46 },
-    { id: 50, name: 'Conexão com planilhas de Excel', simples: 1, padrao: 1, completo: 1, father: 46 },
-    { id: 51, name: 'Configurações de alertas/atualizações agendadas', simples: 1, padrao: 1, completo: 1, father: 46 },
-    { id: 52, name: 'Conexão com banco de dados SQL', simples: '-', padrao: 1, completo: 1, father: 46 },
-    { id: 53, name: 'Configurações de funções/RLS', simples: '-', padrao: 1, completo: 1, father: 46 },
+    {
+      id: 49,
+      name: 'Edição de relatórios (consultas, medidas, layout, design, configurações, etc.)',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 46
+    },
+    {
+      id: 50,
+      name: 'Conexão com planilhas de Excel',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 46
+    },
+    {
+      id: 51,
+      name: 'Configurações de alertas/atualizações agendadas',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 46
+    },
+    {
+      id: 52,
+      name: 'Conexão com banco de dados SQL',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 46
+    },
+    {
+      id: 53,
+      name: 'Configurações de funções/RLS',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 46
+    },
     { id: 54, name: 'Configurações de gateway', simples: '-', padrao: 1, completo: 1, father: 46 },
-    { id: 55, name: 'Configurações de pacote de conteúdo organizacional/aplicativos', simples: '-', padrao: 1, completo: 1, father: 46 },
-    { id: 56, name: 'Conexão com APIs ou outras fontes', simples: '-', padrao: '-', completo: 1, father: 46 },
+    {
+      id: 55,
+      name: 'Configurações de pacote de conteúdo organizacional/aplicativos',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
+      father: 46
+    },
+    {
+      id: 56,
+      name: 'Conexão com APIs ou outras fontes',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 46
+    },
     {
       id: 57,
       name: 'Suporte em Microsoft Power Apps',
@@ -214,9 +396,23 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 58, name: 'Criação de aplicativos de uso interno', simples: 1, padrao: 1, completo: 1, father: 57 },
+    {
+      id: 58,
+      name: 'Criação de aplicativos de uso interno',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 57
+    },
     { id: 59, name: 'Criação de portais', simples: '-', padrao: '-', completo: 1, father: 57 },
-    { id: 60, name: 'Criação de CDS (Common Data Service)', simples: '-', padrao: '-', completo: 1, father: 57 },
+    {
+      id: 60,
+      name: 'Criação de CDS (Common Data Service)',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 57
+    },
     {
       id: 61,
       name: 'Suporte em Microsoft Power Automate',
@@ -225,9 +421,30 @@ const PrecosSection = () => {
       completo: 1,
       father: 0
     },
-    { id: 62, name: 'Criação de fluxos de automação entre ferramentas do Microsoft 365', simples: 1, padrao: 1, completo: 1, father: 61 },
-    { id: 63, name: 'Conexão com banco de dados/gateways', simples: '-', padrao: '-', completo: 1, father: 61 },
-    { id: 64, name: 'Criação de fluxos de automação entre ferramentas externas', simples: '-', padrao: '-', completo: 1, father: 61 },
+    {
+      id: 62,
+      name: 'Criação de fluxos de automação entre ferramentas do Microsoft 365',
+      simples: 1,
+      padrao: 1,
+      completo: 1,
+      father: 61
+    },
+    {
+      id: 63,
+      name: 'Conexão com banco de dados/gateways',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 61
+    },
+    {
+      id: 64,
+      name: 'Criação de fluxos de automação entre ferramentas externas',
+      simples: '-',
+      padrao: '-',
+      completo: 1,
+      father: 61
+    },
     {
       id: 65,
       name: 'Suporte em Microsoft Power Virtual Agents',
@@ -252,7 +469,7 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 68,
       name: 'Suporte em Microsoft Delve',
       simples: 1,
@@ -260,7 +477,7 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 69,
       name: 'Suporte em Microsoft Yammer',
       simples: 1,
@@ -268,7 +485,7 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 70,
       name: 'Suporte em Microsoft Visio',
       simples: 1,
@@ -276,7 +493,7 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 71,
       name: 'Suporte em Microsoft Planner',
       simples: 1,
@@ -284,7 +501,7 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 72,
       name: 'Suporte em Microsoft Access',
       simples: '-',
@@ -292,7 +509,7 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 73,
       name: 'Suporte em Microsoft Project',
       simples: '-',
@@ -300,14 +517,14 @@ const PrecosSection = () => {
       completo: 1,
       father: -1
     },
-     {
+    {
       id: 74,
       name: 'Suporte em Microsoft Sway',
       simples: 1,
       padrao: 1,
       completo: 1,
       father: -1
-    },
+    }
   ]);
 
   const [sonActives, setSonActives] = useState([]);
@@ -404,16 +621,6 @@ const PrecosSection = () => {
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '5h/mês disponíveis' : '5h/mês disponíveis'}
                 </p>
-                <img
-                  style={{
-                    display: 'block',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                    width: '100px'
-                  }}
-                  src={icon}
-                  alt="Logo"
-                />
               </Plan>
             </div>
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
@@ -443,16 +650,6 @@ const PrecosSection = () => {
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
                 </p>
-                <img
-                  style={{
-                    display: 'block',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                    width: '100px'
-                  }}
-                  src={icon}
-                  alt="Logo"
-                />
               </Plan>
             </div>
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
@@ -482,16 +679,6 @@ const PrecosSection = () => {
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
                 </p>
-                <img
-                  style={{
-                    display: 'block',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                    width: '100px'
-                  }}
-                  src={icon}
-                  alt="Logo"
-                />
               </Plan>
             </div>
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
@@ -511,13 +698,18 @@ const PrecosSection = () => {
           </div>
         </div>
 
+        <div className="text-center mt-16">
+          <img className="w-3/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
+        </div>
+
         <div className="table-planos">
-          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mx-4 md:mx-0">
+          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
             Compare os planos
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Entenda como podemos ajudar a sua empresa a aproveitar o máximo dos produtos da Microsoft
+            Entenda como podemos ajudar a sua empresa a aproveitar o máximo dos produtos da
+            Microsoft
           </p>
 
           <table className="table-auto" style={{ marginTop: '60px' }}>
@@ -739,7 +931,8 @@ const PrecosSection = () => {
       <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Quer contratar um plano?</h3>
         <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-          Clique no botão para realizar a contratação e começar a utilizar os nossos serviços hoje mesmo.
+          Clique no botão para realizar a contratação e começar a utilizar os nossos serviços hoje
+          mesmo.
         </p>
         <p>
           <a
