@@ -597,7 +597,6 @@ const PrecosSection = () => {
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
               <Plan className="py-6 h-full">
                 <p className=" mb-2 font-black text-xl montserrat">Básico</p>
-                <hr style="width:50%">
                 {tipoPlano == 'Mensal' ? (
                   <div>
                     R$
