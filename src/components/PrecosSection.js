@@ -723,7 +723,7 @@ const PrecosSection = () => {
           </h2>
 
         <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Suporte e desenvolvimento de ferramentas nas plataformas
+            Suporte e desenvolvimento de ferramentas nas plataformas:
           </p>
 
         <div className="text-center mt-16">
