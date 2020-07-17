@@ -722,14 +722,13 @@ const PrecosSection = () => {
             Quais são os benefícios?
           </h2>
 
+        <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
+            Suporte e desenvolvimento de ferramentas nas plataformas
+          </p>
+
         <div className="text-center mt-16">
           <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
         </div>
-
-          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Entenda como podemos ajudar a sua empresa a produzir mais com as ferramentas da
-            Microsoft
-          </p>
 
           <table className="table-auto" style={{ marginTop: '60px' }}>
             <thead>
