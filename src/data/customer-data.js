@@ -20,7 +20,7 @@ export default [
     content:
       'Quando o assunto é Microsoft sabemos que a Dynamic vai saber resolver. Não conheço nenhuma empresa mais capacitada que eles na área. Desenvolveram meu sistema completo e um dashboard para controle de dados, pelo valor recebido acabou saindo por um preço muito baixo.',
     customerName: 'Rafael Muttoni',
-    customerTitle: 'CTO na Muttoni Digital',
-    customerImage: 'https://muttonidigital.com/images/logo.svg'
+    customerTitle: 'CTO na Agência Chima',
+    customerImage: 'http://s2.googleusercontent.com/s2/favicons?domain_url=http://agenciachima.com'
   }
 ];
