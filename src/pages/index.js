@@ -28,7 +28,7 @@ export default () => (
             <DynamicIcon className="" />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Soluções em Microsoft 365 e Plataforma Power.
+            Soluções para Microsoft 365 e Plataforma Power. Consultoria, treinamento e desenvolvimento em Excel, Power BI e mais.
           </p>
           <p className="mt-8 md:mt-12">
             <Button>
@@ -330,7 +330,7 @@ export default () => (
       </p>
     </section>
       
-      <script src="//code.jivosite.com/widget/euzYveo4Bn" async></script>
+      <script src="//code.jivosite.com/widget/xfReppaGI7" async></script>
       
   </Layout>
 );
