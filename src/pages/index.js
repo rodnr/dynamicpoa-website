@@ -28,7 +28,7 @@ export default () => (
             <DynamicIcon className="" />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Soluções para Microsoft 365 e Plataforma Power. Ajudamos sua empresa com Excel, Power BI e muito mais.
+            Consultoria em Microsoft 365 e Plataforma Power. Conheça nossas soluções em Excel, Power BI e muito mais.
           </p>
           <p className="mt-8 md:mt-12">
             <Button>
