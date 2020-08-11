@@ -12,9 +12,9 @@ const PrecosSection = () => {
     {
       id: 1,
       name: 'Horas disponíveis/mês',
-      simples: '5h',
-      padrao: '10h',
-      completo: '15h',
+      simples: '10h',
+      padrao: '15h',
+      completo: '20h',
       father: -1
     },
     {
@@ -601,7 +601,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      489
+                      589
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -611,7 +611,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      389
+                      489
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -619,7 +619,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '5h/mês disponíveis' : '5h/mês disponíveis'}
+                  {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
@@ -636,7 +636,7 @@ const PrecosSection = () => {
                   <div>
                     R$
                     <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      789
+                      769
                     </div>
                     <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
                       /mês
@@ -654,7 +654,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
+                  {tipoPlano == 'Mensal' ? '15/mês disponíveis' : '15h/mês disponíveis'}
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
@@ -689,7 +689,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
+                  {tipoPlano == 'Mensal' ? '20h/mês disponíveis' : '20h/mês disponíveis'}
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
