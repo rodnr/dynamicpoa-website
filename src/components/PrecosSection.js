@@ -654,7 +654,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '15/mês disponíveis' : '15h/mês disponíveis'}
+                  {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
