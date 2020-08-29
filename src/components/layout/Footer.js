@@ -41,7 +41,7 @@ const Footer = () => (
             </Link>
           </li>
           <li>
-            <a className="px-4" href="">
+            <a className="px-4" href="" target="_blank">
               Vagas
             </a>
           </li>
