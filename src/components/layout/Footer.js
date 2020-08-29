@@ -9,10 +9,10 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold mb-5">Sobre a Dynamic</h2>
         <p className="text-base font-light mb-3">
-          Empresa fundada em outubro de 2018, com o objetivo de ajudar empresas a automatizar tarefas
-          manuais e repetitivas, melhorando a qualidade e produtividade. Usando softwares que são
-          comuns no escritório, nossos clientes recebem soluções com preços mais acessíveis e mais
-          rápido.
+          Empresa fundada em outubro de 2018, com o objetivo de ajudar empresas a automatizar
+          tarefas manuais e repetitivas, melhorando a qualidade e produtividade. Usando softwares
+          que são comuns no escritório, nossos clientes recebem soluções com preços mais acessíveis
+          e mais rápido.
         </p>
         <p className="font-light">CNPJ: 34.909.360/0001-22</p>
         <p className="font-light">Porto Alegre - RS</p>
@@ -39,6 +39,11 @@ const Footer = () => (
             <Link className="px-4" to="/precos">
               Preços
             </Link>
+          </li>
+          <li>
+            <a className="px-4" href="">
+              Vagas
+            </a>
           </li>
         </ul>
       </div>
