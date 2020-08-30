@@ -14,6 +14,7 @@ import DynamicIcon from '../svg/DynamicIcon';
 import { Excel, PowerBI } from '../svg/SvgSheets';
 
 import SolucoesSection from '../components/SolucoesSection';
+import Caroussel from '../components/Caroussel';
 
 export default () => (
   <Layout>
@@ -28,7 +29,8 @@ export default () => (
             <DynamicIcon className="" />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Consultoria em Microsoft 365 e Plataforma Power. Conheça nossas soluções em Excel, Power BI e muito mais.
+            Consultoria em Microsoft 365 e Plataforma Power. Conheça nossas soluções em Excel, Power
+            BI e muito mais.
           </p>
           <p className="mt-8 md:mt-12">
             <Button>
@@ -50,8 +52,8 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">
-            Planilhas, apresentações, dashboards, fórmularios, etc.
-            Substitua as tarefas repetitivas e manuais na sua empresa por processos automatizados.
+            Planilhas, apresentações, dashboards, fórmularios, etc. Substitua as tarefas repetitivas
+            e manuais na sua empresa por processos automatizados.
           </p>
           <svg overflow="hidden" viewBox="0 0 467 119">
             <defs>
@@ -295,8 +297,8 @@ export default () => (
       secondarySlot={<PowerBI />}
       classMargin="mr-auto"
     />
-    <LabelText className="mb-0 md:mb-8 mt-24 text-gray-600 text-center">Clientes</LabelText>
-    <LogoSection />
+    <LabelText className="mb-8 mt-24 text-gray-600 text-center">Clientes</LabelText>
+    <Caroussel />
     <section id="depoimentos" className="py-10 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">
@@ -329,8 +331,7 @@ export default () => (
         </a>
       </p>
     </section>
-      
-      <script src="//code.jivosite.com/widget/xfReppaGI7" async></script>
-      
+
+    <script src="//code.jivosite.com/widget/xfReppaGI7" async></script>
   </Layout>
 );
