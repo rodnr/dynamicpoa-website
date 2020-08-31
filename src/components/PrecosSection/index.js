@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import checkImage from '../../images/check.svg';
 import seta from '../../images/seta.svg';
-import Plan from './../Plan';
 import '../../css/app.css';
 import Button from './../Button';
+import { FaRegClock } from 'react-icons/fa';
 
 import * as S from './styled';
 
@@ -547,7 +547,7 @@ const PrecosSection = () => {
     <>
       <section id="planos" className="my-0 pb-0 ">
         <div
-          className="px-16  mx-auto text-center"
+          className="px-4 lg:px-16  mx-auto text-center"
           style={{
             background: 'linear-gradient(to bottom, #3B5F9E 0%,  #5B87B5 70%, #fff 70%, #fff 100%)'
           }}
@@ -595,127 +595,114 @@ const PrecosSection = () => {
             </ul>
           </div>
 
-          <div style={{ color: '#595959' }} className="flex flex-col md:flex-row md:-mx-3 mt-12">
-            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
-              <Plan className="py-6 h-full">
-                <p className=" mb-2 font-black text-xl montserrat">Básico</p>
+          <div
+            style={{ color: '#595959', maxWidth: '100vw', justifyContent: 'center' }}
+            className="flex flex-col items-center md:flex-row md:-mx-3 mt-12"
+          >
+            <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
+              <S.Plan
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+              >
+                <p className="mb-2 font-black text-xl title">Básico</p>
                 {tipoPlano == 'Mensal' ? (
-                  <div>
-                    R$
-                    <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      589
-                    </div>
-                    <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /mês
-                    </div>
+                  <div className="plan_price_wrapper">
+                    <span className="plan_currency">R$</span>
+                    <span className="plan_price">589</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 ) : (
-                  <div>
-                    R$
-                    <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      489
-                    </div>
-                    <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /mês
-                    </div>
+                  <div className="plan_price_wrapper">
+                    <span className="plan_currency">R$</span>
+                    <span className="plan_price">489</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 )}
-                <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
+                <p className="plan_hours">
+                  <FaRegClock />
+                  {tipoPlano == 'Mensal' ? '10h/mês' : '10h/mês'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                  >
-                    <Button marginTop="20">Contratar</Button>
-                  </a>
+                  ></a>
                 </p>
-              </Plan>
+                <span className="hire_button">Contratar</span>
+              </S.Plan>
             </div>
-            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
-              <Plan className="py-6 h-full">
-                <p className="mb-1 font-black text-xl">Padrão</p>
+            <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
+              <S.Plan
+                className="standard"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+              >
+                <p className="mb-2 font-black text-xl title">Padrão</p>
                 {tipoPlano == 'Mensal' ? (
-                  <div>
-                    R$
-                    <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      769
-                    </div>
-                    <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /mês
-                    </div>
+                  <div className="plan_price_wrapper">
+                    <span className="plan_currency">R$</span>
+                    <span className="plan_price">769</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 ) : (
-                  <div>
-                    R$
-                    <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      629
-                    </div>
-                    <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /mês
-                    </div>
+                  <div className="plan_price_wrapper">
+                    <span className="plan_currency">R$</span>
+                    <span className="plan_price">629</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 )}
-                <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
-                  <a
-                    target="_blank"
-                    href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                  >
-                    <Button marginTop="20">Contratar</Button>
-                  </a>
+                <p className="plan_hours">
+                  <FaRegClock />
+                  {tipoPlano == 'Mensal' ? '15h/mês' : '15h/mês'}
                 </p>
-              </Plan>
+                <span className="hire_button">Contratar</span>
+              </S.Plan>
             </div>
-            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
-              <Plan className="py-6 h-full">
-                <p className="mb-2 font-black text-xl">Completo</p>
+            <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
+              <S.Plan
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+              >
+                <p className="mb-2 font-black text-xl title">Completo</p>
                 {tipoPlano == 'Mensal' ? (
-                  <div>
-                    R$
-                    <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      989
-                    </div>
-                    <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /mês
-                    </div>
+                  <div className="plan_price_wrapper">
+                    <span className="plan_currency">R$</span>
+                    <span className="plan_price">989</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 ) : (
-                  <div>
-                    R$
-                    <div className="font-hairline text-5xl" style={{ display: 'inline-block' }}>
-                      789
-                    </div>
-                    <div className="font-hairline text-xl" style={{ display: 'inline-block' }}>
-                      /mês
-                    </div>
+                  <div className="plan_price_wrapper">
+                    <span className="plan_currency">R$</span>
+                    <span className="plan_price">789</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 )}
-                <p className="mt-4 mb-2 font-hairline">
-                  {tipoPlano == 'Mensal' ? '20h/mês disponíveis' : '20h/mês disponíveis'}
-                  <a
-                    target="_blank"
-                    href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                  >
-                    <Button marginTop="20">Contratar</Button>
-                  </a>
+                <p className="plan_hours">
+                  <FaRegClock />
+                  {tipoPlano == 'Mensal' ? '20h/mês' : '20h/mês'}
                 </p>
-              </Plan>
-            </div>
-            <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
-              <Plan className="py-6 h-full">
-                <p className="font-black text-xl">Personalizado</p>
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                >
-                  <Button marginTop="20">Entrar em contato</Button>
-                </a>
-                <p className="p-6 font-hairline">
-                  para planos com disponibilidade mensal ou períodos maiores
-                </p>
-              </Plan>
+                <span className="hire_button">Contratar</span>
+              </S.Plan>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            textAlign: 'center',
+            marginTop: '3rem'
+          }}
+        >
+          <S.Plan
+            className="personalized"
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+          >
+            <p className="mb-2 font-black text-xl title">Personalizado</p>
+
+            <div>Para planos com disponibilidade mensal ou períodos maiores</div>
+            <span className="hire_button">Entrar em contato</span>
+          </S.Plan>
         </div>
 
         <div className="table-planos">
