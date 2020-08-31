@@ -55,7 +55,7 @@ export default () => (
             Planilhas, apresentações, dashboards, fórmularios, etc. Substitua as tarefas repetitivas
             e manuais na sua empresa por processos automatizados.
           </p>
-          <img src="/assets/img/MSIcons.png" alt="Microsoft Icons" />
+          <img src="/assets/img/Logo365.svg" alt="Microsoft Icons" />
         </div>
       }
       secondarySlot={<Excel />}
@@ -71,7 +71,7 @@ export default () => (
             sua <br /> empresa utilizando o Power BI, aplicativos <br /> ou fluxos automatizados
             entre APIs.
           </p>
-          <img src="/assets/img/PowerIcons.png" alt="Power Icons" />
+          <img src="/assets/img/LogoPlataformaPower.svg" alt="Power Icons" />
         </div>
       }
       secondarySlot={<PowerBI />}
@@ -81,7 +81,7 @@ export default () => (
     <Caroussel />
     <section id="depoimentos" className="py-10 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">
+        <LabelText className="mb-8 text-gray-<600 text-center">
           O que dizem nossos clientes
         </LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
