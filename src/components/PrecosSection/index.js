@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import checkImage from '../images/check.svg';
-import seta from '../images/seta.svg';
-import Plan from './Plan';
-import '../css/app.css';
+import checkImage from '../../images/check.svg';
+import seta from '../../images/seta.svg';
+import Plan from './../Plan';
+import '../../css/app.css';
+import Button from './../Button';
 
-import Button from './Button';
+import * as S from './styled';
 
 const PrecosSection = () => {
   const [tipoPlano, setTipoPlano] = useState('Anual');
@@ -576,7 +577,7 @@ const PrecosSection = () => {
                   Pagamento Trimestral
                 </label>
               </li>
-              <li className="payment-type">
+              <li className="payment-type" style={{ position: 'relative' }}>
                 <input
                   name="radioButtonTest"
                   checked={tipoPlano === 'Anual'}
@@ -589,6 +590,7 @@ const PrecosSection = () => {
                 <label htmlFor="pay-y" className="p-1">
                   Pagamento Semestral
                 </label>
+                <S.DiscountLabel>- 20%</S.DiscountLabel>
               </li>
             </ul>
           </div>
@@ -620,12 +622,12 @@ const PrecosSection = () => {
                 )}
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '10h/mês disponíveis' : '10h/mês disponíveis'}
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                >
-                  <Button marginTop="20">Contratar</Button>
-                </a>
+                  <a
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+                  >
+                    <Button marginTop="20">Contratar</Button>
+                  </a>
                 </p>
               </Plan>
             </div>
@@ -655,12 +657,12 @@ const PrecosSection = () => {
                 )}
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '15h/mês disponíveis' : '15h/mês disponíveis'}
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                >
-                  <Button marginTop="20">Contratar</Button>
-                </a>
+                  <a
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+                  >
+                    <Button marginTop="20">Contratar</Button>
+                  </a>
                 </p>
               </Plan>
             </div>
@@ -690,19 +692,19 @@ const PrecosSection = () => {
                 )}
                 <p className="mt-4 mb-2 font-hairline">
                   {tipoPlano == 'Mensal' ? '20h/mês disponíveis' : '20h/mês disponíveis'}
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-                >
-                  <Button marginTop="20">Contratar</Button>
-                </a>
+                  <a
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+                  >
+                    <Button marginTop="20">Contratar</Button>
+                  </a>
                 </p>
               </Plan>
             </div>
             <div className="flex-1 lg:px-3 lg:m-6 md:m-2 mb-6">
               <Plan className="py-6 h-full">
                 <p className="font-black text-xl">Personalizado</p>
-               <a
+                <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
                 >
@@ -716,19 +718,18 @@ const PrecosSection = () => {
           </div>
         </div>
 
-       
         <div className="table-planos">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
             Quais são os benefícios?
           </h2>
 
-        <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
+          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
             Suporte e desenvolvimento de ferramentas nas plataformas:
           </p>
 
-        <div className="text-center mt-16">
-          <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
-        </div>
+          <div className="text-center mt-16">
+            <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
+          </div>
 
           <table className="table-auto" style={{ marginTop: '60px' }}>
             <thead>
