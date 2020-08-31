@@ -29,31 +29,22 @@ const Caroussel = () => {
         slidesPerView={3}
       >
         <SwiperSlide>
-          <EcoAssist className="w-20 md:w-40 m-auto" />
+          <img src="/assets/img/clients/logoEco.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <EngeSafety className="w-24 md:w-40 m-auto" />
+          <img src="/assets/img/clients/logoInspire.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Grasiele className="w-20 md:w-40 m-auto" />
+          <img src="/assets/img/clients/logoLavorolab.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Lavorolab className="w-24 md:w-40 m-auto" />
+          <img src="/assets/img/clients/logoLightsource.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Martiplast className="w-20 md:w-32 m-auto" />
+          <img src="/assets/img/clients/logoOSPA.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Orella className="w-24 md:w-40 m-auto" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Otimizare className="w-20 md:w-40 m-auto" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Sugarshoes className="w-24 md:w-40 m-auto" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Vigitec className="w-1/4 lg:w-1/5 m-auto" />
+          <img src="/assets/img/clients/logoSugar.svg" />
         </SwiperSlide>
       </Swiper>
     </S.Wrapper>
