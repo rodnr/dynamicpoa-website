@@ -55,9 +55,9 @@ export default () => (
             Planilhas, apresentações, dashboards, fórmularios, etc. Substitua as tarefas repetitivas
             e manuais na sua empresa por processos automatizados.
           </p>
-          </div>
+        </div>
       }
-      secondarySlot={<Excel />}
+      secondarySlot={<img src="/assets/img/platforms/Excel.png" alt="Excel" />}
       classMargin="ml-auto"
     />
     <SplitSection
@@ -70,9 +70,9 @@ export default () => (
             sua <br /> empresa utilizando o Power BI, aplicativos <br /> ou fluxos automatizados
             entre APIs.
           </p>
-      </div>
+        </div>
       }
-      secondarySlot={<PowerBI />}
+      secondarySlot={<img src="/assets/img/platforms/PowerBI.png" alt="Power BI" />}
       classMargin="mr-auto"
     />
     <LabelText className="mb-8 mt-24 text-gray-600 text-center">Clientes</LabelText>
