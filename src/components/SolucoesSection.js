@@ -27,8 +27,8 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Projetos.png" />
             <p className="font-semibold text-xl">Projeto</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Desenvolva projetos personalizados para sua empresa. Planilhas automatizadas com VBA,
-              dashboards, aplicativos empresariais, formulários, processos automatizados e muito
+              Desenvolvemos projetos personalizados para sua empresa. Dashboards, planilhas automatizadas com VBA,
+              aplicativos mobile corporativos, intranets, automação de processos e muito
               mais com as ferramentas mais integradas no mercado.
             </p>
           </Card>
@@ -38,8 +38,8 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Consultoria.png" />
             <p className="font-semibold text-xl">Consultoria</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Uma das melhores opções para quem usa diariamente as ferramentas da Microsoft,
-              permitindo contratar suporte e desenvolvimento remoto de um especialista.
+              Contrate um especialista nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa,
+              solucionando dúvidas técnicas, de licenciamento, desenvolver soluções e ajudar a sua equipe a aumentar a produtividade nestas plataformas.
             </p>
           </Card>
         </div>
@@ -48,8 +48,8 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Treinamentos.png" />
             <p className="font-semibold text-xl">Treinamento</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Treinamentos in-company para qualificar a sua equipe nas principais ferramentas do
-              mercado, aumentar a produtividade e abrir portas para novas possibilidades.
+              Treinamentos corporativos in-company ou virtuais para qualificar os colaboradores nas principais ferramentas do
+              mercado, aumentar a produtividade e melhorar o trabalho em equipe.
             </p>
           </Card>
         </div>
