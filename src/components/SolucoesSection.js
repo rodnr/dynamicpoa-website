@@ -26,7 +26,7 @@ const SolucoesSection = () => (
           <Card className="p-12 h-full">
             <DevIcon />
             <p className="font-semibold text-xl">Projeto</p>
-            <p className="mt-4" style={{ color: '#A4A4A4' }}>
+            <p className="mt-4" style={{ color: '#909090' }}>
               Desenvolva projetos personalizados para sua empresa. Planilhas automatizadas com VBA,
               dashboards, aplicativos empresariais, formulários, processos automatizados e muito
               mais com as ferramentas mais integradas no mercado.
@@ -37,7 +37,7 @@ const SolucoesSection = () => (
           <Card className="p-12 h-full">
             <BulbIcon />
             <p className="font-semibold text-xl">Consultoria</p>
-            <p className="mt-4" style={{ color: '#A4A4A4' }}>
+            <p className="mt-4" style={{ color: '#909090' }}>
               Uma das melhores opções para quem usa diariamente as ferramentas da Microsoft,
               permitindo contratar suporte e desenvolvimento remoto de um especialista.
             </p>
@@ -47,7 +47,7 @@ const SolucoesSection = () => (
           <Card className="p-12 h-full">
             <ClassIcon />
             <p className="font-semibold text-xl">Treinamento</p>
-            <p className="mt-4" style={{ color: '#A4A4A4' }}>
+            <p className="mt-4" style={{ color: '#909090' }}>
               Treinamentos in-company para qualificar a sua equipe nas principais ferramentas do
               mercado, aumentar a produtividade e abrir portas para novas possibilidades.
             </p>
