@@ -55,8 +55,7 @@ export default () => (
             Planilhas, apresentações, dashboards, fórmularios, etc. Substitua as tarefas repetitivas
             e manuais na sua empresa por processos automatizados.
           </p>
-          <img src="/assets/img/Logo365.png" alt="Microsoft Icons" style={{ width: '85%' }} />
-        </div>
+          </div>
       }
       secondarySlot={<Excel />}
       classMargin="ml-auto"
@@ -71,12 +70,7 @@ export default () => (
             sua <br /> empresa utilizando o Power BI, aplicativos <br /> ou fluxos automatizados
             entre APIs.
           </p>
-          <img
-            src="/assets/img/LogoPlataformaPower.png"
-            alt="Power Icons"
-            style={{ width: '85%', marginLeft: 'auto' }}
-          />
-        </div>
+      </div>
       }
       secondarySlot={<PowerBI />}
       classMargin="mr-auto"
