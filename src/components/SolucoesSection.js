@@ -24,7 +24,7 @@ const SolucoesSection = () => (
       <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <DevIcon />
+            <img src="/assets/img/solutions/Projetos.png" />
             <p className="font-semibold text-xl">Projeto</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Desenvolva projetos personalizados para sua empresa. Planilhas automatizadas com VBA,
@@ -35,7 +35,7 @@ const SolucoesSection = () => (
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <BulbIcon />
+            <img src="/assets/img/solutions/Consultoria.png" />
             <p className="font-semibold text-xl">Consultoria</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Uma das melhores opções para quem usa diariamente as ferramentas da Microsoft,
@@ -45,7 +45,7 @@ const SolucoesSection = () => (
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <ClassIcon />
+            <img src="/assets/img/solutions/Treinamentos.png" />
             <p className="font-semibold text-xl">Treinamento</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Treinamentos in-company para qualificar a sua equipe nas principais ferramentas do
