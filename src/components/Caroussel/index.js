@@ -44,7 +44,16 @@ const Caroussel = () => {
           <img src="/assets/img/clients/logoOSPA.svg" />
         </SwiperSlide>
         <SwiperSlide>
+          <img src="/assets/img/clients/logoOtimizare.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="/assets/img/clients/logoSugar.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/assets/img/clients/logoVIP.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/assets/img/clients/logoWalterscheid.svg" />
         </SwiperSlide>
       </Swiper>
     </S.Wrapper>
