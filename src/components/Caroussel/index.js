@@ -28,10 +28,7 @@ const Caroussel = () => {
         spaceBetween={50}
         slidesPerView={3}
       >
-        <SwiperSlide>
-          <img src="/assets/img/clients/logoEco.svg" />
-        </SwiperSlide>
-        <SwiperSlide>
+           <SwiperSlide>
           <img src="/assets/img/clients/logoInspire.svg" />
         </SwiperSlide>
         <SwiperSlide>
@@ -41,18 +38,12 @@ const Caroussel = () => {
           <img src="/assets/img/clients/logoLightsource.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/clients/logoOSPA.svg" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src="/assets/img/clients/logoOtimizare.svg" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="/assets/img/clients/logoSugar.svg" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="/assets/img/clients/logoVIP.svg" />
-        </SwiperSlide>
-        <SwiperSlide>
+         <SwiperSlide>
           <img src="/assets/img/clients/logoWalterscheid.svg" />
         </SwiperSlide>
       </Swiper>
