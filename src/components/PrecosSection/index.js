@@ -682,27 +682,19 @@ const PrecosSection = () => {
                 <span className="hire_button">Contratar</span>
               </S.Plan>
             </div>
-          </div>
-        </div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            textAlign: 'center',
-            marginTop: '3rem'
-          }}
-        >
-          <S.Plan
-            className="personalized"
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
-          >
-            <p className="mb-2 font-black text-xl title">Personalizado</p>
+            <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
+              <S.Plan
+                className="personalized"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
+              >
+                <p className="mb-2 font-black text-xl title">Personalizado</p>
 
-            <div>Para planos com disponibilidade mensal ou períodos maiores</div>
-            <span className="hire_button">Entrar em contato</span>
-          </S.Plan>
+                <div>Para planos com disponibilidade mensal ou períodos maiores</div>
+                <span className="hire_button">Contato</span>
+              </S.Plan>
+            </div>
+          </div>
         </div>
 
         <div className="table-planos">
