@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
-import Lottie from 'react-lottie'
-import animationData from '../lotties/lf20_xRmNN8.json'
+import React, { Component } from 'react';
+import Lottie from 'react-lottie';
+import animationData from '../lotties/lf20_xRmNN8.json';
 
 class LottieProgramming extends Component {
-
-
-  render(){
-
+  render() {
     const defaultOptions = {
       loop: true,
       autoplay: true,
@@ -16,15 +13,12 @@ class LottieProgramming extends Component {
       }
     };
 
-    return(
+    return (
       <div>
-        <Lottie options={defaultOptions}
-              height={500}
-              width={500}
-        />
+        <Lottie options={defaultOptions} height={450} width={450} />
       </div>
-    )
+    );
   }
 }
 
-export default LottieProgramming
+export default LottieProgramming;

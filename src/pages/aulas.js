@@ -16,22 +16,18 @@ const AulasPage = () => (
       title="Aulas"
       description="Conheça nossas soluções para você se destacar com as ferramentas Microsoft! Soluções para Excel, PowerPoint, Power BI, entre outras."
     />
-    <section className="pt-20 mb-32" id="top">
+    <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
-        <div className="text-center lg:w-1/2">
-          <div className="w-1/5 mb-8 mx-auto">
-            <DynamicIcon />
-          </div>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Aulas particulares online para aprofundar os conhecimentos nas ferramentas da Microsoft.
+        <div className="text-left p-4 lg:pr-16 lg:w-1/2">
+          <h1 className="hero-title">Aulas particulares</h1>
+          <p className="hero-description">
+            Aprofunde o seu conhecimentos nas ferramentas da Microsoft.
           </p>
-          <p className="mt-8 md:mt-12">
-            <AnchorLink className="text-white hover:text-white" href="#platformsSection">
-              <Button>Ver preços</Button>
-            </AnchorLink>
-          </p>
+          <AnchorLink className="text-white hover:text-white" href="#platformsSection">
+            <Button>Ver preços</Button>
+          </AnchorLink>
         </div>
-        <div className="m-0 hidden lg:w-1/2 lg:block">
+        <div className="m-0 hidden lg:w-2/5 lg:block" style={{ margin: '0 auto' }}>
           <LottieProgramming />
         </div>
       </div>

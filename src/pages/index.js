@@ -37,7 +37,7 @@ export default () => (
             </AnchorLink>
           </Button>
         </div>
-        <div className="m-0 hidden lg:w-1/2 lg:block">
+        <div className="m-0 hidden lg:w-3/5 lg:block">
           <LottieHero />
         </div>
       </div>
