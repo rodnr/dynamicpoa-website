@@ -110,6 +110,6 @@ export default () => (
       </p>
     </section>
 
-    <script src="//code.jivosite.com/widget/xfReppaGI7" async></script>
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8385989.js"></script>
   </Layout>
 );
