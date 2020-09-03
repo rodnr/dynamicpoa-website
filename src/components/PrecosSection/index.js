@@ -636,6 +636,7 @@ const PrecosSection = () => {
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
               >
                 <p className="mb-2 font-black text-xl title">Padrão</p>
+                <div className="plan_recommended_tag">RECOMENDADO</div>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>

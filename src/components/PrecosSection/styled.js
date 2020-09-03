@@ -67,6 +67,8 @@ export const Plan = styled.a`
   }
 
   &.standard {
+    position: relative;
+
     p.title {
       font-weight: 600;
       background: rgb(59, 95, 158);
@@ -75,6 +77,20 @@ export const Plan = styled.a`
 
     .hire_button {
       background: rgb(59, 95, 158);
+    }
+
+    .plan_recommended_tag {
+      position: absolute;
+      top: 0;
+      right: -25px;
+      transform: rotate(20deg);
+
+      font-size: 12px;
+      color: #fff;
+      background: #35b86e;
+      padding: 3px 10px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.75);
     }
   }
 
