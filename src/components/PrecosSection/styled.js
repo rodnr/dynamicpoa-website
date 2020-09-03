@@ -14,6 +14,8 @@ export const Plan = styled.a`
 
   transition: all 0.6s ease;
 
+  overflow: hidden;
+
   p.title {
     font-size: 1.5rem;
     font-weight: 300;
@@ -81,14 +83,15 @@ export const Plan = styled.a`
 
     .plan_recommended_tag {
       position: absolute;
-      top: 0;
-      right: -25px;
-      transform: rotate(20deg);
+      top: 25px;
+      right: -45px;
+      transform: translate(-50%, -50%);
+      transform: rotate(45deg);
 
-      font-size: 12px;
+      font-size: 10px;
       color: #fff;
       background: #35b86e;
-      padding: 3px 10px;
+      padding: 3px 40px;
       border-radius: 5px;
       box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.75);
     }
