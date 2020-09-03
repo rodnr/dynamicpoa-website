@@ -24,21 +24,18 @@ export default () => (
     />
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
-        <div className="text-center lg:w-1/2">
-          <div className="w-1/5 mb-8 mx-auto">
-            <DynamicIcon className="" />
-          </div>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Consultoria em Microsoft 365 e Plataforma Power. Conheça nossas soluções em Excel, Power
-            BI e muito mais.
+        <div className="text-left p-4 lg:pr-16 lg:w-1/2">
+          <h1 className="hero-title">Consultoria Microsoft para empresas</h1>
+          <p className="hero-description">
+            Descubra como podemos ajudar você a aumentar a produtividade e colaboração da sua equipe
+            usando apenas as ferramentas que sua empresa já possui.
           </p>
-          <p className="mt-8 md:mt-12">
-            <Button>
-              <AnchorLink className="text-white hover:text-white" href="#solucoes">
-                Conheça as soluções
-              </AnchorLink>
-            </Button>
-          </p>
+
+          <Button>
+            <AnchorLink className="text-white hover:text-white" href="#solucoes">
+              Conheça as soluções
+            </AnchorLink>
+          </Button>
         </div>
         <div className="m-0 hidden lg:w-1/2 lg:block">
           <LottieHero />
@@ -110,6 +107,12 @@ export default () => (
       </p>
     </section>
 
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8385989.js"></script>
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/8385989.js"
+    ></script>
   </Layout>
 );
