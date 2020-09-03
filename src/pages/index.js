@@ -9,7 +9,7 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import LogoSection from '../components/LogoSection';
 import customerData from '../data/customer-data';
-import LottieWork from '../components/LottieWork';
+import LottieHero from '../components/LottieHero';
 import DynamicIcon from '../svg/DynamicIcon';
 import { Excel, PowerBI } from '../svg/SvgSheets';
 
@@ -41,7 +41,7 @@ export default () => (
           </p>
         </div>
         <div className="m-0 hidden lg:w-1/2 lg:block">
-          <LottieWork />
+          <LottieHero />
         </div>
       </div>
     </section>
