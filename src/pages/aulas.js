@@ -18,11 +18,9 @@ const AulasPage = () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Aulas particulares personalizadas</h1>
+          <h1 className="hero-title">Aulas particulares para você dominar as ferramentas da Microsoft</h1>
           <p className="hero-description">
-            Aprofunde o seu conhecimentos nas ferramentas da Microsoft. Aprofunde o seu
-            conhecimentos nas ferramentas da Microsoft. Aprofunde o seu conhecimentos nas
-            ferramentas da Microsoft.
+            Aulas personalizadas para você aprender na prática sobre as principais ferramentas do mercado, como Excel e Power BI. Tire dúvidas ao vivo e receba uma mentoria de um especialista Microsoft.
           </p>
           <AnchorLink className="text-white hover:text-white" href="#platformsSection">
             <Button>Ver preços</Button>
