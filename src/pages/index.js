@@ -31,11 +31,9 @@ export default () => (
             usando apenas as ferramentas que sua empresa já possui.
           </p>
 
-          <Button>
-            <AnchorLink className="text-white hover:text-white" href="#solucoes">
-              Conheça as soluções
-            </AnchorLink>
-          </Button>
+          <AnchorLink className="text-white hover:text-white" href="#solucoes">
+            <Button>Conheça as soluções</Button>
+          </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
           <LottieHero />
