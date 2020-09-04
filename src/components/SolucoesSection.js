@@ -36,7 +36,7 @@ const SolucoesSection = () => (
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
             <img src="/assets/img/solutions/Consultoria.png" />
-            <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Consultoria</p>>
+            <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Consultoria</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Contrate um especialista nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa,
               solucionando dúvidas técnicas, licenciamento, desenvolvendo soluções e ajudar a sua equipe a aumentar a produtividade.
