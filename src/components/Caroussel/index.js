@@ -79,9 +79,6 @@ const Caroussel = () => {
         <SwiperSlide>
         <img src="/assets/img/clients/logoOtimizare.svg" />
         </SwiperSlide>
-        <SwiperSlide>
-        <img src="/assets/img/clients/logoEngesafety.svg" />
-        </SwiperSlide>
       </Swiper>
     </S.Wrapper>
   );
