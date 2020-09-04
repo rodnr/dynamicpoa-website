@@ -91,7 +91,7 @@ export default () => (
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ficou com alguma dúvida?</h3>
       <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-        Estamos à sua disposição! Vamos encontrar a solução ideal para você ou sua empresa.
+        Estamos à sua disposição! Vamos encontrar a solução ideal para a sua empresa.
       </p>
       <p>
         <a
