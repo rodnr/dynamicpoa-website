@@ -47,8 +47,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">
-            Revolucione a forma como você usa planilhas, apresentações, formulários, e-mails, dashboards e muito mais. Tenha a sua equipe completamente
-            integrada, colaborativa e compartilhando dados em tempo real.
+            Revolucione a forma como você usa planilhas, apresentações, formulários, e-mails, dashboards e muito mais, utilizando integrações e recursos avançados.
           </p>
         </div>
       }
