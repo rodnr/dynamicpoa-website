@@ -28,23 +28,59 @@ const Caroussel = () => {
         spaceBetween={50}
         slidesPerView={3}
       >
-           <SwiperSlide>
-          <img src="/assets/img/clients/logoInspire.svg" />
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoSugar.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/clients/logoLavorolab.svg" />
+        <img src="/assets/img/clients/logoWalterscheid.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/clients/logoLightsource.svg" />
+        <img src="/assets/img/clients/logoMartiplast.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/clients/logoOtimizare.svg" />
+        <img src="/assets/img/clients/logoEco.svg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/clients/logoSugar.svg" />
+        <img src="/assets/img/clients/OSPA.svg" />
         </SwiperSlide>
-         <SwiperSlide>
-          <img src="/assets/img/clients/logoWalterscheid.svg" />
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoHT4.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoBarcellos.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoSuperSan.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoKlassmatt.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoVIP.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoGrasiele.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoActlog.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoVigitec.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoInspire.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoLavorolab.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoLightsource.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoOtimizare.svg" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src="/assets/img/clients/logoEngesafety.svg" />
         </SwiperSlide>
       </Swiper>
     </S.Wrapper>
