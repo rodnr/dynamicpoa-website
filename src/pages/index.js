@@ -25,7 +25,7 @@ export default () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Consultoria Microsoft para empresas</h1>
+          <h1 className="hero-title">Soluções Microsoft para empresas</h1>
           <p className="hero-description">
             Descubra como podemos ajudar você a aumentar a produtividade e colaboração da sua equipe
             usando apenas as ferramentas que sua empresa já possui.
@@ -47,8 +47,8 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">
-            Planilhas, apresentações, dashboards, fórmularios, etc. Substitua as tarefas repetitivas
-            e manuais na sua empresa por processos automatizados.
+            Revolucione a forma como você usa planilhas, apresentações, formulários, e-mails, dashboards e muito mais. Tenha a sua equipe completamente
+            integrada, colaborativa e compartilhando dados em tempo real.
           </p>
         </div>
       }
@@ -62,7 +62,7 @@ export default () => (
           <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
           <p className="text-gray-700 mb-4">
             Implemente as ferramentas mais novas <br /> e modernas da Microsoft. Faça a gestão da
-            sua <br /> empresa utilizando o Power BI, aplicativos <br /> ou fluxos automatizados
+            sua <br /> empresa utilizando o Power BI, aplicativos <br /> ou automatize fluxos
             entre APIs.
           </p>
         </div>
