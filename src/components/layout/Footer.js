@@ -41,7 +41,7 @@ const Footer = () => (
             </Link>
           </li>
           <li>
-            <a className="px-4" href="" target="_blank">
+            <a className="px-4" href="https://forms.office.com/Pages/ResponsePage.aspx?id=rBUgpJB7I06awUoXtAxN1O45KqynsXxChkWOBFtkIIdUNURBTkRHTloyU1ZFTEY3TTJVS1dBT0xZMS4u" target="_blank">
               Vagas
             </a>
           </li>
