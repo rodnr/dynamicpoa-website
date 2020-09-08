@@ -24,7 +24,7 @@ const SolucoesSection = () => (
       <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <img src="/assets/img/solutions/Projetos.png" />
+            <img src="/assets/img/solutions/Projetos.png" className="w-3/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Projeto</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Desenvolva projetos personalizados para sua empresa como Dashboards, planilhas automatizadas com VBA,
@@ -35,7 +35,7 @@ const SolucoesSection = () => (
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <img src="/assets/img/solutions/Consultoria.png" />
+            <img src="/assets/img/solutions/Consultoria.png" className="w-3/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Consultoria</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Contrate um especialista nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa,
@@ -45,7 +45,7 @@ const SolucoesSection = () => (
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <img src="/assets/img/solutions/Treinamentos.png" />
+            <img src="/assets/img/solutions/Treinamentos.png" className="w-3/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Treinamento</p>
             <p className="mt-4" style={{ color: '#909090' }}>
               Treinamentos corporativos in-company ou online para qualificar os colaboradores nas principais ferramentas do
