@@ -24,9 +24,9 @@ const Caroussel = () => {
   return (
     <S.Wrapper>
       <Swiper
-        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{ delay: 1000, disableOnInteraction: false }}
         spaceBetween={50}
-        slidesPerView={5}
+        slidesPerView={3}
       >
         <SwiperSlide>
         <img src="/assets/img/clients/logoSugar.svg" />
