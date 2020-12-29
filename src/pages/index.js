@@ -27,12 +27,12 @@ export default () => (
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
           <h1 className="hero-title">Soluções Microsoft para empresas</h1>
           <p className="hero-description">
-            Descubra como podemos ajudar você a aumentar a produtividade e colaboração da sua equipe
-            usando apenas as ferramentas que sua empresa já possui.
+            Descubra como podemos transformar a produtividade e colaboração da sua equipe
+            usando ferramentas que você já conhece e usa todo dia.
           </p>
 
           <AnchorLink className="text-white hover:text-white" href="#solucoes">
-            <Button>Conheça as soluções</Button>
+            <Button>Saiba mais</Button>
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
@@ -47,7 +47,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">
-            Revolucione a forma como você usa planilhas, apresentações, formulários, e-mails, dashboards e muito mais, utilizando integrações e recursos avançados.
+            Revolucione a forma como você usa planilhas, apresentações, formulários, e-mails, dashboards e muito mais, automatizando e integrando todas as ferramentas do seu dia a dia.
           </p>
         </div>
       }
@@ -60,9 +60,8 @@ export default () => (
         <div className="lg:pl-32 xl:pl-48 border-r-2 pr-8 border-primary text-right ">
           <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
           <p className="text-gray-700 mb-4">
-            Implemente as ferramentas mais novas <br /> e modernas da Microsoft. Faça a gestão da
-            sua <br /> empresa utilizando o Power BI, aplicativos <br /> ou automatize fluxos
-            entre APIs.
+            Implemente Power BI <br /> para ter acesso aos dados da sua empresa em tempo real
+            e <br /> tenha aplicativos 100% personalizados e <br /> automatizados usando planilhas, bancos de dados, APIs e muito mais.
           </p>
         </div>
       }
