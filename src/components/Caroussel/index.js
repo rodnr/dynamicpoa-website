@@ -26,7 +26,7 @@ const Caroussel = () => {
       <Swiper
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         spaceBetween={50}
-        slidesPerView={3}
+        slidesPerView={5}
       >
         <SwiperSlide>
         <img src="/assets/img/clients/logoSugar.svg" />
@@ -59,19 +59,19 @@ const Caroussel = () => {
         <img src="/assets/img/clients/logoVIP.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoGrasiele.svg" />
+        <img src="/assets/img/clients/factorybeer.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoActlog.svg" />
+        <img src="/assets/img/clients/lesaffre.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoVigitec.svg" />
+        <img src="/assets/img/clients/ageradora.svg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/logoInspire.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoLavorolab.svg" />
+        <img src="/assets/img/clients/paim.svg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/logoLightsource.svg" />
