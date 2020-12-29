@@ -38,19 +38,19 @@ const Caroussel = () => {
         <img src="/assets/img/clients/logoMartiplast.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoEco.svg" />
+        <img src="/assets/img/clients/lesaffre.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoOSPA.svg" />
+        <img src="/assets/img/clients/ageradora.svg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/logoHT4.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoBarcellos.svg" />
+        <img src="/assets/img/clients/paim.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoSuperSan.svg" />
+        <img src="/assets/img/clients/factorybeer.svg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/logoKlassmatt.svg" />
@@ -59,19 +59,19 @@ const Caroussel = () => {
         <img src="/assets/img/clients/logoVIP.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/factorybeer.svg" />
+        <img src="/assets/img/clients/logoSuperSan.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/lesaffre.svg" />
+        <img src="/assets/img/clients/logoEco.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/ageradora.svg" />
+        <img src="/assets/img/clients/logoOSPA.svg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/logoInspire.svg" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/paim.svg" />
+        <img src="/assets/img/clients/logoBarcellos.svg" />
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/logoLightsource.svg" />
