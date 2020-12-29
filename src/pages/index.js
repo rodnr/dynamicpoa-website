@@ -60,8 +60,8 @@ export default () => (
         <div className="lg:pl-32 xl:pl-48 border-r-2 pr-8 border-primary text-right ">
           <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
           <p className="text-gray-700 mb-4">
-            Implemente Power BI <br /> para ter acesso aos dados da sua empresa em tempo real
-            e <br /> tenha aplicativos 100% personalizados e <br /> automatizados usando planilhas, bancos de dados, APIs e muito mais.
+            Implemente Power BI <br /> para ter acesso aos dados <br /> da sua empresa em tempo real
+            e tenha aplicativos 100% personalizados e <br /> automatizados usando planilhas, <br /> bancos de dados, APIs e muito mais.
           </p>
         </div>
       }
