@@ -13,17 +13,17 @@ const PrecosSection = () => {
     {
       id: 1,
       name: 'Horas disponíveis/mês',
-      simples: '10h',
-      padrao: '15h',
-      completo: '20h',
+      simples: '30h',
+      padrao: '60h',
+      completo: '90h',
       father: -1
     },
     {
       id: 2,
-      name: 'Desconto em projetos e treinamentos',
-      simples: '10%',
-      padrao: '20%',
-      completo: '30%',
+      name: 'Treinamentos online/in-company inclusos',
+      simples: '-',
+      padrao: 1,
+      completo: 1,
       father: -1
     },
     {
@@ -101,17 +101,9 @@ const PrecosSection = () => {
     },
     { id: 13, name: 'Digitação', simples: 1, padrao: 1, completo: 1, father: 8 },
     {
-      id: 14,
-      name: 'Criação de planilhas colaborativas/multiusuários, com login e senha',
-      simples: 1,
-      padrao: 1,
-      completo: 1,
-      father: 8
-    },
-    {
       id: 15,
       name: 'Conexão com dados externos/APIs e tratamento de fontes de dados via Power Query',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 8
@@ -359,7 +351,7 @@ const PrecosSection = () => {
     {
       id: 52,
       name: 'Conexão com banco de dados SQL',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 46
@@ -367,7 +359,7 @@ const PrecosSection = () => {
     {
       id: 53,
       name: 'Configurações de funções/RLS',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 46
@@ -376,7 +368,7 @@ const PrecosSection = () => {
     {
       id: 55,
       name: 'Configurações de pacote de conteúdo organizacional/aplicativos',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 46
@@ -384,8 +376,8 @@ const PrecosSection = () => {
     {
       id: 56,
       name: 'Conexão com APIs ou outras fontes',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: 46
     },
@@ -399,7 +391,7 @@ const PrecosSection = () => {
     },
     {
       id: 58,
-      name: 'Criação de aplicativos de uso interno',
+      name: 'Criação de aplicativos de tela',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -409,8 +401,8 @@ const PrecosSection = () => {
     {
       id: 60,
       name: 'Criação de CDS (Common Data Service)',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: 57
     },
@@ -433,31 +425,31 @@ const PrecosSection = () => {
     {
       id: 63,
       name: 'Conexão com banco de dados/gateways',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: 61
     },
     {
       id: 64,
       name: 'Criação de fluxos de automação entre ferramentas externas',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: 61
     },
     {
       id: 65,
       name: 'Suporte em Microsoft Power Virtual Agents',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: -1
     },
     {
       id: 66,
       name: 'Suporte em Microsoft Publisher',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: -1
@@ -498,22 +490,6 @@ const PrecosSection = () => {
       id: 71,
       name: 'Suporte em Microsoft Planner',
       simples: 1,
-      padrao: 1,
-      completo: 1,
-      father: -1
-    },
-    {
-      id: 72,
-      name: 'Suporte em Microsoft Access',
-      simples: '-',
-      padrao: '-',
-      completo: 1,
-      father: -1
-    },
-    {
-      id: 73,
-      name: 'Suporte em Microsoft Project',
-      simples: '-',
       padrao: 1,
       completo: 1,
       father: -1
