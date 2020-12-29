@@ -197,7 +197,7 @@ const PrecosSection = () => {
       id: 31,
       name:
         'Criação de planilhas do Excel Online como base de dados em nuvem simples para outras ferramentas',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 28
@@ -205,8 +205,8 @@ const PrecosSection = () => {
     {
       id: 32,
       name: 'Automatização de criação, cópia e edição de arquivos',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: 28
     },
@@ -245,7 +245,7 @@ const PrecosSection = () => {
     {
       id: 37,
       name: 'Automatização de criação de contatos',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 33
@@ -253,7 +253,7 @@ const PrecosSection = () => {
     {
       id: 38,
       name: 'Automatização de criação de eventos/reuniões',
-      simples: '-',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: 33
@@ -309,8 +309,8 @@ const PrecosSection = () => {
     {
       id: 45,
       name: 'Automatização de criação, cópia e edição de arquivos e listas',
-      simples: '-',
-      padrao: '-',
+      simples: 1,
+      padrao: 1,
       completo: 1,
       father: 43
     },
