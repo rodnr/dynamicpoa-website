@@ -534,7 +534,7 @@ const PrecosSection = () => {
 
           <p className="mb-5 text-white text-xl font-thin mx-4 md:mx-0">
             {' '}
-            Tenha um especialista nas ferramentas da Microsoft à disposição da sua empresa{' '}
+            Tenha especialistas nas ferramentas da Microsoft à disposição da sua empresa{' '}
           </p>
 
           <div className="stv-radio-buttons-wrapper div-payment-types pb-4">
@@ -584,19 +584,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1890</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">163</span>
+                    <span className="plan_month">/h</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1490</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">146</span>
+                    <span className="plan_month">/h</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '30h/mês' : '30h/mês'}
+                  {tipoPlano == 'Mensal' ? '90 horas' : '360 horas'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
@@ -616,19 +616,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">3290</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">150</span>
+                    <span className="plan_month">/h</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">2590</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">128</span>
+                    <span className="plan_month">/h</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '60h/mês' : '60h/mês'}
+                  {tipoPlano == 'Mensal' ? '180 horas' : '720 horas'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -642,19 +642,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">4590</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">143</span>
+                    <span className="plan_month">/h</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">3690</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">121</span>
+                    <span className="plan_month">/h</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '90h/mês' : '90h/mês'}
+                  {tipoPlano == 'Mensal' ? '270 horas' : '1080 horas'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
