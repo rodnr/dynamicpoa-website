@@ -585,18 +585,18 @@ const PrecosSection = () => {
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">163</span>
-                    <span className="plan_month">/h</span>
+                    <span className="plan_month">/hora</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">146</span>
-                    <span className="plan_month">/h</span>
+                    <span className="plan_month">/hora</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '90 horas' : '360 horas'}
+                  {tipoPlano == 'Mensal' ? '90 horas disponíveis' : '360 horas disponíveis'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
@@ -617,18 +617,18 @@ const PrecosSection = () => {
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">150</span>
-                    <span className="plan_month">/h</span>
+                    <span className="plan_month">/hora</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">128</span>
-                    <span className="plan_month">/h</span>
+                    <span className="plan_month">/hora</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '180 horas' : '720 horas'}
+                  {tipoPlano == 'Mensal' ? '180 horas disponíveis' : '720 horas disponíveis'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -643,18 +643,18 @@ const PrecosSection = () => {
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">143</span>
-                    <span className="plan_month">/h</span>
+                    <span className="plan_month">/hora</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">121</span>
-                    <span className="plan_month">/h</span>
+                    <span className="plan_month">/hora</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '270 horas' : '1080 horas'}
+                  {tipoPlano == 'Mensal' ? '270 horas disponíveis' : '1080 horas disponíveis'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
