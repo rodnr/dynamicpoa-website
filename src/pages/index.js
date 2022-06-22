@@ -61,7 +61,7 @@ export default () => (
           <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
           <p className="text-gray-700 mb-4">
             Implemente Power BI e tenha acesso <br /> aos dados da sua empresa em tempo real <br />
-            ou crie aplicativos e chatbots 100% personalizados e <br /> automatizados usando planilhas, <br /> bancos de dados, APIs e muito mais <br /> com Power Apps, Power Virtual Agents e Power Automate.
+            ou crie aplicativos 100% personalizados e <br /> automatizados usando planilhas, <br /> bancos de dados, APIs e muito mais <br /> com Power Apps, Power Automate e mais.
           </p>
         </div>
       }
