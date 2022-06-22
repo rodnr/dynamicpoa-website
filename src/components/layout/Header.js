@@ -18,10 +18,10 @@ const Header = () => (
         <Link className="px-4" to="/" activeClassName="bg-primary text-white">
           Para Empresas
         </Link>
-        <Link className="px-4" to="/aulas" activeClassName="bg-primary text-white">
-          Para Você
-        </Link>
       </div>
+      <Link to="/treinamentos" className="px-4 font-bold mt-3 md:mt-0">
+        Treinamentos
+      </Link>
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
         Planos
       </Link>
