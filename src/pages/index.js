@@ -108,7 +108,7 @@ export default () => (
       id="hs-script-loader"
       async
       defer
-      src="//js.hs-scripts.com/8385989.js"
+      src="//js-na1.hs-scripts.com/22189317.js"
     ></script>
   </Layout>
 );
