@@ -11,24 +11,16 @@ const PrecosSection = () => {
   const [tipoPlano, setTipoPlano] = useState('Anual');
   const [dataTable] = useState([
     {
-      id: 1,
-      name: 'Horas disponíveis/mês',
-      simples: '30h',
-      padrao: '60h',
-      completo: '90h',
-      father: -1
-    },
-    {
       id: 2,
-      name: 'Treinamentos online/in-company inclusos',
-      simples: '-',
+      name: 'Gerenciamento de contas e licenças',
+      simples: 1,
       padrao: 1,
       completo: 1,
       father: -1
     },
     {
       id: 3,
-      name: 'Suporte e configuração do Administrador do Microsoft 365',
+      name: 'Implementação de Microsoft 365 e Plataforma Power',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -36,7 +28,7 @@ const PrecosSection = () => {
     },
     {
       id: 4,
-      name: 'Suporte e resolução de dúvidas em geral sobre licenciamento',
+      name: 'Suporte e resolução de dúvidas em geral sobre ferramentas',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -44,7 +36,7 @@ const PrecosSection = () => {
     },
     {
       id: 5,
-      name: 'Análise de possibilidades de automação e melhorias',
+      name: 'Mapeamento de processos para automação e digitalização',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -52,7 +44,7 @@ const PrecosSection = () => {
     },
     {
       id: 6,
-      name: 'Contato com o Suporte do Microsoft Office para resolução de problemas',
+      name: 'Contato com o Suporte Técnico da Microsoft',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -60,13 +52,13 @@ const PrecosSection = () => {
     },
     {
       id: 7,
-      name: 'Instalação e implementação das ferramentas do Microsoft 365 e Plataforma Power',
+      name: 'ServiceDesk para abertura e acompanhamento de chamados',
       simples: 1,
       padrao: 1,
       completo: 1,
       father: -1
     },
-    { id: 8, name: 'Suporte em Microsoft Excel', simples: 1, padrao: 1, completo: 1, father: 0 },
+    { id: 8, name: 'Suporte e desenvolvimento em Microsoft Excel', simples: 1, padrao: 1, completo: 1, father: 0 },
     {
       id: 9,
       name: 'Criação de planilhas/templates personalizados',
@@ -316,7 +308,7 @@ const PrecosSection = () => {
     },
     {
       id: 46,
-      name: 'Suporte em Microsoft Power BI',
+      name: 'Suporte e desenvolvimento em Microsoft Power BI',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -383,7 +375,7 @@ const PrecosSection = () => {
     },
     {
       id: 57,
-      name: 'Suporte em Microsoft Power Apps',
+      name: 'Suporte e desenvolvimento em Microsoft Power Apps',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -391,16 +383,15 @@ const PrecosSection = () => {
     },
     {
       id: 58,
-      name: 'Criação de aplicativos de tela',
+      name: 'Criação de aplicativos para tablet, computador e telefone',
       simples: 1,
       padrao: 1,
       completo: 1,
       father: 57
     },
-    { id: 59, name: 'Criação de portais', simples: '-', padrao: '-', completo: 1, father: 57 },
     {
       id: 60,
-      name: 'Criação de CDS (Common Data Service)',
+      name: 'Gerenciamento de Dataverse',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -408,7 +399,7 @@ const PrecosSection = () => {
     },
     {
       id: 61,
-      name: 'Suporte em Microsoft Power Automate',
+      name: 'Suporte e desenvolvimento em Microsoft Power Automate',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -440,7 +431,7 @@ const PrecosSection = () => {
     },
     {
       id: 65,
-      name: 'Suporte em Microsoft Power Virtual Agents',
+      name: 'Suporte e desenvolvimento em Microsoft Power Virtual Agents',
       simples: 1,
       padrao: 1,
       completo: 1,
@@ -584,19 +575,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">179</span>
-                    <span className="plan_month">/hora</span>
+                    <span className="plan_price">2149</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">149</span>
-                    <span className="plan_month">/hora</span>
+                    <span className="plan_price">1719</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '90 horas disponíveis' : '360 horas disponíveis'}
+                  {tipoPlano == 'Mensal' ? '30 horas disponíveis' : '360 horas disponíveis'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
@@ -616,19 +607,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">152</span>
-                    <span className="plan_month">/hora</span>
+                    <span className="plan_price">3869</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">122</span>
-                    <span className="plan_month">/hora</span>
+                    <span className="plan_price">3095</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '180 horas disponíveis' : '720 horas disponíveis'}
+                  {tipoPlano == 'Mensal' ? '60 horas disponíveis' : '720 horas disponíveis'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -642,19 +633,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">139</span>
-                    <span className="plan_month">/hora</span>
+                    <span className="plan_price">4869</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">109</span>
-                    <span className="plan_month">/hora</span>
+                    <span className="plan_price">3895</span>
+                    <span className="plan_month">/mês</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '270 horas disponíveis' : '1080 horas disponíveis'}
+                  {tipoPlano == 'Mensal' ? '90 horas disponíveis' : '1080 horas disponíveis'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -667,7 +658,7 @@ const PrecosSection = () => {
               >
                 <p className="mb-2 font-black text-xl title">Personalizado</p>
 
-                <div>Para planos com disponibilidade mensal ou períodos maiores</div>
+                <div>Para planos com carga horária maior</div>
                 <span className="hire_button">Contato</span>
               </S.Plan>
             </div>
