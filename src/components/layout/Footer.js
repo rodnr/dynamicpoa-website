@@ -36,8 +36,8 @@ const Footer = () => (
             </Link>
           </li>
           <li>
-            <Link className="px-4" to="/precos">
-              Preços
+            <Link className="px-4" to="/planos">
+              Planos
             </Link>
           </li>
           <li>
