@@ -79,7 +79,7 @@ const Footer = () => (
     </div>
     <p className="text-center mt-12">
       <a
-        className="italic text-gray-500"
+        className="text-sm text-gray-500"
         target="_blank"
         href="mailto:rafael@muttoni.com.br"
       >
