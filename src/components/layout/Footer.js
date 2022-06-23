@@ -79,11 +79,11 @@ const Footer = () => (
     </div>
     <p className="text-center mt-12">
       <a
-        className="hover:bg-chima hover:px-1 hover:text-white text-gray-500"
+        className="italic text-gray-500"
         target="_blank"
-        href="https://agenciachima.com/"
+        href="mailto:rafael@muttoni.com.br"
       >
-        Site desenvolvido pela Agência Chima 🧉
+        Site desenvolvido por Rafael Muttoni 👨🏻‍💻
       </a>
     </p>
   </footer>
