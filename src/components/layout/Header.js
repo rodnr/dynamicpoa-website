@@ -1,8 +1,8 @@
-import React from 'react';
 import { Link } from 'gatsby';
-import Button from '../Button';
+import React from 'react';
 import DynamicLogo from '../../svg/DynamicLogo';
 import { Whatsapp } from '../../svg/SocialIcons';
+import Button from '../Button';
 
 const Header = () => (
   <header className="sticky z-10 top-0 bg-white shadow">
@@ -24,6 +24,9 @@ const Header = () => (
       </Link>
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
         Planos
+      </Link>
+      <Link to="/blog" className="px-4 font-bold mt-3 md:mt-0">
+        Blog
       </Link>
       <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=rBUgpJB7I06awUoXtAxN1O45KqynsXxChkWOBFtkIIdUNURBTkRHTloyU1ZFTEY3TTJVS1dBT0xZMS4u" target="_blank" className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">
         Vagas

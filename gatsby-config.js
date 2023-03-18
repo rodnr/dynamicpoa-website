@@ -24,6 +24,14 @@ module.exports = {
         icon: `src/images/favicon.png`
       }
     },
+    // ${__dirname}/static/assets/img/blog needs to be the first 'gatsby-source-system' to work with gatsby-remark-images
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `uploads`,
+    //     path: `${__dirname}/static/assets/img/blog`,
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,7 +42,23 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [
+          // {
+          //   resolve: "gatsby-remark-relative-images",
+          //   options: {
+          //     name: "uploads"
+          //   }
+          // },
+          // {
+          //   resolve: "gatsby-remark-images",
+          //   options: {
+          //     maxWidth: 960,
+          //     linkImagesToOriginal: false
+          //   }
+          // },
+          // `gatsby-remark-lazy-load`,
+          // `gatsby-plugin-sharp`
+        ],
       },
     },
     {
