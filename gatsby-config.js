@@ -5,7 +5,15 @@ module.exports = {
     siteUrl: 'https://dynamicpoa.com',
     image: '/assets/img/dynamic-cover.jpeg'
   },
+  // ${__dirname}/static/assets/blog needs to be the first 'gatsby-source-system' to work with gatsby-remark-images
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img/blog`,
+      }
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -24,14 +32,6 @@ module.exports = {
         icon: `src/images/favicon.png`
       }
     },
-    // ${__dirname}/static/assets/img/blog needs to be the first 'gatsby-source-system' to work with gatsby-remark-images
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `uploads`,
-    //     path: `${__dirname}/static/assets/img/blog`,
-    //   }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -43,24 +43,25 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          // {
-          //   resolve: "gatsby-remark-relative-images",
-          //   options: {
-          //     name: "uploads"
-          //   }
-          // },
-          // {
-          //   resolve: "gatsby-remark-images",
-          //   options: {
-          //     maxWidth: 960,
-          //     linkImagesToOriginal: false
-          //   }
-          // },
-          // `gatsby-remark-lazy-load`,
-          // `gatsby-plugin-sharp`
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads"
+            }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false
+            }
+          },
+          `gatsby-remark-lazy-load`,
         ],
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-theme-codebushi`,
       options: {
