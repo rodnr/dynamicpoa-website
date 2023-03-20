@@ -7,7 +7,7 @@ const Pagination = ({ isFirst, isLast, numPages, currentPage, prevPage, nextPage
         {!isFirst && (
             <Link
                 to={prevPage}
-                className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-l"
+                className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-l"
             >
                 ← Página Anterior
             </Link>
@@ -18,7 +18,7 @@ const Pagination = ({ isFirst, isLast, numPages, currentPage, prevPage, nextPage
         {!isLast && (
             <Link
                 to={nextPage}
-                className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-r"
+                className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-r"
             >
                 Próxima Página →
             </Link>

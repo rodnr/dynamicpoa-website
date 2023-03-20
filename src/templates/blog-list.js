@@ -14,23 +14,27 @@ const BlogList = (props) => {
     return (
         <Layout>
             <SEO title="Blog" />
-            {postList.map(({ node: { frontmatter: { date, description, title }, fields: { slug } } }, i) => (
-                <PostItem
-                    key={i}
-                    slug={slug}
-                    title={title}
-                    date={date}
-                    description={description}
+            <div className="w-3/4 mx-auto">
+                {postList.map(({ node: { frontmatter: { date, description, title }, fields: { slug } } }, i) => (
+                    <PostItem
+                        key={i}
+                        slug={slug}
+                        title={title}
+                        date={date}
+                        description={description}
+                    />
+                ))}
+            </div>
+            <div className="mt-6">
+                <Pagination
+                    isFirst={currentPage === 1}
+                    isLast={currentPage === numPages}
+                    currentPage={currentPage}
+                    numPages={numPages}
+                    prevPage={currentPage - 1 === 1 ? '/blog' : `/blog/page/${currentPage - 1}`}
+                    nextPage={`/blog/page/${currentPage + 1}`}
                 />
-            ))}
-            <Pagination
-                isFirst={currentPage === 1}
-                isLast={currentPage === numPages}
-                currentPage={currentPage}
-                numPages={numPages}
-                prevPage={currentPage - 1 === 1 ? '/blog' : `/blog/page/${currentPage - 1}`}
-                nextPage={`/blog/page/${currentPage + 1}`}
-            />
+            </div>
         </Layout>
     )
 }
