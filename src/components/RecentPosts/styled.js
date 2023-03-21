@@ -19,10 +19,12 @@ export const GridContainer = styled.div`
 
 export const RecentTitle = styled.h2`
   font-size: 3rem;
-  
+  margin-bottom: 2rem;
   color: #1a202c;
 `
 
 export const RecentContainer = styled.section`
     text-align: center;
+    background-color: #edf2f7;
+    padding: 64px 0;
 `
