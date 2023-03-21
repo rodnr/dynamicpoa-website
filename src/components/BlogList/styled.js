@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const BlogTitle = styled.h2`
+  font-size: 3rem;
+  text-align: center;
+  color: #3B5F9E;
+  margin: 40px;
+  font-weight: bold;
+`
+
 export const GridContainer = styled.div`
   width: 80%;
   margin-left: auto;

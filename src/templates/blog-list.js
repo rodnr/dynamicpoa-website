@@ -15,6 +15,7 @@ const BlogList = (props) => {
     return (
         <Layout>
             <SEO title="Blog" />
+            <S.BlogTitle>Blog</S.BlogTitle>
             <S.GridContainer>
                 {postList.map(({ node: { frontmatter: { date, description, title, thumbnail }, fields: { slug } } }, i) => (
                     <PostItem
