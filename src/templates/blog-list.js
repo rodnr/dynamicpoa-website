@@ -1,6 +1,7 @@
 import { graphql } from "gatsby";
 import React from "react";
 
+import * as S from "../components/BlogList/styled";
 import Layout from "../components/layout/Layout";
 import Pagination from "../components/Pagination";
 import PostItem from "../components/PostItem";
@@ -14,18 +15,19 @@ const BlogList = (props) => {
     return (
         <Layout>
             <SEO title="Blog" />
-            <div className="w-3/4 mx-auto">
-                {postList.map(({ node: { frontmatter: { date, description, title }, fields: { slug } } }, i) => (
+            <S.GridContainer>
+                {postList.map(({ node: { frontmatter: { date, description, title, thumbnail }, fields: { slug } } }, i) => (
                     <PostItem
                         key={i}
                         slug={slug}
                         title={title}
                         date={date}
                         description={description}
+                        thumbnail={thumbnail}
                     />
                 ))}
-            </div>
-            <div className="mt-6">
+            </S.GridContainer>
+            <div className="mt-8">
                 <Pagination
                     isFirst={currentPage === 1}
                     isLast={currentPage === numPages}
@@ -52,6 +54,7 @@ query PostList($skip: Int!, $limit: Int!) {
                     date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
                     description
                     title
+                    thumbnail
                 }
                 fields {
                     slug

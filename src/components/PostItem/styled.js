@@ -4,10 +4,6 @@ import styled from "styled-components";
 export const PostLink = styled(Link)`
   text-decoration: none;
   color: #3b5f9e;
-  
-  &:hover {
-    color: white;
-  }
 `;
 
 export const PostItemWrapper = styled.div`
@@ -17,19 +13,22 @@ export const PostItemWrapper = styled.div`
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
   border: #d3d3d3 solid 1px;
-  margin-top: 1rem;  
+  height: 100%;
+  
 
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to right,#5b87b5,#3b5f9e);
+    background: linear-gradient(to bottom,#5b87b5,#3b5f9e);
+    color: white;
   }
 `;
 
 export const PostTitle = styled.h2`
-  margin: 0;
-  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  line-height: 1.2;
 `;
 
 export const PostDate = styled.p`
@@ -41,4 +40,12 @@ export const PostDescription = styled.p`
   margin: 0;
   font-size: 1.2rem;
   line-height: 1.5
+  `;
+
+export const PostImage = styled.img`
+  width: 100%;
+  height: 260px;
+  margin-bottom: 1em;
+
+  object-fit: cover;
   `
