@@ -6,6 +6,7 @@ export const GridContainer = styled.div`
   margin-right: auto;
   margin-bottom: 48px;
   display: grid;
+  text-align: left;
   grid-template-columns: repeat(3, 1fr); // 3 columns for desktop
   grid-auto-rows: minmax(600px, auto);
   gap: 0 20px; // gap between grid items

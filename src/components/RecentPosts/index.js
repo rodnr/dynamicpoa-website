@@ -47,7 +47,7 @@ const RecentPosts = () => {
                 ))}
             </S.GridContainer>
             <Link to="/blog">
-                <Button>Blog</Button>
+                <Button>Ver todos posts</Button>
             </Link>
         </S.RecentContainer>
     )
