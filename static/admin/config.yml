@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   repo: rafaelmuttoni/dynamic-website
   branch: blog
-  access_token: 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
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img/blog"
