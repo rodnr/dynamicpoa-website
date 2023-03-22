@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rafaelmuttoni/dynamic-website-project-2.0
+  repo: rafaelmuttoni/dynamic-website
   branch: blog
 
 publish_mode: editorial_workflow
