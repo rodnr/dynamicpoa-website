@@ -15,9 +15,9 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 lg:mr-auto lg:ml-4 sm:mt-0">
-        <Link className="px-4" to="/" activeClassName="bg-primary text-white">
+        {/* <Link className="px-4 bg-primary text-white" to="/" activeClassName="bg-primary text-white">
           Para Empresas
-        </Link>
+        </Link> */}
       </div>
       <Link to="/treinamentos" className="px-4 font-bold mt-3 md:mt-0">
         Treinamentos
