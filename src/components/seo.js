@@ -1,7 +1,7 @@
-import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
+import React from "react"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
@@ -23,7 +23,7 @@ function SEO({ description, lang, meta, title, image }) {
 
   const url = site.siteMetadata.siteUrl
 
-  const ogImage = `${url}/assets/img/dynamic-cover.jpeg`
+  const ogImage = `${url}${image || "/assets/img/dynamic-cover.jpeg"}`
 
   return (
     <Helmet
