@@ -5,7 +5,15 @@ module.exports = {
     siteUrl: 'https://dynamicpoa.com',
     image: '/assets/img/dynamic-cover.jpeg'
   },
+  // ${__dirname}/static/assets/blog needs to be the first 'gatsby-source-system' to work with gatsby-remark-images
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img/blog`,
+      }
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -25,6 +33,36 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads"
+            }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false
+            }
+          },
+          `gatsby-remark-lazy-load`,
+        ],
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
       resolve: `gatsby-theme-codebushi`,
       options: {
         tailwindConfig: `tailwind.config.js`
@@ -32,6 +70,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-netlify-cms`
   ]
 };

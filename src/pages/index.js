@@ -6,15 +6,13 @@ import Button from '../components/Button';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
-import SplitSection from '../components/SplitSection';
-import LogoSection from '../components/LogoSection';
-import customerData from '../data/customer-data';
 import LottieHero from '../components/LottieHero';
-import DynamicIcon from '../svg/DynamicIcon';
-import { Excel, PowerBI } from '../svg/SvgSheets';
+import SplitSection from '../components/SplitSection';
+import customerData from '../data/customer-data';
 
-import SolucoesSection from '../components/SolucoesSection';
 import Caroussel from '../components/Caroussel';
+import RecentPosts from '../components/RecentPosts';
+import SolucoesSection from '../components/SolucoesSection';
 
 export default () => (
   <Layout>
@@ -70,6 +68,7 @@ export default () => (
     />
     <LabelText className="mb-8 mt-24 text-gray-600 text-center">Clientes</LabelText>
     <Caroussel />
+    <RecentPosts />
     <section id="depoimentos" className="py-10 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-<600 text-center">
