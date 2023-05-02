@@ -80,7 +80,7 @@ const ClassesPlatforms = () => {
               <ClassesPlan
                 name="Avançado"
                 hours="15"
-                description="Power Query e VBA"
+                description="Power Query e outros recursos avançados"
                 icon={<FaCode size={48} color="#D9D9D9" />}
                 price="259/pessoa*"
                 link="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20treinamento%20de%20Excel%20Avancado"
@@ -120,7 +120,7 @@ const ClassesPlatforms = () => {
               <ClassesPlan
                 name="Básico"
                 hours="4"
-                description="Conceitos básicos do Power BI"
+                description="Conceitos básicos e fundamentais do Power BI"
                 icon={<FaChartBar size={48} color="#D9D9D9" />}
                 price="129/pessoa*"
                 link="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20treinamento%20de%20Power%20BI%20Basico"
