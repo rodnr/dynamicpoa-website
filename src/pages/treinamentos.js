@@ -13,17 +13,17 @@ const AulasPage = () => (
   <Layout>
     <SEO
       title="Treinamentos"
-      description="Conheça nossas soluções para você se destacar com as ferramentas Microsoft! Soluções para Excel, PowerPoint, Power BI, entre outras."
+      description="Conheça nossas soluções para você qualificar a sua empresa com as ferramentas Microsoft! Treinamentos para Excel, Power Apps, Power BI, entre outros."
     />
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Aulas particulares para você dominar as ferramentas da Microsoft</h1>
+          <h1 className="hero-title">Treinamentos corporativos in-company e online</h1>
           <p className="hero-description">
-            Aulas personalizadas para você aprender na prática sobre as principais ferramentas do mercado, como Excel e Power BI. Tire dúvidas ao vivo e receba uma mentoria de um especialista Microsoft.
+            Capacite os colaboradores da sua empresa nas ferramentas da Microsoft 365 e Plataforma Power e potencialize a produtividade das equipes.
           </p>
           <AnchorLink className="text-white hover:text-white" href="#platformsSection">
-            <Button>Ver preços</Button>
+            <Button>Conheça</Button>
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
