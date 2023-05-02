@@ -20,8 +20,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Certificado</S.BenefitTitle>
           <S.BenefitDescription>
-            Ao concluir um nível, você recebe um certificado digital autenticado para complementar o
-            currículo.
+            Nossos treinamentos possuem certificados válidos como parceiro da Microsoft.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -32,8 +31,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Online</S.BenefitTitle>
           <S.BenefitDescription>
-            As aulas são realizadas através do Microsoft Teams e você pode revê-las a qualquer
-            momento.
+            Os treinamentos podem ser gravados para ser assistido posteriormente.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -44,7 +42,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Flexível</S.BenefitTitle>
           <S.BenefitDescription>
-            Você pode escolher o horário e duração de sua preferência para realizar as aulas.
+           Horários flexíveis de acordo com a realidade da empresa.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -55,7 +53,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Consultoria</S.BenefitTitle>
           <S.BenefitDescription>
-            Consultoria por WhatsApp por 15 dias após a conclusão das aulas para solucionar dúvidas.
+            Consultoria gratuita após o treinamento para auxiliar os participantes a aplicar os conteúdos na prática.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -66,8 +64,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Instantâneo</S.BenefitTitle>
           <S.BenefitDescription>
-            Você tem liberdade de perguntar a qualquer momento durante a aula e mostrar exemplos na
-            sua tela.
+            Conteúdos personalizados de acordo com o público-alvo do treinamento, setores, níveis de conhecimento e objetivos.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -78,8 +75,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Exercícios</S.BenefitTitle>
           <S.BenefitDescription>
-            Lista de exercícios e desafios enviados para serem resolvidos após a conclusão das
-            aulas.
+            Exercícios práticos e apostila para avaliar a qualidade do treinamento e do aprendizado.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
