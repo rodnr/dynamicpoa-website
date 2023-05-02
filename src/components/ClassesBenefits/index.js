@@ -31,7 +31,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Online</S.BenefitTitle>
           <S.BenefitDescription>
-            Os treinamentos podem ser gravados para ser assistido posteriormente.
+            Os treinamentos podem ser gravados para serem assistidos posteriormente.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -42,7 +42,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Flexível</S.BenefitTitle>
           <S.BenefitDescription>
-           Horários flexíveis de acordo com a realidade da empresa.
+           Horários flexíveis de acordo com a disponibilidade da empresa.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -53,7 +53,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Consultoria</S.BenefitTitle>
           <S.BenefitDescription>
-            Consultoria gratuita após o treinamento para auxiliar os participantes a aplicar os conteúdos na prática.
+            Consultoria gratuita após o treinamento para auxiliar os participantes a aplicarem os conteúdos na prática.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -62,9 +62,9 @@ const ClassesBenefits = () => (
           <img src={instantaneoIcon} alt="Instantaneo" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Instantâneo</S.BenefitTitle>
+          <S.BenefitTitle>Personalização</S.BenefitTitle>
           <S.BenefitDescription>
-            Conteúdos personalizados de acordo com o público-alvo do treinamento, setores, níveis de conhecimento e objetivos.
+            Conteúdos personalizados de acordo com o público-alvo: setores, níveis de conhecimento e objetivos.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -73,7 +73,7 @@ const ClassesBenefits = () => (
           <img src={exerciciosIcon} alt="Exercicios" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Exercícios</S.BenefitTitle>
+          <S.BenefitTitle>Avaliação</S.BenefitTitle>
           <S.BenefitDescription>
             Exercícios práticos e apostila para avaliar a qualidade do treinamento e do aprendizado.
           </S.BenefitDescription>
