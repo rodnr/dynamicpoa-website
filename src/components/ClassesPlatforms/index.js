@@ -17,7 +17,7 @@ const ClassesPlatforms = () => {
 
   return (
     <S.PlatformsSection id="platformsSection">
-      <S.PlatformsTitle>Qual plataforma você deseja aprender?</S.PlatformsTitle>
+      <S.PlatformsTitle>Conheça os treinamentos disponíveis para sua empresa</S.PlatformsTitle>
       <S.PlatformsWrapper>
         <S.PlatformBox
           className={platform === 'Microsoft Excel' && 'active'}
@@ -64,31 +64,31 @@ const ClassesPlatforms = () => {
               <ClassesPlan
                 name="Básico"
                 hours="4"
-                description="Aprenda o fundamental sobre planilhas"
+                description="Conceitos básicos sobre planilhas"
                 icon={<FaGraduationCap size={48} color="#D9D9D9" />}
                 price="291"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R57DJTLFU8VY2"
               />
               <ClassesPlan
                 name="Intermediário"
-                hours="4"
-                description="Crie fórmulas complexas e tabelas dinâmicas"
+                hours="6"
+                description="Fórmulas como PROCV, CORRESP e tabelas dinâmicas"
                 icon={<FaCalculator size={48} color="#D9D9D9" />}
                 price="499"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=28DRFJLD3XH9L"
               />
               <ClassesPlan
                 name="Avançado"
-                hours="10"
-                description="Explore a programação do Excel usando VBA"
+                hours="15"
+                description="Power Query e VBA"
                 icon={<FaCode size={48} color="#D9D9D9" />}
                 price="879"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RUTCWVSXDNLBL"
               />
               <ClassesPlan
                 name="Dashboards"
-                hours="6"
-                description="Desenvolva Dashboards com design modernos"
+                hours="8"
+                description="Dashboards com design moderno"
                 icon={<FaChartPie size={48} color="#D9D9D9" />}
                 price="699"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L7B6FSV6EZG74"
@@ -97,9 +97,9 @@ const ClassesPlatforms = () => {
           )}
           {platform === 'Microsoft PowerPoint' && (
             <ClassesPlan
-              name="Básico"
-              hours="4"
-              description="Aprenda o fundamental sobre apresentações"
+              name="Completo"
+              hours="15"
+              description="Aprenda do básico ao avançado sobre apresentações"
               icon={<FaChalkboardTeacher size={48} color="#D9D9D9" />}
               price="291"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4ACPX42PDUWMU"
@@ -108,8 +108,8 @@ const ClassesPlatforms = () => {
           {platform === 'Microsoft Word' && (
             <ClassesPlan
               name="Básico"
-              hours="4"
-              description="Aprenda o fundamental sobre documentos"
+              hours="15"
+              description="Aprenda do básico ao avançado para automatizar documentos"
               icon={<FaFileAlt size={48} color="#D9D9D9" />}
               price="291"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2K4LFD87TTFHN"
@@ -120,15 +120,15 @@ const ClassesPlatforms = () => {
               <ClassesPlan
                 name="Básico"
                 hours="4"
-                description="Conheça a plataforma que cada vez mais cresce no mercado"
+                description="Conceitos básicos do Power BI"
                 icon={<FaChartBar size={48} color="#D9D9D9" />}
                 price="391"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3V7WP6DM46LFW"
               />
               <ClassesPlan
                 name="Intermediário"
-                hours="5"
-                description="Aprenda técnicas e conceitos de BI, UI, UX e Design na criação de Dashboards"
+                hours="6"
+                description="Aprenda técnicas e conceitos de BI e UI/UX na criação de Dashboards"
                 icon={<FaPalette size={48} color="#D9D9D9" />}
                 price="573"
                 link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VY63CURS6LBQE"
@@ -145,9 +145,9 @@ const ClassesPlatforms = () => {
           )}
           {platform === 'Power Apps' && (
             <ClassesPlan
-              name="Básico"
-              hours="5"
-              description="Aprenda a criar aplicativos empresariais sem precisar programar"
+              name="Completo"
+              hours="20"
+              description="Aprenda a criar aplicativos empresariais sem códigos"
               icon={<FaMobileAlt size={48} color="#D9D9D9" />}
               price="531"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K4LGMALZFWQNY"
@@ -155,9 +155,9 @@ const ClassesPlatforms = () => {
           )}
           {platform === 'Power Automate' && (
             <ClassesPlan
-              name="Básico"
-              hours="4"
-              description="Saiba como automatizar processos criando fluxos entre APIs"
+              name="Completo"
+              hours="15"
+              description="Tudo sobre automação de processos criando fluxos entre APIs"
               icon={<FaSitemap size={48} color="#D9D9D9" />}
               price="399"
               link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WMK58QZTMVJVW"
