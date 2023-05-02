@@ -27,8 +27,8 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Projetos.png" className="w-3/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Projeto</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Desenvolva projetos personalizados para sua empresa como Dashboards, planilhas automatizadas com VBA,
-              aplicativos mobile corporativos, intranets, automação de processos e muito
+              Desenvolva projetos personalizados para sua empresa como dashboards,
+              aplicativos web e mobile, intranets, automação de processos e muito
               mais com as ferramentas mais integradas no mercado.
             </p>
           </Card>
@@ -38,8 +38,8 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Consultoria.png" className="w-3/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Consultoria</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Contrate um especialista nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa,
-              solucionando dúvidas técnicas, licenciamento, desenvolvendo soluções e ajudar a sua equipe a aumentar a produtividade.
+              Contrate especialistas nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa,
+              solucionando dúvidas técnicas, licenciamento, desenvolvendo soluções e ajudando a sua equipe a aumentar a produtividade.
             </p>
           </Card>
         </div>
