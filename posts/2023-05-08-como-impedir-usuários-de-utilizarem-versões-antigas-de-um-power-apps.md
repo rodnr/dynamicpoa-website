@@ -6,6 +6,10 @@ description: >-
 date: '2023-05-08 03:16:31'
 thumbnail: /assets/img/blog/group-893.png
 ---
+![](/assets/img/blog/capa.jpg)
+
+\
+\
 Descubra como criar um controle de versões de aplicativo para Power Apps de forma simples e rápida! Com apenas alguns passos, você poderá resolver o problema da demora na atualização para nova versão ao publicá-la e garantir que seus usuários sempre usem a versão mais recente. 
 
 Se você precisa já precisou publicar uma nova versão de um aplicativo em Power Apps, de repente por conta de algum bug, ou melhoria, como por exemplo, obrigar o preenchimento de algum campo em um formulário e percebeu que os usuários continuavam utilizando a versão antiga, este passo a passo será útil pois irá te ajudar a criar um controle de versões de aplicativo usando listas do SharePoint. O problema ocorre majoritariamente devido ao cache do navegador ou de uma demora na sincronização na Microsoft, mas você pode resolver de uma forma bem simples:
