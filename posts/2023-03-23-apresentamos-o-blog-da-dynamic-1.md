@@ -6,9 +6,11 @@ description: >-
 date: '2023-03-23 12:47:59'
 thumbnail: /assets/img/blog/dynamics-2.png
 ---
-# **Bem-vindos** ao nosso novo blog!
+# **Bem-vindos ao nosso novo blog!**
 
+# ****
 
+![](/assets/img/blog/maos-masculinas-teclando-em-laptop-em-mesa-de-escr.jpeg)
 
 Estamos muito animados em compartilhar com vocês nossas dicas, exemplos de projetos, notícias da empresa e muito mais.
 
