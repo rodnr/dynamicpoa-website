@@ -45,7 +45,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">
-            Revolucione a forma como você usa planilhas, apresentações, formulários, e-mails, dashboards e muito mais, automatizando e integrando todas as ferramentas do seu dia a dia.
+            Revolucione a forma como você usa Excel, Teams, SharePoint, Forms e mais, através de nossa consultoria técnica.
           </p>
         </div>
       }
@@ -58,8 +58,8 @@ export default () => (
         <div className="lg:pl-32 xl:pl-48 border-r-2 pr-8 border-primary text-right ">
           <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
           <p className="text-gray-700 mb-4">
-            Implemente Power BI e tenha acesso <br /> aos dados da sua empresa em tempo real <br />
-            ou crie aplicativos 100% personalizados e <br /> automatizados usando planilhas, <br /> bancos de dados, APIs e muito mais <br /> com Power Apps, Power Automate e mais.
+            Implemente Power BI, Power Apps, Power Automate <br /> e mais ferramentas low-code <br />
+            para automatizar e digitalizar <br /> processos em pouco tempo, <br /> conectando em bancos de dados, APIs ou até planilhas.
           </p>
         </div>
       }
