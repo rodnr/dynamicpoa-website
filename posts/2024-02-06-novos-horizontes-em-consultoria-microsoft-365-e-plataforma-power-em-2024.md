@@ -6,24 +6,24 @@ thumbnail: /assets/img/blog/unsplash_376kn_isple.png
 ---
 Olá, parceiros e clientes!
 
+Estamos empolgados em compartilhar as novidades que 2024 trouxe para a nossa empresa. Para este ano, estamos lançando novos modelos de planos de consultoria em Microsoft 365 e Plataforma Power, projetados para atender às diversas necessidades do mercado.
 
+Todos os planos contemplam um saldo de horas e um custo mensal, mas cada um tem um diferente objetivo:
 
-Estamos empolgados em compartilhar as novidades que 2024 trouxe para a nossa empresa, este ano marca o lançamento de novos planos de consultoria em Microsoft 365 e Plataforma Power, projetados para atender às diversas necessidades da sua empresa.
+1. Suporte
 
-1. Desenvolvimento
+Para atender às necessidades das empresas que buscam apenas suporte no Microsoft 365, como dúvidas em Excel, Power BI, SharePoint, Teams, entre outras plataformas ou até mesmo licenciamento e configurações de usuários. Neste modelo, disponibilizaremos uma plataforma para abertura de chamados de suporte.
 
-Nosso modelo tradicional de Desenvolvimento continua a oferecer soluções personalizadas e eficientes em ferramentas como Power Apps, SharePoint, Power BI, entre outras. Estamos comprometidos em impulsionar a inovação e a produtividade, criando soluções que se alinham perfeitamente às suas metas.
+2. Desenvolvimento
 
-2. Suporte
-
-Para atender às necessidades das empresas que buscam uma abordagem mais básica, introduzimos o plano de Suporte. Com este serviço, estamos prontos para solucionar qualquer problema, oferecer assistência técnica e garantir que sua infraestrutura esteja sempre operacional e otimizada.
+Nosso modelo tradicional de Desenvolvimento também tem novidades, onde além do suporte e desenvolvimento de soluções na Plataforma Power, também estaremos realizando um mapeamento de processos para identificar pontos de melhorias em processos não automatizados, repetitivos, manuais ou até mesmo não digitalizados (como por exemplo, processos que são feitos em aplicativos de mensagem). 
 
 3. Gerencial
 
-Nosso plano Gerencial foi concebido para aliviar o fardo administrativo de sua equipe. Assumiremos a responsabilidade pela administração completa do ambiente, aprovando soluções desenvolvidas pelos seus colaboradores. Isso permite que sua equipe se concentre nas atividades principais, enquanto nós cuidamos da eficiência e segurança.
+Uma das nossas apostas para o ano é o plano Gerencial, onde além de ter todos os benefícios de Suporte e Desenvolvimento, nosso foco será potencializar os colaboradores da empresa a criarem suas próprias soluções no Microsoft 365 com a nossa supervisão e consultoria, onde estaremos padronizando o ambiente e gerenciando todas as soluções desenvolvidas, para reaproveitar informações e construir um fluxo de informações para todas as áreas consumirem.
 
 E ai, gostou e quer saber mais? Entre em contato conosco!
 
-Estamos ansiosos para compartilhar mais detalhes sobre esses novos planos e discutir como podem ser adaptados às necessidades específicas da sua empresa, acreditamos que a flexibilidade é a chave para o sucesso, e estamos aqui para personalizar nossos serviços de acordo com suas metas e desafios.\
-\
+Estamos ansiosos para compartilhar mais detalhes sobre esses novos planos e discutir como podem ser adaptados às necessidades específicas da sua empresa, acreditamos que a flexibilidade é a chave para o sucesso, e estamos aqui para personalizar nossos serviços de acordo com suas metas e desafios.
+
 Ficamos à disposição para responder a todas as suas perguntas e discutir como podemos colaborar para alcançar seus objetivos em 2024.
