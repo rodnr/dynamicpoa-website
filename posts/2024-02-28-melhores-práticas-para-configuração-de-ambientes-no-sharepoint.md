@@ -4,7 +4,7 @@ description: >-
   Orientações detalhadas sobre as melhores práticas para configurar ambientes
   eficientes e seguros no SharePoint
 date: '2024-02-28 03:07:11'
-thumbnail: /assets/img/blog/unsplash_rxpthowuvge.png
+thumbnail: /assets/img/blog/phone-and-tablet-mockup.png
 ---
 ![](/assets/img/blog/phone-and-tablet-mockup.png)
 
