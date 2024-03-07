@@ -65,9 +65,6 @@ const Caroussel = () => {
         <img src="/assets/img/clients/12.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/1.png" />
-        </SwiperSlide>
-        <SwiperSlide>
         <img src="/assets/img/clients/13.png" />
         </SwiperSlide>
         <SwiperSlide>
