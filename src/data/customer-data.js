@@ -5,7 +5,7 @@ export default [
       'Trabalhar com a Dynamic nos traz tranquilidade. A equipe atua com auto grau de profissionalismo. Os dashboards desenvolvidos para nossa operação facilitam a gestão do dia a dia. Fizemos alguns trabalhos e, certamente, faremos outros. Temos que valorizar bons prestadores e construir uma relação duradoura.',
     customerName: 'Eber Souza',
     customerTitle: 'Marketing, Produto e Operações na EcoAssist',
-    customerImage: 'https://ecoassist.com.br/wp-content/uploads/2023/07/Descarte-de-Residuos19.svg'
+    customerImage: 'https://ecoassist.com.br/wp-content/uploads/2023/08/ecoassist_novamarca22_positiva-1-300x210.png'
   },
   {
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
@@ -18,9 +18,9 @@ export default [
   {
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
     content:
-      'Quando o assunto é Microsoft sabemos que a Dynamic vai saber resolver. Não conheço nenhuma empresa mais capacitada que eles na área. Desenvolveram meu sistema completo e um dashboard para controle de dados, pelo valor recebido acabou saindo por um preço muito baixo.',
-    customerName: 'Rafael Muttoni',
-    customerTitle: 'CTO na Agência Chima',
-    customerImage: 'https://www.versatilandaimes.com.br/images/logo_versatil.png'
+      'Se eu pudesse resumir a Dynamic em uma palavra ela seria, solução! Eles são especialistas em resolver problemas.',
+    customerName: 'Ayrton Meira',
+    customerTitle: 'Disruptec Brasil',
+    customerImage: 'https://media.licdn.com/dms/image/C4E0BAQEk8P0t84lAPA/company-logo_200_200/0/1647036573513?e=2147483647&v=beta&t=2dbHotQIQDndBvyCXubFuobEoGNfxwva7jyablgvT3s'
   }
 ];
