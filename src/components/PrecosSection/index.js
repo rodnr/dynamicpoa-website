@@ -10,7 +10,7 @@ import * as S from './styled';
 const PrecosSection = () => {
   const [tipoPlano, setTipoPlano] = useState('Anual');
   const [dataTable] = useState([
-    { id: 1, name: 'Implementação do Microsoft 365 e Plataforma Power', simples: 1, padrao: 1, completo: 1, father:0},
+{ id: 1, name: 'Implementação do Microsoft 365 e Plataforma Power', simples: 1, padrao: 1, completo: 1, father:0},
 { id: 2, name: 'Gerenciamento de usuários, licenciamentos e armazenamento', simples: 1, padrao: 1, completo: 1, father:0},
 { id: 3, name: 'Configurações de acessos', simples: 1, padrao: 1, completo: 1, father:0},
 { id: 4, name: 'Suporte e resolução de dúvidas em geral sobre ferramentas', simples: 1, padrao: 1, completo: 1, father:0},
@@ -131,7 +131,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-m" className="p-1">
-                  Contrato Trimestral
+                  Contrato Mensal
                 </label>
               </li>
               <li className="payment-type" style={{ position: 'relative' }}>
@@ -161,23 +161,23 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
               >
-                <p className="mb-2 font-black text-xl title">Básico</p>
+                <p className="mb-2 font-black text-xl title">Suporte</p>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">2149</span>
+                    <span className="plan_price">590</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1719</span>
+                    <span className="plan_price">472</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '30 horas disponíveis' : '360 horas disponíveis'}
+                  {tipoPlano == 'Mensal' ? 'A partir de 5h/mês' : 'A partir de 5h/mês'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
@@ -192,24 +192,24 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
               >
-                <p className="mb-2 font-black text-xl title">Padrão</p>
+                <p className="mb-2 font-black text-xl title">Desenvolvimento</p>
                 <div className="plan_recommended_tag">RECOMENDADO</div>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">3869</span>
+                    <span className="plan_price">4470</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">3095</span>
+                    <span className="plan_price">3576</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '60 horas disponíveis' : '720 horas disponíveis'}
+                  {tipoPlano == 'Mensal' ? 'A partir de 30h/mês' : 'A partir de 30h/mês'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -223,19 +223,19 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">4869</span>
+                    <span className="plan_price">8690</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">3895</span>
+                    <span className="plan_price">6952</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? '90 horas disponíveis' : '1080 horas disponíveis'}
+                  {tipoPlano == 'Mensal' ? 'A partir de 45h/mês' : 'A partir de 45h/mês'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -248,7 +248,7 @@ const PrecosSection = () => {
               >
                 <p className="mb-2 font-black text-xl title">Personalizado</p>
 
-                <div>Para planos com carga horária maior</div>
+                <div>Para planos personalizados</div>
                 <span className="hire_button">Contato</span>
               </S.Plan>
             </div>
@@ -261,7 +261,7 @@ const PrecosSection = () => {
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Suporte e desenvolvimento de ferramentas nas plataformas:
+            Soluções para todas as plataformas:
           </p>
 
           <div className="text-center mt-16">
@@ -272,8 +272,8 @@ const PrecosSection = () => {
             <thead>
               <tr>
                 <th className="lg:px-4 lg:py-2" />
-                <th className="lg:px-4 lg:py-2">Básico</th>
-                <th className="lg:px-4 lg:py-2">Padrão</th>
+                <th className="lg:px-4 lg:py-2">Suporte</th>
+                <th className="lg:px-4 lg:py-2">Desenvolvimento</th>
                 <th className="lg:px-4 lg:py-2">Completo</th>
               </tr>
             </thead>
