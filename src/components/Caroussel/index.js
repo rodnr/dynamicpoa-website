@@ -29,56 +29,49 @@ const Caroussel = () => {
         slidesPerView={3}
       >
         <SwiperSlide>
-        <img src="/assets/img/clients/logoSugar.svg" />
+        <img src="/assets/img/clients/1.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoWalterscheid.svg" />
+        <img src="/assets/img/clients/2.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoMartiplast.svg" />
+        <img src="/assets/img/clients/3.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/lesaffre.svg" />
+        <img src="/assets/img/clients/4.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/ageradora.svg" />
+        <img src="/assets/img/clients/5.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoHT4.svg" />
+        <img src="/assets/img/clients/6.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/paim.svg" />
+        <img src="/assets/img/clients/7.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/factorybeer.svg" />
+        <img src="/assets/img/clients/8.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoKlassmatt.svg" />
+        <img src="/assets/img/clients/9.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoVIP.svg" />
+        <img src="/assets/img/clients/10.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoSuperSan.svg" />
+        <img src="/assets/img/clients/11.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoEco.svg" />
+        <img src="/assets/img/clients/12.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoOSPA.svg" />
+        <img src="/assets/img/clients/1.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoInspire.svg" />
+        <img src="/assets/img/clients/13.png" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="/assets/img/clients/logoBarcellos.svg" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src="/assets/img/clients/logoLightsource.svg" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src="/assets/img/clients/logoOtimizare.svg" />
-        </SwiperSlide>
+        <img src="/assets/img/clients/14.png" />
       </Swiper>
     </S.Wrapper>
   );
