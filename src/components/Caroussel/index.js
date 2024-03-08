@@ -25,7 +25,7 @@ const Caroussel = () => {
     <S.Wrapper>
       <Swiper
         autoplay={{ delay: 3000, disableOnInteraction: false }}
-        spaceBetween={60}
+        spaceBetween={120}
         slidesPerView={5}
       >
         <SwiperSlide>
