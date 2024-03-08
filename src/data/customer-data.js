@@ -5,7 +5,7 @@ export default [
       'Trabalhar com a Dynamic nos traz tranquilidade. A equipe atua com auto grau de profissionalismo. Os dashboards desenvolvidos para nossa operação facilitam a gestão do dia a dia. Fizemos alguns trabalhos e, certamente, faremos outros. Temos que valorizar bons prestadores e construir uma relação duradoura.',
     customerName: 'Eber Souza',
     customerTitle: 'Marketing, Produto e Operações na EcoAssist',
-    customerImage: 'https://ecoassist.com.br/wp-content/uploads/2023/08/ecoassist_novamarca22_positiva-1-300x210.png'
+    customerImage: 'https://raichu-uploads.s3.amazonaws.com/logo_ecoassist-servicos-sustentaveis_f4lYYs.png'
   },
   {
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
