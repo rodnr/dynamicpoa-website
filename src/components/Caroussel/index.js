@@ -69,6 +69,7 @@ const Caroussel = () => {
         </SwiperSlide>
         <SwiperSlide>
         <img src="/assets/img/clients/14.png" />
+        </SwiperSlide>
       </Swiper>
     </S.Wrapper>
   );
