@@ -24,9 +24,9 @@ const Caroussel = () => {
   return (
     <S.Wrapper>
       <Swiper
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
-        spaceBetween={120}
-        slidesPerView={5}
+        autoplay={{ delay: 1500, disableOnInteraction: false }}
+        spaceBetween={250}
+        slidesPerView={4}
       >
         <SwiperSlide>
         <img src="/assets/img/clients/1.png" />
