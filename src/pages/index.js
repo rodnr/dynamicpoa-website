@@ -58,7 +58,7 @@ export default () => (
         <div className="lg:pl-32 xl:pl-48 border-r-2 pr-8 border-primary text-right ">
           <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
           <p className="text-gray-700 mb-4">
-            Automatize e digitalize processos com ferramentas low-code como <br>
+            Automatize e digitalize processos com ferramentas low-code como <br/>
           Power BI, Power Apps e Power Automate
           </p>
         </div>
