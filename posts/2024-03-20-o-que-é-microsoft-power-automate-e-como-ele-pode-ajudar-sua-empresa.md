@@ -4,7 +4,7 @@ description: >-
   Entenda como funciona a ferramenta de automação de processos via API e RPA da
   Microsoft e sobre como funciona nossa consultoria em Power Automate.
 date: '2024-03-20 04:33:13'
-thumbnail: /assets/img/blog/1.jpeg
+thumbnail: /assets/img/blog/o-que-e-power-automate.png
 ---
 
 
