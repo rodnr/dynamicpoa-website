@@ -17,3 +17,7 @@ A implementação do SharePoint na sua empresa pode trazer inúmeras aplicaçõe
 * **LGPD e outras conformidades:** Avalie as possibilidades que o Microsoft 365 traz de GDPR/LGPD para garantir a adequação às normas de segurança e proteção dos dados, para facilitar processos de auditoria ou evitar vazamento de informações. No Centro de Conformidade e Segurança, você consegue criar políticas ou avaliar novos licenciamentos que oferecem uma gama de recursos de segurança.
 
 Para configurar sites de SharePoint eficazes, performáticos e seguros existem várias etapas a serem seguidas. Apesar de ser fácil, é sempre importante contar com profissionais que entendam a estrutura da empresa para encontrar a melhor configuração possível e evitar possíveis problemas de segurança futuramente.
+
+
+
+Palavras-chave: Implantação SharePoint, Implementação SharePoint, SharePoint para Empresas, O que é SharePoint, Consultoria SharePoint, Desenvolvedor de SharePoint, SharePoint 365, Intranet para Empresas, Intranet SharePoint
