@@ -4,12 +4,10 @@ description: Como a qualificação em SharePoint transformou a gestão na Securi
 date: '2024-07-29 03:12:45'
 thumbnail: /assets/img/blog/blog-treinamento-security-4it.png
 ---
-![](/assets/img/blog/whatsapp-image-2024-07-29-at-12.09.52.jpeg)
+![](/assets/img/blog/erg.png)
 
 \
 Investir na qualificação dos colaboradores é um dos pilares para o crescimento sustentável de qualquer empresa. Treinamentos eficazes não apenas aprimoram as habilidades de cada colaborador, mas também promovem a eficiência e a colaboração dentro das equipes. Ao oferecer treinamentos on-line e presencial, sua empresa garante que todos estejam alinhados com as melhores práticas e tecnologias disponíveis, resultando em um ambiente de trabalho mais produtivo e inovador.
-
-
 
 Há um tempo atrás implementamos um projeto novo para a Security4IT, onde desenvolvemos uma intranet robusta utilizando o SharePoint, o objetivo principal desta intranet era centralizar informações e solicitações relacionadas ao RH/DP, proporcionando um canal eficiente para gestão de recursos humanos.
 
