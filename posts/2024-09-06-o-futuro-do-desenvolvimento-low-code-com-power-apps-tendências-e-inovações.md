@@ -1,5 +1,5 @@
 ---
-title: 'O Futuro do Desenvolvimento Low-Code com Power Apps: Tendências e Inovações'
+title: 'O futuro do desenvolvimento Low-Code com Power Apps: Tendências e inovações'
 description: >-
   Como as novas tecnologias estão transformando o desenvolvimento Low-Code e
   inovando com o Power Apps
