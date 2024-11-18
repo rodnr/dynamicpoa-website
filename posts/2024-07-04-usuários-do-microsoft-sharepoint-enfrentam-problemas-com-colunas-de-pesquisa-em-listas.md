@@ -1,7 +1,7 @@
 ---
 title: >-
-  Usuários do Microsoft SharePoint enfrentam problemas com colunas de Pesquisa
-  em Listas
+  Usuários do Microsoft SharePoint enfrentam problemas com colunas de pesquisa
+  em listas
 description: Entenda o problema que está afetando vários usuários
 date: '2024-07-04 01:01:16'
 thumbnail: /assets/img/blog/unsplash_flpc9_vocj4.png
