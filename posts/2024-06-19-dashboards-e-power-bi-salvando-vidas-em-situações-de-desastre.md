@@ -1,5 +1,5 @@
 ---
-title: ' Dashboards e Power BI: Salvando Vidas em Situações de Desastre'
+title: ' Dashboards e Power BI: Salvando vidas em situações de desastre'
 description: >-
   Como os dashboards podem auxiliar no monitoramento de dados, na tomada de
   decisões e na comunicação em momentos de crise.
