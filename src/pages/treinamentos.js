@@ -33,6 +33,21 @@ const AulasPage = () => (
     </section>
     <ClassesPlatforms />
     <ClassesBenefits />
+    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+        <h3 className="text-5xl font-semibold">Quer contratar um treinamento personalizado para a sua empresa?</h3>
+        <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
+          Entre em contato com a nossa equipe para elaborar um conteúdo personalizado e exclusivo.
+        </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20treinamento"
+          >
+            <Button size="lg">Entre em contato</Button>
+          </a>
+        </p>
+      </section>
   </Layout>
 );
 
