@@ -11,7 +11,7 @@ import * as S from './styled';
 
 const ClassesBenefits = () => (
   <S.BenefitsSection>
-    <S.BenefitsTitle>Benefícios</S.BenefitsTitle>
+    <S.BenefitsTitle>Quais são os benefícios de qualificar-se com a Dynamic?</S.BenefitsTitle>
     <S.BenefitsWrapper>
       <S.SingleBenefit>
         <S.BenefitIcon>
@@ -31,7 +31,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Online</S.BenefitTitle>
           <S.BenefitDescription>
-            Os treinamentos podem ser gravados para serem assistidos posteriormente.
+            As aulas são gravadas e podem ser assistidas posteriormente de forma online.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -42,7 +42,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Flexível</S.BenefitTitle>
           <S.BenefitDescription>
-           Horários flexíveis de acordo com a disponibilidade da empresa.
+           Horários de treinamentos ao vivo flexíveis.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -53,7 +53,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Consultoria</S.BenefitTitle>
           <S.BenefitDescription>
-            Consultoria gratuita após o treinamento para auxiliar os participantes a aplicarem os conteúdos na prática.
+            Suporte gratuito por tempo limitado após o treinamento para aplicação dos conteúdos na prática.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -64,7 +64,7 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Personalização</S.BenefitTitle>
           <S.BenefitDescription>
-            Conteúdos personalizados de acordo com o público-alvo: setores, níveis de conhecimento e objetivos.
+            Conteúdos segmentados e personalizados de acordo com o público-alvo, por setores ou atividades específicas.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -73,9 +73,9 @@ const ClassesBenefits = () => (
           <img src={exerciciosIcon} alt="Exercicios" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Avaliação</S.BenefitTitle>
+          <S.BenefitTitle>Materiais</S.BenefitTitle>
           <S.BenefitDescription>
-            Exercícios práticos e apostila para avaliar a qualidade do treinamento e do aprendizado.
+            Conteúdos práticos com situações reais e apostilas para fixação do conteúdo.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
