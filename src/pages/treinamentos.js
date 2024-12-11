@@ -13,14 +13,14 @@ const AulasPage = () => (
   <Layout>
     <SEO
       title="Treinamentos"
-      description="Conheça nossas soluções para você qualificar a sua empresa com as ferramentas Microsoft! Treinamentos para Excel, Power Apps, Power BI, entre outros."
+      description="Conheça nossas soluções para você qualificar a sua empresa com as ferramentas Microsoft! Treinamentos de Excel, Power Apps, Power BI, entre outros."
     />
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Treinamentos corporativos in-company e online</h1>
+          <h1 className="hero-title">Treinamentos e Workshops para você ou sua empresa</h1>
           <p className="hero-description">
-            Capacite os colaboradores da sua empresa nas ferramentas da Microsoft 365 e Plataforma Power e potencialize a produtividade das equipes.
+            Oferecemos treinamentos personalizados para sua empresa ou workshops mensais para capacitação em Microsoft 365 e Plataforma Power.
           </p>
           <AnchorLink className="text-white hover:text-white" href="#platformsSection">
             <Button>Conheça</Button>
