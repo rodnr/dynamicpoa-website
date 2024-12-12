@@ -31,9 +31,9 @@ const ClassesPlatforms = () => {
               <ClassesPlan
                 name="Básico"
                 hours="3"
-                description="Conceitos básicos e fundamentais do Power BI"
+                description="20/01/2025: Conceitos básicos e fundamentais do Power BI"
                 icon={<FaChartBar size={48} color="#D9D9D9" />}
-                price="20/01/2025"
+                price="79"
                 link="https://buy.stripe.com/5kAbL957R9eJd4Q5kl"
               />
             </>
