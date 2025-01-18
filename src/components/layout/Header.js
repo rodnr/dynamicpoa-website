@@ -25,6 +25,9 @@ const Header = () => (
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
         Planos
       </Link>
+      <Link to="/planilhas-gratuitas" className="px-4 font-bold mt-3 md:mt-0">
+        Planilhas Gratuitas
+      </Link>
       <Link to="/blog" className="px-4 font-bold mt-3 md:mt-0">
         Blog
       </Link>
@@ -40,15 +43,15 @@ const Header = () => (
         <Whatsapp />
       </a>
       <div className="hidden md:block">
-        <Link to="/planilhas-gratuitas">
-          <Button className="text-sm">Planilhas Gratuitas</Button>
-        </Link>
-      </div>
-      <div className="block pt-4 sm:pt-0 md:hidden">
-        <Link className="px-4" to="/planilhas-gratuitas">
-          Planilhas Gratuitas
-        </Link>
-      </div>
+  <a href="https://forms.office.com/r/UczRxsHeLy" target="_blank" rel="noopener noreferrer">
+    <Button className="text-sm">Cotar Licenciacimento Microsoft</Button>
+  </a>
+</div>
+<div className="block pt-4 sm:pt-0 md:hidden">
+  <a className="px-4" href="https://forms.office.com/r/UczRxsHeLy" target="_blank" rel="noopener noreferrer">
+  Cotar Licenciacimento Microsoft
+  </a>
+</div>
     </div>
   </header>
 );
