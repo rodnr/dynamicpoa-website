@@ -31,9 +31,7 @@ const Header = () => (
       <Link to="/blog" className="px-4 font-bold mt-3 md:mt-0">
         Blog
       </Link>
-      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=rBUgpJB7I06awUoXtAxN1O45KqynsXxChkWOBFtkIIdUNURBTkRHTloyU1ZFTEY3TTJVS1dBT0xZMS4u" target="_blank" className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">
-        Vagas
-      </a>
+    
       <a
         target="_blank"
         rel="noreferrer"
