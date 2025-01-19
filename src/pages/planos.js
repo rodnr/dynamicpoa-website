@@ -7,8 +7,8 @@ import PrecosSection from '../components/PrecosSection';
 const PrecosPage = () => (
   <Layout>
     <SEO
-      title="Planos"
-      description="Conheça nossas soluções para você se destacar com as ferramentas Microsoft! Soluções para Excel, PowerPoint, Power BI, entre outras."
+      title="Planos | Consultoria, Suporte e Desenvolvimento em Microsoft 365 e Plataforma Power"
+      description="Contrate um pacote de horas com especialistas em Power Apps, Power Automate, Power BI, entre outras."
     />
     <PrecosSection />
   </Layout>
