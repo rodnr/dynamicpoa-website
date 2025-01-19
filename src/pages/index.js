@@ -17,7 +17,7 @@ import SolucoesSection from '../components/SolucoesSection';
 export default () => (
   <Layout>
     <SEO
-      title="Home"
+      title="Home | Soluções em Microsoft 365 e Plataforma Power"
       description="Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft. Conheça nossas soluções!"
     />
     <section className="pt-20" id="top">
@@ -39,6 +39,22 @@ export default () => (
       </div>
     </section>
     <SolucoesSection />
+    
+    <div className="table-planos">
+          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
+            Somos Parceiros oficiais Microsoft!
+          </h2>
+
+          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
+            Tenha a confiança de contratar uma empresa qualificada
+          </p>
+
+          <div className="text-center mt-16">
+            <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
+          </div>
+          </div>
+    
+    
     <SplitSection
       id="ferramentas"
       primarySlot={
