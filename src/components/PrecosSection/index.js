@@ -165,13 +165,13 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1.584</span>
+                    <span className="plan_price">1584</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1.980</span>
+                    <span className="plan_price">1980</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 )}
@@ -197,13 +197,13 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">8.712</span>
+                    <span className="plan_price">8712</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">6.970</span>
+                    <span className="plan_price">6970</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 )}
@@ -223,14 +223,14 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency"></span>
-                    <span className="plan_price"></span>
-                    <span className="plan_month">Consultar</span>
+                    <span className="plan_price">Cotar</span>
+                    <span className="plan_month"></span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency"></span>
-                    <span className="plan_price"></span>
-                    <span className="plan_month">Consultar</span>
+                    <span className="plan_price">Cotar</span>
+                    <span className="plan_month"></span>
                   </div>
                 )}
                 <p className="plan_hours">
