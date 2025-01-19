@@ -40,7 +40,7 @@ export default () => (
     </section>
     <SolucoesSection />
     
-    <div className="table-planos">
+    <div className="parceiro-microsoft">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
             Somos parceiros oficiais Microsoft!
           </h2>
