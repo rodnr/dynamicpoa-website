@@ -9,10 +9,10 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold mb-5">Sobre a Dynamic</h2>
         <p className="text-base font-light mb-3">
-          Empresa fundada em outubro de 2018, com o objetivo de ajudar empresas a automatizar
-          tarefas manuais e repetitivas, melhorando a qualidade e produtividade. Usando softwares
-          que são comuns no escritório, nossos clientes recebem soluções com preços mais acessíveis
-          e mais rápido.
+          Consultoria, licenciamento e treinamento nas ferramentas 
+          do Microsoft 365 e Plataforma Power. 
+          Oferecemos soluções de desenvolvimento em Power Apps, 
+          Power BI, Power Automate, SharePoint e muitos mais.
         </p>
         <p className="font-light">CNPJ: 34.909.360/0001-22</p>
         <p className="font-light">Porto Alegre - RS</p>
