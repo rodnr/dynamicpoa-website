@@ -12,8 +12,8 @@ import ClassesBenefits from '../components/ClassesBenefits';
 const AulasPage = () => (
   <Layout>
     <SEO
-      title="Treinamentos"
-      description="Conheça nossas soluções para você qualificar a sua empresa com as ferramentas Microsoft! Treinamentos de Excel, Power Apps, Power BI, entre outros."
+      title="Treinamentos | Microsoft 365 e Plataforma Power"
+      description="Treinamentos personalizados para sua empresa para qualificar seus colaboradores de forma online ou in-company."
     />
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
