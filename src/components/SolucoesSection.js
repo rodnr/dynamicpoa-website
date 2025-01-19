@@ -24,38 +24,39 @@ const SolucoesSection = () => (
       <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <img src="/assets/img/solutions/Projetos.png" className="w-3/6 my-0 mx-auto"/>
-            <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Projeto</p>
+            <img src="/assets/img/solutions/Projetos.png" className="w-2/6 my-0 mx-auto"/>
+            <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Licenciamento</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Desenvolva projetos personalizados para sua empresa como dashboards,
-              aplicativos web e mobile, intranets, automação de processos e muito
-              mais com as ferramentas mais integradas no mercado.
+              Adquira licenças da Microsoft com nossos descontos de até 20% diretamente com a nossa empresa, que é revendedora oficial. 
+              Faça cotações para serviços como Azure, Dynamics 365, Microsoft 365, Power BI, Exchange, Windows e muito mais. 
             </p>
           </Card>
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <img src="/assets/img/solutions/Consultoria.png" className="w-3/6 my-0 mx-auto"/>
-            <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Consultoria</p>
+            <img src="/assets/img/solutions/Consultoria.png" className="w-2/6 my-0 mx-auto"/>
+            <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Consultoria & Desenvolvimento</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Contrate especialistas nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa,
-              solucionando dúvidas técnicas, licenciamento, desenvolvendo soluções e ajudando a sua equipe a aumentar a produtividade.
+              Contrate especialistas nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa através de pacotes mensais de suporte, 
+              desenvolvimento ou gerenciamento, resolvendo dúvidas técnicas, desenvolvendo soluções e ajudando a sua equipe a aumentar a produtividade.
             </p>
           </Card>
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
-            <img src="/assets/img/solutions/Treinamentos.png" className="w-3/6 my-0 mx-auto"/>
+            <img src="/assets/img/solutions/Treinamentos.png" className="w-2/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#1C2A68' }}>Treinamento</p>
             <p className="mt-4" style={{ color: '#909090' }}>
-              Treinamentos corporativos in-company ou online para qualificar os colaboradores nas principais ferramentas do
-              mercado, aumentar a produtividade e melhorar o trabalho em equipe.
+              Treinamentos corporativos in-company ou online elaborados 
+              de forma personalizada para a sua empresa, trazendo aplicações práticas para os setores e 
+              qualificando os colaboradores nas principais ferramentas do
+              mercado
             </p>
           </Card>
         </div>
       </div>
       <AnchorLink href="#ferramentas">
-        <LineButton className="mt-12 flex mx-auto">Plataformas</LineButton>
+        <LineButton className="mt-12 flex mx-auto">Conheça as plataformas</LineButton>
       </AnchorLink>
     </div>
   </section>
