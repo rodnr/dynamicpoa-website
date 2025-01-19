@@ -50,7 +50,7 @@ export default () => (
           </p>
 
           <div className="text-center mt-16">
-            <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/AppsMicrosoft.png" />
+            <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/microsoft-partner.png" />
           </div>
           </div>
     
