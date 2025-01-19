@@ -43,12 +43,12 @@ const Header = () => (
       </a>
       <div className="hidden md:block">
   <a href="https://bit.ly/site-cotar-licencas-microsoft-dynamic" target="_blank" rel="noopener noreferrer">
-    <Button className="text-sm">Orçar Licenças Microsoft</Button>
+    <Button className="text-sm">Cotar Licenças Microsoft</Button>
   </a>
 </div>
 <div className="block pt-4 sm:pt-0 md:hidden">
   <a className="px-4" href="https://bit.ly/site-cotar-licencas-microsoft-dynamic" target="_blank" rel="noopener noreferrer">
-  Orçar Licenças Microsoft
+  Cotar Licenças Microsoft
   </a>
 </div>
     </div>
