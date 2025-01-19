@@ -40,19 +40,20 @@ export default () => (
     </section>
     <SolucoesSection />
     
-    <div className="table-planos">
-          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            Somos Parceiros oficiais Microsoft!
-          </h2>
+    <div className="parceiro-microsoft">
+  <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
+    Somos Parceiros oficiais Microsoft!
+  </h2>
 
-          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Tenha a confiança de contratar uma empresa qualificada
-          </p>
+  <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
+    Tenha a confiança de contratar uma empresa qualificada
+  </p>
 
-          <div className="text-center mt-16">
-            <img className="w-3/5 sm:w-4/5 my-0 mx-auto" src="/assets/img/microsoft-partner.png" />
-          </div>
-          </div>
+  <div className="text-center mt-16">
+    <img className="w-[30%] my-0 mx-auto" src="/assets/img/microsoft-partner.png" />
+  </div>
+</div>
+
     
     
     <SplitSection
