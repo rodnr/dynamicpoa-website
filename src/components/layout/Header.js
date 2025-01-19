@@ -25,12 +25,13 @@ const Header = () => (
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
         Planos
       </Link>
-      <Link to="/planilhas-gratuitas" className="px-4 font-bold mt-3 md:mt-0">
-        Planilhas Gratuitas
-      </Link>
       <Link to="/blog" className="px-4 font-bold mt-3 md:mt-0">
         Blog
       </Link>
+      <Link to="/planilhas-gratuitas" className="px-4 font-bold mt-3 md:mt-0">
+        Planilhas Gratuitas
+      </Link>
+     
     
       <a
         target="_blank"
