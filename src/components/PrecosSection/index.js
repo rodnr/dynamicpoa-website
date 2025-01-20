@@ -165,13 +165,13 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1584</span>
+                    <span className="plan_price">1980</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1980</span>
+                    <span className="plan_price">1584</span>
                     <span className="plan_month">/mês</span>
                   </div>
                 )}
@@ -223,13 +223,13 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency"></span>
-                    <span className="plan_price">Orçar</span>
+                    <span className="plan_price">Consulte</span>
                     <span className="plan_month"></span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency"></span>
-                    <span className="plan_price">Orçar</span>
+                    <span className="plan_price">Consulte</span>
                     <span className="plan_month"></span>
                   </div>
                 )}
