@@ -36,7 +36,7 @@ const Header = () => (
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://api.whatsapp.com/send?phone=5551996936418"
+        href="https://api.whatsapp.com/send?phone=5551996936418&text=Vim%20pelo%20site%20e%tenho%20dúvidas"
         className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mt-3 md:mt-0 lg:mr-6 rounded"
       >
         <Whatsapp />
