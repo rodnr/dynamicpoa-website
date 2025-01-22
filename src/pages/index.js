@@ -39,6 +39,8 @@ export default () => (
       </div>
     </section>
     <SolucoesSection />
+
+    
     
     <div className="parceiro-microsoft">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
@@ -55,6 +57,9 @@ export default () => (
           </div>
 
     
+     
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/48031858.js"></script>
+
     
     <SplitSection
       id="ferramentas"
