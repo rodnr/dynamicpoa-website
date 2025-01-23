@@ -4,7 +4,7 @@ description: >-
   O momento ideal para migrar do plano Family para Business no Microsoft 365 é
   agora
 date: '2025-01-23 04:50:31'
-thumbnail: /assets/img/blog/unsplash_ptrhzqc_h1r4.png
+thumbnail: /assets/img/blog/unsplash_faefwcdokig.png
 ---
 ![](/assets/img/blog/microsoft-365-now-available-for-consumers_yt66.jpg)
 
