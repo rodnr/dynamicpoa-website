@@ -56,6 +56,15 @@ export default () => (
           </div>
           </div>
 
+
+          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
+            Integre o Microsoft 365 com as ferramentas mais populares do mundo
+          </p>
+
+          <div className="text-center mt-16">
+            <img className="w-1/5 sm:w-2/5 my-0 mx-auto" src="/assets/img/365_integracao_senior_totvs_protheus_sap_tangerino_salesforce_datascope.png" />
+          </div>
+
     
      
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/48031858.js"></script>
