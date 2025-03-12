@@ -1,5 +1,5 @@
 ---
-title: 'Teams Premium: Transforme suas reunioes com resumos inteligentes'
+title: 'Teams Premium: Transforme suas reuniões com resumos inteligentes'
 description: >-
   Descubra como o Teams Premium pode revolucionar suas reuniões com resumos
   inteligentes baseados em IA
