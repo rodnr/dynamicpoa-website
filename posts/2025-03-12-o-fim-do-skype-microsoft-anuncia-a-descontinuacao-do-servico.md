@@ -1,5 +1,5 @@
 ---
-title: 'O fim do Skype: Microsoft anuncia a descontinuacao do servico'
+title: 'O fim do Skype: Microsoft anuncia a descontinuação do serviço'
 description: >-
   Saiba o que motivou essa decisão, como migrar seus dados e quais são as
   alternativas disponíveis para continuar se comunicando online
