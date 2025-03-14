@@ -1,5 +1,5 @@
 ---
-title: 'Power BI Pro: Vale a pena assinar? Tudo o que voce precisa saber'
+title: 'Power BI Pro: Vale a pena assinar? Tudo o que você precisa saber'
 description: >-
   Descubra tudo sobre o Power BI Pro: seus principais recursos, benefícios,
   custos e como essa licença pode transformar a análise de dados na sua empresa
