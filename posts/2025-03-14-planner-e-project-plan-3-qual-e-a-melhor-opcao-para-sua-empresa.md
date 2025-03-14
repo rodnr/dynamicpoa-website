@@ -1,5 +1,5 @@
 ---
-title: 'Planner e Project Plan 3: Qual e a melhor opcao para sua empresa?'
+title: 'Planner e Project Plan 3: Qual é a melhor opção para sua empresa?'
 description: >-
   Recursos, funcionalidades, preços e principais diferenças entre essas
   ferramentas para ajudar você a tomar a melhor decisão
