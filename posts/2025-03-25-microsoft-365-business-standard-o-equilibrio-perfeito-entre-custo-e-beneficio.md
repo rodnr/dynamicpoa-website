@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business Standard: O equilibrio perfeito entre custo e beneficio'
+title: 'Microsoft 365 Business Standard: O equilíbrio perfeito entre custo e benefício'
 description: >-
   Saiba tudo sobre o Microsoft 365 Business Standard: o que está incluído, seus
   principais benefícios e como ele se compara a outras licenças do Microsoft
