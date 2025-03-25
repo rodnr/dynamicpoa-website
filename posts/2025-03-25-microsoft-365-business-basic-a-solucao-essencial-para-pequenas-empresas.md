@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business Basic: A solucao essencial para pequenas empresas'
+title: 'Microsoft 365 Business Basic: A solução essencial para pequenas empresas'
 description: >-
   Descubra tudo sobre o Microsoft 365 Business Basic: recursos, benefícios e
   comparação com a licença Business Premium para ajudar sua empresa a escolher a
