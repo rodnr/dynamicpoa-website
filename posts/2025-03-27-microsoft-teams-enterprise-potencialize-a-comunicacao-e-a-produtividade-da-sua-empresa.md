@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft Teams Enterprise: Potencialize a comunicacao e a produtividade da
+  Microsoft Teams Enterprise: Potencialize a comunicação e a produtividade da
   sua empresa
 description: >-
   Descubra tudo sobre o Microsoft Teams Enterprise: recursos, benefícios, planos
