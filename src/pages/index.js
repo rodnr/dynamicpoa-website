@@ -23,14 +23,13 @@ export default () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Soluções em Microsoft 365 e Plataforma Power</h1>
+          <h1 className="hero-title">Improve your Power Platform management</h1>
           <p className="hero-description">
-            Descubra como podemos transformar a produtividade e colaboração da sua equipe
-            usando ferramentas que você já conhece e usa todo dia.
+            Take your environment management to a new level with our team with global projects experiences
           </p>
 
           <AnchorLink className="text-white hover:text-white" href="#solucoes">
-            <Button>Saiba mais</Button>
+            <Button>More</Button>
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
@@ -44,11 +43,11 @@ export default () => (
     
     <div className="parceiro-microsoft">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            Somos parceiros oficiais Microsoft!
+            We're Microsoft oficial partner
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Tenha a confiança de contratar uma empresa qualificada
+            Trust our high-qualificated team with experience in global projects
           </p>
 
           <div className="text-center mt-16">
@@ -58,7 +57,7 @@ export default () => (
 
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Integre o Microsoft 365 com as ferramentas mais populares do mundo
+            Integrate your Microsoft environment with the world's popular tools
           </p>
 
           <div className="text-center mt-16">
