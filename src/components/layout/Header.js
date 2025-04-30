@@ -47,8 +47,8 @@ const Header = () => (
   </a>
 </div>
 <div className="block pt-4 sm:pt-0 md:hidden">
-  <a className="px-4" href="https://bit.ly/site-cotar-licencas-microsoft-dynamic" target="_blank" rel="noopener noreferrer">
-  Cotar Licenças Microsoft
+  <a className="px-4" href="https://dynamicpoa.powerappsportals.com/" target="_blank" rel="noopener noreferrer">
+  Acessar Portal do Cliente
   </a>
 </div>
     </div>
