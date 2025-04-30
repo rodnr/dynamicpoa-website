@@ -42,8 +42,8 @@ const Header = () => (
         <Whatsapp />
       </a>
       <div className="hidden md:block">
-  <a href="https://bit.ly/site-cotar-licencas-microsoft-dynamic" target="_blank" rel="noopener noreferrer">
-    <Button className="text-sm">Cotar Licenças Microsoft</Button>
+  <a href="https://dynamicpoa.powerappsportals.com/" target="_blank" rel="noopener noreferrer">
+    <Button className="text-sm">Acessar Portal do Cliente</Button>
   </a>
 </div>
 <div className="block pt-4 sm:pt-0 md:hidden">
