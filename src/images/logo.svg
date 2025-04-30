@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+#202A45#202A45<?xml version="1.0" encoding="UTF-8"?>
 <svg overflow="hidden" viewBox="0 0 331 311" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <clipPath id="h">
@@ -17,7 +17,7 @@
 <linearGradient id="d" x1="341.57" x2="431.91" y1="377.29" y2="286.95" gradientUnits="userSpaceOnUse">
 <stop stop-color="#3B5F9E" offset="0"/>
 <stop stop-color="#5984B4" offset=".93"/>
-<stop stop-color="#5B87B5" offset="1"/>
+<stop stop-color="#202A45" offset="1"/>
 </linearGradient>
 <linearGradient id="c" x1="215.3" x2="164.66" y1="278.05" y2="278.05" gradientUnits="userSpaceOnUse">
 <stop stop-color="#242F65" offset="0"/>
@@ -25,7 +25,7 @@
 </linearGradient>
 <linearGradient id="b" x1="217.09" x2="249" y1="263.81" y2="263.81" gradientUnits="userSpaceOnUse">
 <stop stop-color="#3B5F9E" offset="0"/>
-<stop stop-color="#5B87B5" offset="1"/>
+<stop stop-color="#202A45" offset="1"/>
 </linearGradient>
 <linearGradient id="a" x1="330.19" x2="274.8" y1="249.68" y2="249.68" gradientUnits="userSpaceOnUse">
 <stop stop-color="#242F65" offset="0"/>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+#202A45import React, { useState } from 'react';
 import checkImage from '../../images/check.svg';
 import seta from '../../images/seta.svg';
 import '../../css/app.css';
@@ -106,7 +106,7 @@ const PrecosSection = () => {
         <div
           className="px-4 lg:px-16  mx-auto text-center"
           style={{
-            background: 'linear-gradient(to bottom, #3B5F9E 0%,  #5B87B5 70%, #fff 70%, #fff 100%)'
+            background: 'linear-gradient(to bottom, #3B5F9E 0%,  #202A45 70%, #fff 70%, #fff 100%)'
           }}
         >
           <h2 className="text-white text-4xl lg:text-6xl text-center font-bold pt-24 mx-4 md:mx-0">

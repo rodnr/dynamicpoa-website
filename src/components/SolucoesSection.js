@@ -12,7 +12,7 @@ const SolucoesSection = () => (
   <section
     id="solucoes"
     className="my-20 py-16 pb-20 lg:mb-40 lg:mt-48"
-    style={{ background: 'linear-gradient(29deg, #5B87B5, #3B5F9E 70%)' }}
+    style={{ background: 'linear-gradient(29deg, #202A45, #202A45 70%)' }}
   >
     <div className="container mx-auto text-center">
       <h2 className="text-3xl lg:text-5xl  text-white mx-4 md:mx-0">

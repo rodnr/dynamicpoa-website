@@ -1,4 +1,4 @@
-import React from 'react'
+#202A45#202A45import React from 'react'
 
 const DynamicIcon = ({className}) => (
   <svg className={className} overflow="hidden" viewBox="0 0 331 311">
@@ -24,7 +24,7 @@ const DynamicIcon = ({className}) => (
         >
           <stop stopColor="#3B5F9E" offset={0} />
           <stop stopColor="#5984B4" offset={0.93} />
-          <stop stopColor="#5B87B5" offset={1} />
+          <stop stopColor="#202A45" offset={1} />
         </linearGradient>
         <linearGradient
           id="dynamicIconPrefix__f"
@@ -46,7 +46,7 @@ const DynamicIcon = ({className}) => (
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#3B5F9E" offset={0} />
-          <stop stopColor="#5B87B5" offset={1} />
+          <stop stopColor="#202A45" offset={1} />
         </linearGradient>
         <linearGradient
           id="dynamicIconPrefix__h"

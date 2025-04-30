@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+#202A45#202A45import styled from 'styled-components';
 
 export const PlatformsSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right, #5b87b5, #3b5f9e);
+  background-image: linear-gradient(to right, #202A45, #3b5f9e);
   padding: 4rem 0;
 
   margin: 4rem 0;
@@ -39,7 +39,7 @@ export const PlatformBox = styled.div`
 
   &.active {
     box-shadow: 4px 4px 3px 0 rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(to right, #5b87b5, #3b5f9e);
+    background-image: linear-gradient(to right, #202A45, #3b5f9e);
   }
 
   &:hover {

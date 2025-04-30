@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+#202A45import React, { useState } from 'react';
 
 const sizes = {
   default: `py-3 px-8`,
@@ -11,7 +11,7 @@ const Button = ({ children, className = '', size, marginTop = 0 }) => {
   const [margin, setMargin] = useState(marginTop);
 
   const styles = {
-    background: hovered ? '#243066' : 'linear-gradient(29deg, #5B87B5, #3B5F9E 70%)',
+    background: hovered ? '#243066' : 'linear-gradient(29deg, #202A45, #3B5F9E 70%)',
     marginTop: margin ? `${marginTop}px` : ''
   };
 

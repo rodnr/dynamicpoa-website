@@ -1,4 +1,4 @@
-module.exports = {
+#202A45module.exports = {
   theme: {
     fontFamily: {
       sans: ['Roboto', 'Helvetica', 'Arial']
@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          lighter: '#5B87B5',
+          lighter: '#202A45',
           default: '#3B5F9E',
           darker: '#243066'
         },

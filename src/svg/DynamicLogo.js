@@ -1,4 +1,4 @@
-import React from 'react'
+#202A45#202A45import React from 'react'
 
 const DynamicLogo = () => (
   <svg overflow="hidden" viewBox="0 0 592 124">
@@ -101,7 +101,7 @@ const DynamicLogo = () => (
         >
           <stop stopColor="#3B5F9E" offset={0} />
           <stop stopColor="#5984B4" offset={0.93} />
-          <stop stopColor="#5B87B5" offset={1} />
+          <stop stopColor="#202A45" offset={1} />
         </linearGradient>
         <linearGradient
           id="prefix__m"
@@ -123,7 +123,7 @@ const DynamicLogo = () => (
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#3B5F9E" offset={0} />
-          <stop stopColor="#5B87B5" offset={1} />
+          <stop stopColor="#202A45" offset={1} />
         </linearGradient>
         <linearGradient
           id="prefix__o"

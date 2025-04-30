@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+#202A45import { Link } from "gatsby";
 import styled from "styled-components";
 
 export const PostLink = styled(Link)`
@@ -19,7 +19,7 @@ export const PostItemWrapper = styled.div`
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom,#5b87b5,#3b5f9e);
+    background: linear-gradient(to bottom,#202A45,#3b5f9e);
     color: white;
   }
 `;
