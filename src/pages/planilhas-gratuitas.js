@@ -1,4 +1,4 @@
-#202A45import React from 'react'
+import React from 'react'
 import SEO from "../components/seo"
 
 import PlanilhasSection from '../components/PlaninhaSection'

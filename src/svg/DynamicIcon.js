@@ -1,4 +1,4 @@
-#202A45#202A45import React from 'react'
+import React from 'react'
 
 const DynamicIcon = ({className}) => (
   <svg className={className} overflow="hidden" viewBox="0 0 331 311">

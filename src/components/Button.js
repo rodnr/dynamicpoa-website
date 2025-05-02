@@ -1,4 +1,4 @@
-#202A45import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 const sizes = {
   default: `py-3 px-8`,

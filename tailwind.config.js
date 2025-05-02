@@ -1,4 +1,4 @@
-#202A45module.exports = {
+module.exports = {
   theme: {
     fontFamily: {
       sans: ['Roboto', 'Helvetica', 'Arial']

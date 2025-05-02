@@ -1,4 +1,4 @@
-#202A45import React from 'react'
+import React from 'react'
 
 const currentColor = "#3B5F9E"
 

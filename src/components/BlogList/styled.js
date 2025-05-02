@@ -1,4 +1,4 @@
-#202A45import styled from "styled-components";
+import styled from "styled-components";
 
 export const BlogTitle = styled.h2`
   font-size: 3rem;

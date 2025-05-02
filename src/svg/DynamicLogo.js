@@ -1,4 +1,4 @@
-#202A45#202A45import React from 'react'
+import React from 'react'
 
 const DynamicLogo = () => (
   <svg overflow="hidden" viewBox="0 0 592 124">

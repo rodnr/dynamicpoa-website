@@ -1,4 +1,4 @@
-#202A45#202A45import styled from 'styled-components';
+import styled from 'styled-components';
 
 export const PlatformsSection = styled.section`
   display: flex;

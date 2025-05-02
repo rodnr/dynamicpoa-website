@@ -1,4 +1,4 @@
-#202A45import { Link } from "gatsby";
+import { Link } from "gatsby";
 import styled from "styled-components";
 
 export const PostLink = styled(Link)`

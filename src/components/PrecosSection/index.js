@@ -1,4 +1,4 @@
-#202A45import React, { useState } from 'react';
+import React, { useState } from 'react';
 import checkImage from '../../images/check.svg';
 import seta from '../../images/seta.svg';
 import '../../css/app.css';
