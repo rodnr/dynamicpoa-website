@@ -26,7 +26,7 @@ const SolucoesSection = () => (
           <Card className="p-12 h-full">
             <img src="/assets/img/solutions/Projetos.png" className="w-2/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Licensing</p>
-            <p className="mt-4" style={{ color: '#EBE8E2' }}>
+            <p className="mt-4" style={{ color: '#2e2e2e' }}>
               Adquira licenças da Microsoft com nossos descontos de até 20% diretamente com a nossa empresa, que é revendedora oficial. 
               Faça cotações para serviços como Azure, Dynamics 365, Microsoft 365, Power BI, Exchange, Windows e muito mais. 
             </p>
@@ -36,7 +36,7 @@ const SolucoesSection = () => (
           <Card className="p-12 h-full">
             <img src="/assets/img/solutions/Consultoria.png" className="w-2/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Administration</p>
-            <p className="mt-4" style={{ color: '#EBE8E2' }}>
+            <p className="mt-4" style={{ color: '#2e2e2e' }}>
               Contrate especialistas nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa através de pacotes mensais de Suporte, 
               Desenvolvimento ou Gerenciamento.
             </p>
@@ -46,7 +46,7 @@ const SolucoesSection = () => (
           <Card className="p-12 h-full">
             <img src="/assets/img/solutions/Treinamentos.png" className="w-2/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Support</p>
-            <p className="mt-4" style={{ color: '#EBE8E2' }}>
+            <p className="mt-4" style={{ color: '#2e2e2e' }}>
               Treinamentos corporativos in-company ou online elaborados 
               de forma personalizada para a sua empresa, trazendo aplicações práticas para os setores e 
               qualificando os colaboradores nas principais ferramentas do
