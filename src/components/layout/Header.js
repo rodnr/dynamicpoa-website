@@ -11,7 +11,7 @@ const Header = () => (
     <div className="flex items-center text-2xl">
   <div className="w-40 mr-3">
     <Link to="/">
-      <img src={novoDynamicLogo} alt="Logo Dynamic" className="w-full h-auto" />
+      <img src={novoDynamicLogo} alt="Logo Dynamic" className="h-12 w-auto" />
     </Link>
   </div>
 </div>
