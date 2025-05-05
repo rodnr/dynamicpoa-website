@@ -22,7 +22,8 @@ const PrecosSection = () => {
 { id: 10, name: 'Power Platform Environment implementation and management', simples: '-', padrao: '-', completo: 1, father: -1},
 { id: 11, name: 'Application Lifecycle Management (ALM)', simples: '-', padrao: '-', completo: 1, father: -1},
 { id: 12, name: 'Custom Power Platform qualification programs for employees', simples: '-', padrao: '-', completo: 1, father: -1},
-
+{ id: 12, name: 'Azure DevOps Pipelines implementation for deployment proccess', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 14, name: 'Automated Power Platform development with AI agent', simples: '-', padrao: '-', completo: 'coming soon', father: -1}
   ]);
 
   const [sonActives, setSonActives] = useState([]);
