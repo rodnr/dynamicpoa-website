@@ -17,8 +17,8 @@ import SolucoesSection from '../components/SolucoesSection';
 export default () => (
   <Layout>
     <SEO
-      title="Home | Soluções em Microsoft 365 e Plataforma Power"
-      description="Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft. Conheça nossas soluções!"
+      title="Home | Power Platform Consulting"
+      description="Power Platform development and consulting services for global companies"
     />
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
@@ -29,7 +29,7 @@ export default () => (
           </p>
 
           <AnchorLink className="text-white hover:text-white" href="#solucoes">
-            <Button>More</Button>
+            <Button>See our solutions</Button>
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
@@ -43,11 +43,11 @@ export default () => (
     
     <div className="parceiro-microsoft">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            We're Microsoft oficial partner
+            Trust an official Microsoft Partner company
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Trust our high-qualificated team with experience in global projects
+            with +1,000 successfully implemented Power Platform projects for 150 companies 
           </p>
 
           <div className="text-center mt-16">
@@ -57,7 +57,7 @@ export default () => (
 
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Integrate your Microsoft environment with the world's popular tools
+            Integrate your Microsoft environment with the world's most popular tools
           </p>
 
           <div className="text-center mt-16">
@@ -117,9 +117,9 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ficou com alguma dúvida?</h3>
+      <h3 className="text-5xl font-semibold">Do you have any questions?</h3>
       <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-        Estamos à sua disposição! Vamos encontrar a solução ideal para a sua empresa.
+        Talk right now with our commercial team and understand how we can help your company
       </p>
       <p>
         <a
@@ -127,7 +127,7 @@ export default () => (
           rel="noreferrer"
           href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?"
         >
-          <Button size="lg">Fale com a gente</Button>
+          <Button size="lg">Chat with us</Button>
         </a>
       </p>
     </section>
