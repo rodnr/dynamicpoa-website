@@ -20,7 +20,7 @@ const Header = () => (
         </Link> */}
       </div>
       <Link to="/treinamentos" className="px-4 font-bold mt-3 md:mt-0">
-        Training and Consulting
+        Consulting Services
       </Link>
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
         Pricing
@@ -43,7 +43,7 @@ const Header = () => (
       </a>
       <div className="hidden md:block">
   <a href="https://dynamicpoa.powerappsportals.com/" target="_blank" rel="noopener noreferrer">
-    <Button className="text-sm">Acessar Portal do Cliente</Button>
+    <Button className="text-sm">Portal Login</Button>
   </a>
 </div>
 <div className="block pt-4 sm:pt-0 md:hidden">
