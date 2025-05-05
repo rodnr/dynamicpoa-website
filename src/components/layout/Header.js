@@ -8,13 +8,13 @@ import Button from '../Button';
 const Header = () => (
   <header className="sticky z-10 top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex items-center text-2xl">
-        <div className="w-40 mr-3">
-          <Link to="/">
-          <img src={novoDynamicLogo} alt="Logo Dynamic" />
-          </Link>
-        </div>
-      </div>
+    <div className="flex items-center text-2xl">
+  <div className="w-40 mr-3">
+    <Link to="/">
+      <img src={novoDynamicLogo} alt="Logo Dynamic" className="w-full h-auto" />
+    </Link>
+  </div>
+</div>
       <div className="flex mt-4 lg:mr-auto lg:ml-4 sm:mt-0">
         {/* <Link className="px-4 bg-primary text-white" to="/" activeClassName="bg-primary text-white">
           Para Empresas
