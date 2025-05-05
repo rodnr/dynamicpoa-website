@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import DynamicLogo from '../../svg/DynamicLogo';
+import novoDynamicLogo from '../../images/novoLogoDynamic.png';
 import { Whatsapp } from '../../svg/SocialIcons';
 import Button from '../Button';
 
@@ -10,7 +11,7 @@ const Header = () => (
       <div className="flex items-center text-2xl">
         <div className="w-40 mr-3">
           <Link to="/">
-            <DynamicLogo />
+            <novoDynamicLogo />
           </Link>
         </div>
       </div>
