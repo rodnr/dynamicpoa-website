@@ -51,7 +51,7 @@
 }
 
 .payment-type input:checked + label {
-  background: linear-gradient(29deg, rgb(91, 135, 181), rgb(59, 95, 158) 70%);
+  background: linear-gradient(29deg, rgb(32,42,69), rgb(59, 95, 158) 70%);
   color: #f7f7f7;
   border: 2px solid #f7f7f7;
   padding: 2px 0 !important;

@@ -22,7 +22,7 @@ export const Plan = styled.a`
     padding: 1rem 0;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-    background: rgb(91, 135, 181);
+    background: rgb(32,42,69);
     color: #ffffff70;
   }
 
@@ -62,7 +62,7 @@ export const Plan = styled.a`
     display: inline-block;
     text-transform: uppercase;
     margin-top: 2rem;
-    background: rgb(91, 135, 181);
+    background: rgb(32,42,69);
     color: #ffffff;
     padding: 10px 35px;
     border-radius: 5px;
@@ -104,7 +104,7 @@ export const Plan = styled.a`
       padding: 0.5rem 0;
       border-top-right-radius: 0.5rem;
       border-top-left-radius: 0.5rem;
-      background: rgb(91, 135, 181);
+      background: rgb(32,42,69);
       color: #ffffff;
     }
 
