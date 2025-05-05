@@ -23,7 +23,7 @@ export default () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Trust an official Microsoft Partner for your Power Platform solutions</h1>
+          <h1 className="hero-title">Your official Microsoft Partner for Power Platform solutions</h1>
           <p className="hero-description">
           Top-level management for your environment, with 24/7 technical support available for users
           </p>
