@@ -16,10 +16,10 @@ const SolucoesSection = () => (
   >
     <div className="container mx-auto text-center">
       <h2 className="text-3xl lg:text-5xl  text-white mx-4 md:mx-0">
-      End-to-end services to empower your Microsoft environment
+      End-to-end services to empower your environment
       </h2>
       <p className="mt-4 text-white text-xl font-thin mx-4 md:mx-0">
-      Adaptable options for teams of any size and level of maturity.
+      Adaptable options for teams of any size and level of maturity
       </p>
       <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
         <div className="flex-1 px-3 m-6 md:m-2">
