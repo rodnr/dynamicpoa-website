@@ -102,7 +102,7 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20suporte"
               >
-                <p className="mb-2 font-black text-xl title">Basic Support</p>
+                <p className="mb-2 font-black text-xl title">Basic</p>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
@@ -133,7 +133,7 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
               >
-                <p className="mb-2 font-black text-xl title">Standard Support</p>
+                <p className="mb-2 font-black text-xl title">Full</p>
                 <div className="plan_recommended_tag">RECOMMENDED</div>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
@@ -163,22 +163,22 @@ const PrecosSection = () => {
                 <p className="mb-2 font-black text-xl title">Administration</p>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
-                    <span className="plan_currency">R$</span>
-                    <span className="plan_price">Consulte</span>
-                    <span className="plan_month">/user</span>
+                    <span className="plan_currency"></span>
+                    <span className="plan_price">Quote</span>
+                    <span className="plan_month"></span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
-                    <span className="plan_currency">R$</span>
-                    <span className="plan_price">Consulte</span>
-                    <span className="plan_month">/user</span>
+                    <span className="plan_currency"></span>
+                    <span className="plan_price">Quote</span>
+                    <span className="plan_month"></span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
                   {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
                 </p>
-                <span className="hire_button">Contratar</span>
+                <span className="hire_button">Contact us</span>
               </S.Plan>
             </div>
             <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
@@ -198,7 +198,7 @@ const PrecosSection = () => {
 
         <div className="table-planos">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            What is included in each plan?
+            What's included in each plan?
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
@@ -214,7 +214,7 @@ const PrecosSection = () => {
               <tr>
                 <th className="lg:px-4 lg:py-2" />
                 <th className="lg:px-4 lg:py-2">Basic Support</th>
-                <th className="lg:px-4 lg:py-2">Standard Support</th>
+                <th className="lg:px-4 lg:py-2">Full Support</th>
                 <th className="lg:px-4 lg:py-2">Administration</th>
               </tr>
             </thead>
@@ -426,10 +426,9 @@ const PrecosSection = () => {
         </div>
       </section>
       <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Quer contratar um plano?</h3>
+        <h3 className="text-5xl font-semibold">Interested in one plan?</h3>
         <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
-          Clique no botão para realizar a contratação e começar a utilizar os nossos serviços hoje
-          mesmo.
+          Click the button below and talk with our commercial team
         </p>
         <p>
           <a
@@ -437,7 +436,7 @@ const PrecosSection = () => {
             rel="noreferrer"
             href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20plano%20de%20consultoria"
           >
-            <Button size="lg">Entre em contato</Button>
+            <Button size="lg">Contact us on WhatsApp</Button>
           </a>
         </p>
       </section>

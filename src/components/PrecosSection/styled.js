@@ -23,7 +23,7 @@ export const Plan = styled.a`
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
     background: rgb(32,42,69);
-    color: #ffffff70;
+    color: #ffffff;
   }
 
   .plan_hours {
