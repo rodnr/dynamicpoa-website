@@ -39,25 +39,8 @@ export default () => (
     </section>
     <SolucoesSection />
 
-    
-    
-    <div className="parceiro-microsoft">
-          <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            Trust an official Microsoft Partner company
-          </h2>
-
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            with +1,000 successfully implemented Power Platform projects for 150 companies 
-          </p>
-
-          <div className="text-center mt-16">
-            <img className="w-1/5 sm:w-2/5 my-0 mx-auto" src="/assets/img/microsoft-partner.png" />
-          </div>
-          </div>
-
-
-          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Integrate your Microsoft environment with the world's most popular tools
+            Integrate your Microsoft environment with the world's most popular softwares
           </p>
 
           <div className="text-center mt-16">
