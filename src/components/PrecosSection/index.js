@@ -10,79 +10,19 @@ import * as S from './styled';
 const PrecosSection = () => {
   const [tipoPlano, setTipoPlano] = useState('Anual');
   const [dataTable] = useState([
-{ id: 1, name: 'Implementação do Microsoft 365 e Plataforma Power', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 2, name: 'Gerenciamento de usuários, licenciamentos e armazenamento', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 3, name: 'Configurações de acessos', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 4, name: 'Suporte e resolução de dúvidas em geral sobre ferramentas', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 5, name: 'Contato com o Suporte Técnico da Microsoft', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 6, name: 'Portal de chamados com SLA', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 7, name: 'Acúmulo de saldo de horas não utilizadas', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 8, name: 'Mapeamento de processos detalhado', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 9, name: 'Painel de Controle de fluxos do Power Automate', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 10, name: 'Painel de Controle de logs do Power Apps', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 11, name: 'Painel de Controle de atualizações do Power BI', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 12, name: 'Relatório ROI', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 13, name: 'Documentação técnica de soluções criadas', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 14, name: 'Gerenciamento de ambientes de DEV, HMA e PRD da Plataforma Power', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 15, name: 'Implementação de setores de QA e ALM (Application Lifecycle Management)', simples: '-', padrao: '-', completo: 1, father: -1},
-{ id: 16, name: 'Programas de treinamento e qualificação dos colaboradores em Plataforma Power', simples: '-', padrao: '-', completo: 1, father: -1},
-{ id: 17, name: 'Criação de biblioteca de componentes para desenvolvedores da Plataforma Power', simples: '-', padrao: '-', completo: 1, father: -1},
-{ id: 18, name: 'Gestão de Conformidade e Segurança - LGPD', simples: '-', padrao: '-', completo: 1, father: -1},
-{ id: 19, name: 'Categorização de rótulos de confidencialidade e políticas de segurança interna', simples: '-', padrao: '-', completo: 1, father: -1},
-{ id: 20, name: 'Suporte no Microsoft OneDrive', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 21, name: 'Suporte no Microsoft Teams', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 22, name: 'Suporte no Microsoft Outlook', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 23, name: 'Suporte no Microsoft Stream', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 24, name: 'Suporte no Microsoft Planner', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 25, name: 'Suporte no Microsoft Sway', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 26, name: 'Suporte no Microsoft Yammer', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 27, name: 'Suporte no Microsoft Visio', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 28, name: 'Suporte no Microsoft Delve', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 29, name: 'Suporte no Microsoft Copilot', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 30, name: 'Suporte no Microsoft PowerPoint', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 31, name: 'Suporte no Microsoft Project', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 32, name: 'Microsoft Excel', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 33, name: 'Criação de planilhas/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 32},
-{ id: 34, name: 'Suporte para análise de dados', simples: 1, padrao: 1, completo: 1, father: 32},
-{ id: 35, name: 'Suporte técnico para criação de fórmulas, gráficos e outros recursos', simples: 1, padrao: 1, completo: 1, father: 32},
-{ id: 36, name: 'Manutenção em códigos VBA', simples: 1, padrao: 1, completo: 1, father: 32},
-{ id: 37, name: 'Automação de planilhas', simples: '-', padrao: 1, completo: 1, father: 32},
-{ id: 38, name: 'Microsoft Word', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 39, name: 'Criação de documentos/templates personalizados', simples: 1, padrao: 1, completo: 1, father: 38},
-{ id: 40, name: 'Suporte técnico para criação de gráficos e outros recursos', simples: 1, padrao: 1, completo: 1, father: 38},
-{ id: 41, name: 'Manutenção em códigos VBA', simples: 1, padrao: 1, completo: 1, father: 38},
-{ id: 42, name: 'Automação de documentos', simples: '-', padrao: 1, completo: 1, father: 38},
-{ id: 43, name: 'Microsoft Forms', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 44, name: 'Criação de formulários', simples: 1, padrao: 1, completo: 1, father: 43},
-{ id: 45, name: 'Automação de formulários', simples: '-', padrao: 1, completo: 1, father: 43},
-{ id: 46, name: 'Microsoft SharePoint', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 47, name: 'Gestão de acessos, documentos e demais configurações', simples: 1, padrao: 1, completo: 1, father: 46},
-{ id: 48, name: 'Criação de sites e implementação de Intranet', simples: 1, padrao: 1, completo: 1, father: 46},
-{ id: 49, name: 'Microsoft Power BI', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 50, name: 'Manutenção em queries e conexões de dados', simples: 1, padrao: 1, completo: 1, father: 49},
-{ id: 51, name: 'Suporte, ajustes e resolução de problemas/bugs em Relatórios', simples: 1, padrao: 1, completo: 1, father: 49},
-{ id: 52, name: 'Gerenciamento de atualizações, acessos e filtro RLS', simples: 1, padrao: 1, completo: 1, father: 49},
-{ id: 53, name: 'Configurações de gateway', simples: 1, padrao: 1, completo: 1, father: 49},
-{ id: 54, name: 'Criação de Painéis, Alertas e Scorecards', simples: 1, padrao: 1, completo: 1, father: 49},
-{ id: 55, name: 'Gerenciamento de Power BI Embedded', simples: '-', padrao: 1, completo: 1, father: 49},
-{ id: 56, name: 'Criação e desenvolvimento de novos Relatórios', simples: '-', padrao: 1, completo: 1, father: 49},
-{ id: 57, name: 'Automação de relatórios com Power BI Report Builder', simples: '-', padrao: 1, completo: 1, father: 49},
-{ id: 58, name: 'Microsoft Power Apps', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 59, name: 'Suporte, ajustes e resolução de problemas/bugs em aplicativos', simples: 1, padrao: 1, completo: 1, father: 58},
-{ id: 60, name: 'Manutenção em Fluxo de Dados do Power Query', simples: 1, padrao: 1, completo: 1, father: 58},
-{ id: 61, name: 'Manutenção no Dataverse', simples: 1, padrao: 1, completo: 1, father: 58},
-{ id: 62, name: 'Criação de novos Fluxos de Dados do Power Query', simples: '-', padrao: 1, completo: 1, father: 58},
-{ id: 63, name: 'Criação de novos Aplicativos de tela (Canva)', simples: '-', padrao: 1, completo: 1, father: 58},
-{ id: 64, name: 'Microsoft Power Automate', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 65, name: 'Suporte, ajustes e resolução de problemas/bugs em fluxos', simples: 1, padrao: 1, completo: 1, father: 64},
-{ id: 66, name: 'Criação de RPAs (Power Automate Desktop)', simples: '-', padrao: 1, completo: 1, father: 64},
-{ id: 67, name: 'Criação de novos fluxos em nuvem', simples: '-', padrao: 1, completo: 1, father: 64},
-{ id: 68, name: 'Microsoft Power Pages', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 69, name: 'Suporte, ajustes e resolução de problemas/bugs em portais', simples: 1, padrao: 1, completo: 1, father: 68},
-{ id: 70, name: 'Criação de novos portais', simples: '-', padrao: 1, completo: 1, father: 68},
-{ id: 71, name: 'Microsoft Power Virtual Agents', simples: 1, padrao: 1, completo: 1, father: 0},
-{ id: 72, name: 'Suporte, ajustes e resolução de problemas/bugs em chatbots', simples: 1, padrao: 1, completo: 1, father: 71},
-{ id: 73, name: 'Criação de novos chatbots', simples: '-', padrao: 1, completo: 1, father: 71}
+{ id: 1, name: '24/7 Power Platform and Microsoft 365 support AI agent trained with our own knowledge database', simples: 1, padrao: 1, completo: 1, father: -1},
+{ id: 2, name: 'Open support tickets for remote access with human especialists*', simples: '*paid by hour', padrao: 'free', completo: 'free', father: -1},
+{ id: 3, name: 'Users and licensing management', simples: '-', padrao: 1, completo: 1, father: -1},
+{ id: 4, name: 'Microsoft 365 cybersecurity and DLP policies management', simples: '-', padrao: 1, completo: 1, father: -1},
+{ id: 5, name: 'Open Power Platform & Dynamics 365 development tickets*', simples: '*paid by hour', padrao: '*paid by hour', completo: 'free', father: -1},
+{ id: 6, name: 'Custom Power Automate flow error-detector control panel', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 7, name: 'Custom Power Apps access logs control panel', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 8, name: 'Custom Power BI refresh errors control panel', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 9, name: 'Techical documentation and architecture for Power Platform Solutions', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 10, name: 'Power Platform Environment implementation and management', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 11, name: 'Application Lifecycle Management (ALM)', simples: '-', padrao: '-', completo: 1, father: -1},
+{ id: 12, name: 'Custom Power Platform qualification programs for employees', simples: '-', padrao: '-', completo: 1, father: -1},
+
   ]);
 
   const [sonActives, setSonActives] = useState([]);
@@ -110,12 +50,12 @@ const PrecosSection = () => {
           }}
         >
           <h2 className="text-white text-4xl lg:text-6xl text-center font-bold pt-24 mx-4 md:mx-0">
-            Planos mensais
+            Support Plans pricing
           </h2>
 
           <p className="mb-5 text-white text-xl font-thin mx-4 md:mx-0">
             {' '}
-            Tenha especialistas nas ferramentas da Microsoft à disposição da sua empresa{' '}
+            Custom plans for managing your Microsoft 365 environment{' '}
           </p>
 
           <div className="stv-radio-buttons-wrapper div-payment-types pb-4">
@@ -131,7 +71,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-m" className="p-1">
-                  Contrato Trimestral
+                  Small business
                 </label>
               </li>
               <li className="payment-type" style={{ position: 'relative' }}>
@@ -145,7 +85,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-y" className="p-1">
-                  Contrato Anual
+                  Large business
                 </label>
                 <S.DiscountLabel>- 20%</S.DiscountLabel>
               </li>
@@ -161,29 +101,29 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20suporte"
               >
-                <p className="mb-2 font-black text-xl title">Suporte</p>
+                <p className="mb-2 font-black text-xl title">Basic Support</p>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1980</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">89</span>
+                    <span className="plan_month">/user</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">1584</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">69</span>
+                    <span className="plan_month">/user</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? 'A partir de 30h' : 'A partir de 120h'}
+                  {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20suporte"
                   ></a>
                 </p>
-                <span className="hire_button">Contratar</span>
+                <span className="hire_button">Contact us</span>
               </S.Plan>
             </div>
             <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
@@ -192,26 +132,26 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
               >
-                <p className="mb-2 font-black text-xl title">Consultoria</p>
-                <div className="plan_recommended_tag">RECOMENDADO</div>
+                <p className="mb-2 font-black text-xl title">Standard Support</p>
+                <div className="plan_recommended_tag">RECOMMENDED</div>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">8712</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">329</span>
+                    <span className="plan_month">/user</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">6970</span>
-                    <span className="plan_month">/mês</span>
+                    <span className="plan_price">269</span>
+                    <span className="plan_month">/user</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? 'A partir de 90h' : 'A partir de 360h'}
+                  {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
                 </p>
-                <span className="hire_button">Contratar</span>
+                <span className="hire_button">Contact us</span>
               </S.Plan>
             </div>
             <div className="lg:px-3 lg:m-6 md:m-2 mb-6">
@@ -219,23 +159,23 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20gerenciamento"
               >
-                <p className="mb-2 font-black text-xl title">Gerencial</p>
+                <p className="mb-2 font-black text-xl title">Administration</p>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
-                    <span className="plan_currency"></span>
+                    <span className="plan_currency">R$</span>
                     <span className="plan_price">Consulte</span>
-                    <span className="plan_month"></span>
+                    <span className="plan_month">/user</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
-                    <span className="plan_currency"></span>
+                    <span className="plan_currency">R$</span>
                     <span className="plan_price">Consulte</span>
-                    <span className="plan_month"></span>
+                    <span className="plan_month">/user</span>
                   </div>
                 )}
                 <p className="plan_hours">
                   <FaRegClock />
-                  {tipoPlano == 'Mensal' ? 'A partir de 180h' : 'A partir de 720h'}
+                  {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
                 </p>
                 <span className="hire_button">Contratar</span>
               </S.Plan>
@@ -246,10 +186,10 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20personalizado"
               >
-                <p className="mb-2 font-black text-xl title">Personalizado</p>
+                <p className="mb-2 font-black text-xl title">Custom</p>
 
-                <div>Para planos personalizados</div>
-                <span className="hire_button">Contato</span>
+                <div>For more options</div>
+                <span className="hire_button">Contact us</span>
               </S.Plan>
             </div>
           </div>
@@ -257,11 +197,11 @@ const PrecosSection = () => {
 
         <div className="table-planos">
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mb-4 md:mx-0">
-            Quais são os benefícios?
+            What is included in each plan?
           </h2>
 
           <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">
-            Nossos planos atendem suas demandas em todas as plataformas
+            Technical support for all Microsoft business apps
           </p>
 
           <div className="text-center mt-16">
@@ -272,9 +212,9 @@ const PrecosSection = () => {
             <thead>
               <tr>
                 <th className="lg:px-4 lg:py-2" />
-                <th className="lg:px-4 lg:py-2">Suporte</th>
-                <th className="lg:px-4 lg:py-2">Consultoria</th>
-                <th className="lg:px-4 lg:py-2">Gerencial</th>
+                <th className="lg:px-4 lg:py-2">Basic Support</th>
+                <th className="lg:px-4 lg:py-2">Standard Support</th>
+                <th className="lg:px-4 lg:py-2">Administration</th>
               </tr>
             </thead>
             <tbody>
