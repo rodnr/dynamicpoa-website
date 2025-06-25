@@ -1,6 +1,6 @@
 ---
 title: >-
-  Como desenvolver um portal do cliente com Power Pages e quais beneficios ele
+  Como desenvolver um portal do cliente com Power Pages e quais benefícios ele
   entrega
 description: >-
   Entenda como o Power Pages permite criar portais do cliente seguros,
