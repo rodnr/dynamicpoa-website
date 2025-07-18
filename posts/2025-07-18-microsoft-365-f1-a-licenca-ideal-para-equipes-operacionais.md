@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 F1: A licenca ideal para equipes operacionais'
+title: 'Microsoft 365 F1: A licença ideal para equipes operacionais'
 description: >-
   A Microsoft 365 F1 é a opção mais eficiente e acessível para empresas que
   precisam oferecer produtividade e comunicação a trabalhadores da linha de
