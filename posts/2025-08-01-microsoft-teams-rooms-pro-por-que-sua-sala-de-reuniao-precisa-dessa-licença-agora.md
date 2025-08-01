@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft Teams Rooms Pro: Por que sua sala de reuniao precisa dessa licença
+  Microsoft Teams Rooms Pro: Por que sua sala de reunião precisa dessa licença
   agora
 description: >-
   Descubra como a licença Microsoft Teams Rooms Pro transforma suas reuniões
