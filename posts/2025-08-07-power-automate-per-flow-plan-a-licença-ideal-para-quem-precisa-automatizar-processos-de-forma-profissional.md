@@ -1,6 +1,6 @@
 ---
 title: >-
-  Power Automate Per Flow Plan: a licença ideal para quem precisa automatizar
+  Power Automate Per Flow Plan: a licenca ideal para quem precisa automatizar
   processos de forma profissional
 description: >-
   Entenda seus benefícios, quando utilizá-la e como obter até 35% de desconto
