@@ -1,5 +1,5 @@
 ---
-title: 'Planner and Project Plan 5: Gestao de projetos em nivel corporativo'
+title: 'Planner and Project Plan 5: Gestão de projetos em nível corporativo'
 description: >-
   Descubra como o Microsoft Planner e o Project Plan 5 podem elevar a
   produtividade e o controle da sua empresa.
