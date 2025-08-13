@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft 365 F3: Produtividade e colaboracao para colaboradores de linha de
+  Microsoft 365 F3: Produtividade e colaboração para colaboradores de linha de
   frente
 description: >-
   Entenda como a licença Microsoft 365 F3 pode transformar o dia a dia dos
