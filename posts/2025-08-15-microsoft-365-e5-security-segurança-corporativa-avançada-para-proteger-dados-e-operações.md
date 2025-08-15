@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft 365 E5 Security: Seguranca corporativa avançada para proteger dados
+  Microsoft 365 E5 Security: Segurança corporativa avançada para proteger dados
   e operacoes
 description: >-
   O Microsoft 365 E5 Security é o plano ideal para empresas que precisam elevar
