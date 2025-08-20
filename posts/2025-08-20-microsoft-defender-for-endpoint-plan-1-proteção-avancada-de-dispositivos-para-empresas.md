@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft Defender for Endpoint Plan 1: Proteção avancada de dispositivos para
+  Microsoft Defender for Endpoint Plan 1: Proteção avançada de dispositivos para
   empresas
 description: >-
   O Microsoft Defender for Endpoint Plan 1 é a solução de segurança corporativa
