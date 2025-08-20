@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft Teams Phone Standard: Comunicação unificada e profissional para sua
+  Microsoft Teams Phone Standard: Comunicacao unificada e profissional para sua
   empresa
 description: >-
   O Microsoft Teams Phone Standard é a solução que transforma o Microsoft Teams
