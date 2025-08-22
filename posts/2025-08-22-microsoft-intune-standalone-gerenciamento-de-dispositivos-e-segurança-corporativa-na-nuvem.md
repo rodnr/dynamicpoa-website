@@ -69,8 +69,6 @@ E com a Dynamic Soluções, você terá ao seu lado uma parceira especializada e
 
 Se sua empresa busca segurança, flexibilidade e produtividade, investir no Microsoft Intune (Standalone) com a Dynamic é o próximo passo certo.
 
-
-
 **What is Microsoft Intune (Standalone)?**
 
 Microsoft Intune is a cloud-based Mobile Device Management (MDM) and Mobile Application Management (MAM) solution that allows organizations to control, secure, and configure computers, smartphones, tablets, and applications used in the corporate environment.
@@ -89,13 +87,13 @@ With Intune, your company can:
 
 **Benefits and Key Differentiators of Microsoft Intune**
 
-1. Unified management: all corporate and personal devices in a single platform.
-2. Advanced security: conditional access policies and integration with Microsoft Entra ID (Azure AD).
-3. Data protection: encryption, remote wipe, and app control.
-4. Guaranteed productivity: employees access data and apps securely from anywhere.
-5. Support for hybrid work models: perfect for distributed or remote teams.
-6. Native integration with other Microsoft solutions such as Defender for Endpoint, Entra ID, Office 365, and Power Platform.
-7. Flexibility: works on both corporate and personal devices without compromising user experience.
+1. **Unified management:** all corporate and personal devices in a single platform.
+2. **Advanced security:** conditional access policies and integration with Microsoft Entra ID (Azure AD).
+3. **Data protection:** encryption, remote wipe, and app control.
+4. **Guaranteed productivity:** employees access data and apps securely from anywhere.
+5. **Support for hybrid work models:** perfect for distributed or remote teams.
+6. **Native integration** with other Microsoft solutions such as **Defender for Endpoint, Entra ID, Office 365, and Power Platform.**
+7. **Flexibility:** works on both corporate and personal devices without compromising user experience.
 
 **What can you do with Microsoft Intune (Standalone)?**
 
