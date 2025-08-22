@@ -1,6 +1,6 @@
 ---
 title: >-
-  Microsoft Intune (Standalone): Gerenciamento de dispositivos e segurança
+  Microsoft Intune (Standalone): Gerenciamento de dispositivos e seguranca
   corporativa na nuvem
 description: >-
   O Microsoft Intune (Standalone) é a solução ideal para empresas que precisam
