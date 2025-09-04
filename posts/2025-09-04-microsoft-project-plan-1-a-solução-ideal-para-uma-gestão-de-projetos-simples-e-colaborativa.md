@@ -8,8 +8,11 @@ description: >-
   precisam de ferramentas que garantam organização, colaboração e visibilidade
   em tempo real das atividades.
 date: '2025-09-04 02:11:41'
-thumbnail: /assets/img/blog/as.png
+thumbnail: >-
+  /assets/img/blog/project-server-has-retired-long-live-something-even-better-featured-image.jpg
 ---
+![](/assets/img/blog/microsoft-project-plan.jpg)
+
 **O que é o Project Plan 1?**
 
 O Microsoft Project Plan 1 é a versão mais enxuta e acessível do Microsoft Project, totalmente baseada na nuvem. Ele foi desenvolvido para atender equipes que precisam de planejamento ágil, organização de tarefas e colaboração online, sem a complexidade de recursos avançados que muitas vezes não são utilizados.
@@ -59,8 +62,6 @@ Contras
 Se a sua empresa busca organizar projetos de forma rápida, prática e colaborativa, sem investir em recursos mais avançados que talvez não sejam utilizados, o Project Plan 1 é a licença ideal. Ele entrega o essencial para a gestão de projetos em nuvem e ainda garante integração com todo o ecossistema Microsoft 365.
 
 E com a Dynamic Soluções, você ainda garante até 30% de desconto no licenciamento, além de suporte especializado para configurar e extrair o máximo da ferramenta dentro da sua realidade.
-
-
 
 **What is Project Plan 1?**
 
