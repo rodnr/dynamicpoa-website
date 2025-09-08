@@ -7,7 +7,7 @@ description: >-
   foi desenvolvido pensando em segurança corporativa e governança de dados, com
   recursos que atendem a padrões globais de conformidade.
 date: '2025-09-08 12:27:23'
-thumbnail: /assets/img/blog/whatsapp-image-2025-09-08-at-12.30.26.jpeg
+thumbnail: /assets/img/blog/whatsapp-image-2025-09-08-at-14.26.56.jpeg
 ---
 ![](/assets/img/blog/whatsapp-image-2025-09-08-at-12.29.13.jpeg)
 
