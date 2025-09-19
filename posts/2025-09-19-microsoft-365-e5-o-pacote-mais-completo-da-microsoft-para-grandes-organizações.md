@@ -7,7 +7,7 @@ description: >-
   empresas trabalham, conheça seus recursos avançados de segurança, compliance,
   colaboração e produtividade.
 date: '2025-09-19 10:42:01'
-thumbnail: /assets/img/blog/whatsapp-image-2025-09-19-at-11.28.22.jpeg
+thumbnail: /assets/img/blog/whatsapp-image-2025-09-19-at-11.36.02.jpeg
 ---
 **Microsoft 365 E5: O que é e por que grandes organizações escolhem esse pacote**
 
