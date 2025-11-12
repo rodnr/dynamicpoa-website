@@ -67,10 +67,6 @@ A Dynamic Soluções é parceira oficial Microsoft (MPN ID 6132815), especializa
 
 Quer verificar se suas licenças e atualizações estão em dia? Entre em contato agora
 
-****
-
-****
-
 **Critical Updates Protecting the Core of Your Microsoft Environment**
 
 On November 12, 2025, Microsoft rolled out its latest Patch Tuesday, the monthly package of security updates, addressing 63 vulnerabilities across Windows, Office, Azure, and other Microsoft products. Among them was a zero-day vulnerability already being exploited by cybercriminals, targeting communication between Windows components and cloud authentication services.
