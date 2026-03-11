@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 import Layout from '../components/layout/Layout';
 import Button from '../components/Button';
 import LottieHero from '../components/LottieHero';
+import SplitSection from '../components/SplitSection';
 
 import ClassesPlatforms from '../components/ClassesPlatforms';
 import ClassesBenefits from '../components/ClassesBenefits';
@@ -12,22 +13,27 @@ import ClassesBenefits from '../components/ClassesBenefits';
 const AulasPage = () => (
   <Layout>
     <SEO
-      title="Treinamentos | Microsoft 365 e Plataforma Power"
-      description="Treinamentos personalizados para sua empresa para qualificar seus colaboradores de forma online ou in-company."
+      title="Licensing | Microsoft 365, Dynamics and Azure"
+      description="Microsoft 365, Azure, Power Platform e Dynamics 365 com até 20% de desconto para sua empresa."
     />
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-left p-4 lg:pr-16 lg:w-1/2">
-          <h1 className="hero-title">Treinamentos e Workshops para você ou sua empresa</h1>
+          <h1 className="hero-title">Revendedor Oficial Microsoft</h1>
           <p className="hero-description">
-            Oferecemos treinamentos personalizados para sua empresa ou workshops mensais para capacitação em Microsoft 365 e Plataforma Power.
+            Microsoft 365, Azure, Power Platform e Dynamics 365 com até 20% de desconto para sua empresa.
           </p>
           <AnchorLink className="text-white hover:text-white" href="#platformsSection">
-            <Button>Conheça</Button>
+            <Button>Saiba mais</Button>
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
-          <LottieHero />
+            <SplitSection
+      id="ferramentas"
+
+      secondarySlot={<img src="/assets/img/platforms/Excel.png" alt="Excel" />}
+      classMargin="ml-auto"
+    />
         </div>
       </div>
     </section>
