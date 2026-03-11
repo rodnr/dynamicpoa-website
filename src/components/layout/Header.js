@@ -20,8 +20,8 @@ const Header = () => (
           Para Empresas
         </Link> */}
       </div>
-      <Link to="/treinamentos" className="px-4 font-bold mt-3 md:mt-0">
-        Consulting Services
+      <Link to="/licenciamento" className="px-4 font-bold mt-3 md:mt-0">
+        Licensing
       </Link>
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
         Pricing
