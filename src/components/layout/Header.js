@@ -24,7 +24,7 @@ const Header = () => (
         Licensing
       </Link>
       <Link to="/planos" className="px-4 font-bold mt-3 md:mt-0">
-        Pricing
+        Hire us
       </Link>
       <Link to="/blog" className="px-4 font-bold mt-3 md:mt-0">
         Blog
