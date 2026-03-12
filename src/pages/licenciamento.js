@@ -23,8 +23,8 @@ const AulasPage = () => (
           <p className="hero-description">
             Microsoft 365, Azure, Power Platform e Dynamics 365 com até 20% de desconto para sua empresa.
           </p>
-          <AnchorLink className="text-white hover:text-white" href="#platformsSection">
-            <Button>Saiba mais</Button>
+          <AnchorLink className="text-white hover:text-white" href="https://forms.office.com/r/UczRxsHeLy">
+            <Button>Solicite uma cotação</Button>
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
@@ -37,7 +37,7 @@ const AulasPage = () => (
         </div>
       </div>
     </section>
-    <ClassesPlatforms />
+    
     <ClassesBenefits />
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Quer solicitar uma cotação de licenciamento para a sua empresa?</h3>
