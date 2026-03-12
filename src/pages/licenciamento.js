@@ -28,15 +28,13 @@ const AulasPage = () => (
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
-            <SplitSection
-      id="ferramentas"
-
-      secondarySlot={
-  <img 
-    src="/assets/img/platforms/Excel.png" 
+            <div className="m-0 hidden lg:w-3/5 lg:block">
+  <img
+    src="/assets/img/platforms/Excel.png"
     alt="Excel"
-    className="w-full scale-150"
+    className="w-[700px] ml-auto"
   />
+</div>
 }
       classMargin="ml-auto"
     />
