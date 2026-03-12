@@ -31,13 +31,19 @@ const AulasPage = () => (
             <SplitSection
       id="ferramentas"
 
-      secondarySlot={<img src="/assets/img/platforms/Excel.png" alt="Excel" />}
+      secondarySlot={
+  <img 
+    src="/assets/img/platforms/Excel.png" 
+    alt="Excel"
+    className="w-full scale-150"
+  />
+}
       classMargin="ml-auto"
     />
         </div>
       </div>
     </section>
-    
+    <hr className="my-16 border-gray-300" />
     <ClassesBenefits />
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Quer solicitar uma cotação de licenciamento para a sua empresa?</h3>
