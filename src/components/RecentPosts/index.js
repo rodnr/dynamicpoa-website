@@ -33,7 +33,7 @@ const RecentPosts = () => {
 
     return (
         <S.RecentContainer>
-            <S.RecentTitle>Posts recentes</S.RecentTitle>
+            <S.RecentTitle>Our blog</S.RecentTitle>
             <S.GridContainer>
                 {postList.map(({ node: { frontmatter: { date, description, title, thumbnail }, fields: { slug } } }, i) => (
                     <PostItem
@@ -47,7 +47,7 @@ const RecentPosts = () => {
                 ))}
             </S.GridContainer>
             <Link to="/blog">
-                <Button>Ver todos posts</Button>
+                <Button>Read more</Button>
             </Link>
         </S.RecentContainer>
     )
