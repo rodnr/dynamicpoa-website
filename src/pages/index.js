@@ -51,28 +51,14 @@ export default () => (
      
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/48031858.js"></script>
 
-    
-    <SplitSection
-      id="ferramentas"
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
-          <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
-          <p className="text-gray-700 mb-4">
-            Revolucione a forma como você usa Excel, Teams, SharePoint, Forms e mais, através de nossa consultoria técnica.
-          </p>
-        </div>
-      }
-      secondarySlot={<img src="/assets/img/platforms/Excel.png" alt="Excel" />}
-      classMargin="ml-auto"
-    />
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48 border-r-2 pr-8 border-primary text-right ">
-          <h3 className="text-3xl font-light leading-tight mb-6 ">PLATAFORMA POWER</h3>
+          <h3 className="text-3xl font-light leading-tight mb-6 ">POWER PLATFORM</h3>
           <p className="text-gray-700 mb-4">
-            Automatize e digitalize processos com ferramentas low-code como <br/>
-          Power BI, Power Apps e Power Automate
+          We're experts on implementing and managing <br/>
+          complex environments, with over 1,500 Power Apps and Power Pages cases
           </p>
         </div>
       }
