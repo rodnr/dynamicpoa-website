@@ -72,7 +72,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-m" className="p-1">
-                  New companies
+                  No licenses
                 </label>
               </li>
               <li className="payment-type" style={{ position: 'relative' }}>
@@ -86,7 +86,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-y" className="p-1">
-                  Companies in our licensing portfolio 
+                  1+ licenses
                 </label>
                 <S.DiscountLabel>- 20%</S.DiscountLabel>
               </li>
@@ -107,18 +107,18 @@ const PrecosSection = () => {
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">789</span>
-                    <span className="plan_month">/user</span>
+                    <span className="plan_month">/month</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">591</span>
-                    <span className="plan_month">/user</span>
+                    <span className="plan_month">/month</span>
                   </div>
                 )}
                 <p className="plan_hours">
-                  <FaRegClock />
-                  {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
+                  
+                  {tipoPlano == 'Mensal' ? 'Up to 10 users' : 'Up to 10 users'}
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20suporte"
@@ -139,18 +139,17 @@ const PrecosSection = () => {
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">1980</span>
-                    <span className="plan_month">/user</span>
+                    <span className="plan_month">/month</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
                     <span className="plan_price">1485</span>
-                    <span className="plan_month">/user</span>
+                    <span className="plan_month">/month</span>
                   </div>
                 )}
                 <p className="plan_hours">
-                  <FaRegClock />
-                  {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
+                  {tipoPlano == 'Mensal' ? 'Up to 50 users' : 'Up to 50 users'}
                 </p>
                 <span className="hire_button">Contact us</span>
               </S.Plan>
@@ -175,8 +174,7 @@ const PrecosSection = () => {
                   </div>
                 )}
                 <p className="plan_hours">
-                  <FaRegClock />
-                  {tipoPlano == 'Mensal' ? 'per month' : 'per month'}
+                  {tipoPlano == 'Mensal' ? 'No limit' : 'No limit'}
                 </p>
                 <span className="hire_button">Contact us</span>
               </S.Plan>
