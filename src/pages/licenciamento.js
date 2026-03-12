@@ -28,16 +28,15 @@ const AulasPage = () => (
           </AnchorLink>
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
-            <div className="m-0 hidden lg:w-3/5 lg:block">
+<div className="m-0 hidden lg:flex lg:w-3/5 lg:justify-center">
   <img
     src="/assets/img/platforms/Excel.png"
     alt="Excel"
-    className="w-[700px] ml-auto"
+    className="w-[800px]"
   />
 </div>
 }
-      classMargin="ml-auto"
-    />
+
         </div>
       </div>
     </section>
