@@ -29,13 +29,13 @@ const AulasPage = () => (
         </div>
         <div className="m-0 hidden lg:w-3/5 lg:block">
 <div className="m-0 hidden lg:flex lg:w-3/5 lg:justify-center">
-  <img
-    src="/assets/img/platforms/Excel.png"
-    alt="Excel"
-    className="w-[800px]"
-  />
+<img
+  src="/assets/img/platforms/Excel.png"
+  alt="Excel"
+  className="w-[800px] ml-32"
+/>
 </div>
-}
+
 
         </div>
       </div>
