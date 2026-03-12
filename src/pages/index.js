@@ -65,13 +65,13 @@ export default () => (
       secondarySlot={<img src="/assets/img/platforms/PowerBI.png" alt="Power BI" />}
       classMargin="mr-auto"
     />
-    <LabelText className="mb-8 mt-24 text-gray-600 text-center">Clientes</LabelText>
+    <LabelText className="mb-8 mt-24 text-gray-600 text-center">Companies that we've worked with</LabelText>
     <Caroussel />
     <RecentPosts />
     <section id="depoimentos" className="py-10 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-<600 text-center">
-          O que dizem nossos clientes
+          What our customers say
         </LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
@@ -81,7 +81,7 @@ export default () => (
           ))}
         </div>
         <a target="_blank" rel="noreferrer" href="https://bit.ly/2U2Kerl">
-          <Button className="flex mx-auto mt-8">Veja mais</Button>
+          <Button className="flex mx-auto mt-8">See more</Button>
         </a>
       </div>
     </section>
