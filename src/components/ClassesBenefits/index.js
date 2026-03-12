@@ -15,34 +15,34 @@ const ClassesBenefits = () => (
     <S.BenefitsWrapper>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <img src={certificadoIcon} alt="Certificado" />
+          <img src={certificadoIcon} alt="Parceiro Oficial" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Certificado</S.BenefitTitle>
+          <S.BenefitTitle>Parceiro Oficial</S.BenefitTitle>
           <S.BenefitDescription>
-            Nossos treinamentos possuem certificados válidos como parceiro da Microsoft.
+           Estamos listados na página oficial de parceiros Microsoft como Revendedor Autorizado.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <img src={onlineIcon} alt="Online" />
+          <img src={onlineIcon} alt="Disponibilidade" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Online</S.BenefitTitle>
+          <S.BenefitTitle>Disponibilidade</S.BenefitTitle>
           <S.BenefitDescription>
-            As aulas são gravadas e podem ser assistidas posteriormente de forma online.
+            Nosso portal web permite gerenciar suas licenças a qualquer momento.
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <img src={flexivelIcon} alt="Flexivel" />
+          <img src={flexivelIcon} alt="Agilidade" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Flexível</S.BenefitTitle>
+          <S.BenefitTitle>Agilidade</S.BenefitTitle>
           <S.BenefitDescription>
-           Horários de treinamentos ao vivo flexíveis.
+           As licenças são disponibilizadas no ambiente em pouco tempo
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
@@ -53,29 +53,29 @@ const ClassesBenefits = () => (
         <S.BenefitContent>
           <S.BenefitTitle>Consultoria</S.BenefitTitle>
           <S.BenefitDescription>
-            Suporte gratuito por tempo limitado após o treinamento para aplicação dos conteúdos na prática.
+            Tenha a opinião de um especialista em quais as opções de licenciamento atendem sua necessidade
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <img src={instantaneoIcon} alt="Instantaneo" />
+          <img src={instantaneoIcon} alt="Relatórios" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Personalização</S.BenefitTitle>
+          <S.BenefitTitle>Relatórios</S.BenefitTitle>
           <S.BenefitDescription>
-            Conteúdos segmentados e personalizados de acordo com o público-alvo, por setores ou atividades específicas.
+            Receba relatórios personalizado de custos, economia e usabilidade das licenças
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
       <S.SingleBenefit>
         <S.BenefitIcon>
-          <img src={exerciciosIcon} alt="Exercicios" />
+          <img src={exerciciosIcon} alt="Controle" />
         </S.BenefitIcon>
         <S.BenefitContent>
-          <S.BenefitTitle>Materiais</S.BenefitTitle>
+          <S.BenefitTitle>Controle</S.BenefitTitle>
           <S.BenefitDescription>
-            Conteúdos práticos com situações reais e apostilas para fixação do conteúdo.
+            O cancelamento e renovação de licenças ficam 100% no seu controle
           </S.BenefitDescription>
         </S.BenefitContent>
       </S.SingleBenefit>
