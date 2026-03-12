@@ -11,7 +11,7 @@ import * as S from './styled';
 
 const ClassesBenefits = () => (
   <S.BenefitsSection>
-    <S.BenefitsTitle>Quais são os benefícios de qualificar-se com a Dynamic?</S.BenefitsTitle>
+    <S.BenefitsTitle>Quais são os benefícios de licenciar com a Dynamic?</S.BenefitsTitle>
     <S.BenefitsWrapper>
       <S.SingleBenefit>
         <S.BenefitIcon>
