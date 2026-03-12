@@ -11,10 +11,10 @@ const PrecosSection = () => {
   const [tipoPlano, setTipoPlano] = useState('Anual');
   const [dataTable] = useState([
 { id: 1, name: '24/7 Power Platform and Microsoft 365 support AI agent trained with our own knowledge database', simples: 1, padrao: 1, completo: 1, father: -1},
-{ id: 2, name: 'Open support tickets for remote access with human especialists*', simples: '*paid by hour', padrao: 'free', completo: 'free', father: -1},
+{ id: 2, name: 'Open support tickets for remote access with human especialists*', simples: 1, padrao: 1, completo: 1, father: -1},
 { id: 3, name: 'Users and licensing management', simples: '-', padrao: 1, completo: 1, father: -1},
 { id: 4, name: 'Microsoft 365 cybersecurity and DLP policies management', simples: '-', padrao: 1, completo: 1, father: -1},
-{ id: 5, name: 'Open Power Platform & Dynamics 365 development tickets*', simples: '*paid by hour', padrao: '*paid by hour', completo: 'free', father: -1},
+{ id: 5, name: 'Open Power Platform & Dynamics 365 development tickets*', simples: '-', padrao: 1, completo: 1, father: -1},
 { id: 6, name: 'Custom Power Automate flow error-detector control panel', simples: '-', padrao: '-', completo: 1, father: -1},
 { id: 7, name: 'Custom Power Apps access logs control panel', simples: '-', padrao: '-', completo: 1, father: -1},
 { id: 8, name: 'Custom Power BI refresh errors control panel', simples: '-', padrao: '-', completo: 1, father: -1},
@@ -23,7 +23,7 @@ const PrecosSection = () => {
 { id: 11, name: 'Application Lifecycle Management (ALM)', simples: '-', padrao: '-', completo: 1, father: -1},
 { id: 12, name: 'Custom Power Platform qualification programs for employees', simples: '-', padrao: '-', completo: 1, father: -1},
 { id: 12, name: 'Azure DevOps Pipelines implementation for deployment proccess', simples: '-', padrao: '-', completo: 1, father: -1},
-{ id: 14, name: 'Automated Power Platform development with AI agent', simples: '-', padrao: '-', completo: 'coming soon', father: -1}
+{ id: 14, name: 'Automated Power Platform development with AI agent', simples: '-', padrao: '-', completo: 1, father: -1}
   ]);
 
   const [sonActives, setSonActives] = useState([]);
@@ -51,12 +51,12 @@ const PrecosSection = () => {
           }}
         >
           <h2 className="text-white text-4xl lg:text-6xl text-center font-bold pt-24 mx-4 md:mx-0">
-            Support Plans pricing
+            Consulting and Support Plans pricing
           </h2>
 
           <p className="mb-5 text-white text-xl font-thin mx-4 md:mx-0">
             {' '}
-            Custom plans for managing your Microsoft 365 environment{' '}
+            Custom plans for managing your Microsoft tenant{' '}
           </p>
 
           <div className="stv-radio-buttons-wrapper div-payment-types pb-4">
@@ -72,7 +72,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-m" className="p-1">
-                  Small business
+                  New companies
                 </label>
               </li>
               <li className="payment-type" style={{ position: 'relative' }}>
@@ -86,7 +86,7 @@ const PrecosSection = () => {
                   className="stv-radio-button"
                 />
                 <label htmlFor="pay-y" className="p-1">
-                  Large business
+                  Companies in our licensing portfolio 
                 </label>
                 <S.DiscountLabel>- 20%</S.DiscountLabel>
               </li>
@@ -106,13 +106,13 @@ const PrecosSection = () => {
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">89</span>
+                    <span className="plan_price">789</span>
                     <span className="plan_month">/user</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">69</span>
+                    <span className="plan_price">591</span>
                     <span className="plan_month">/user</span>
                   </div>
                 )}
@@ -133,18 +133,18 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20consultoria"
               >
-                <p className="mb-2 font-black text-xl title">Full</p>
+                <p className="mb-2 font-black text-xl title">Administration</p>
                 <div className="plan_recommended_tag">RECOMMENDED</div>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">329</span>
+                    <span className="plan_price">1980</span>
                     <span className="plan_month">/user</span>
                   </div>
                 ) : (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency">R$</span>
-                    <span className="plan_price">269</span>
+                    <span className="plan_price">1485</span>
                     <span className="plan_month">/user</span>
                   </div>
                 )}
@@ -160,7 +160,7 @@ const PrecosSection = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5551996936418&text=Quero%20contratar%20um%20plano%20de%20gerenciamento"
               >
-                <p className="mb-2 font-black text-xl title">Administration</p>
+                <p className="mb-2 font-black text-xl title">Consulting</p>
                 {tipoPlano == 'Mensal' ? (
                   <div className="plan_price_wrapper">
                     <span className="plan_currency"></span>
@@ -214,8 +214,8 @@ const PrecosSection = () => {
               <tr>
                 <th className="lg:px-4 lg:py-2" />
                 <th className="lg:px-4 lg:py-2">Basic Support</th>
-                <th className="lg:px-4 lg:py-2">Full Support</th>
                 <th className="lg:px-4 lg:py-2">Administration</th>
+                <th className="lg:px-4 lg:py-2">Consulting</th>
               </tr>
             </thead>
             <tbody>
