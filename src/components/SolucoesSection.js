@@ -27,8 +27,7 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Projetos.png" className="w-2/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Licensing</p>
             <p className="mt-4" style={{ color: '#2e2e2e' }}>
-              Adquira licenças da Microsoft com nossos descontos de até 20% diretamente com a nossa empresa, que é revendedora oficial. 
-              Faça cotações para serviços como Azure, Dynamics 365, Microsoft 365, Power BI, Exchange, Windows e muito mais. 
+              Hire over 4,000 different Microsoft product licenses like Azure, Dynamics 365, Microsoft 365, Power BI, Power Pages, Power Apps, Exchange, Windows and many more, with up to 25% discount. 
             </p>
           </Card>
         </div>
@@ -37,20 +36,18 @@ const SolucoesSection = () => (
             <img src="/assets/img/solutions/Consultoria.png" className="w-2/6 my-0 mx-auto"/>
             <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Administration</p>
             <p className="mt-4" style={{ color: '#2e2e2e' }}>
-              Contrate especialistas nas ferramentas do Microsoft 365 e Plataforma Power para ficar à disposição da sua empresa através de pacotes mensais de Suporte, 
-              Desenvolvimento ou Gerenciamento.
+             Hire our specialists to implement and manage your Microsoft tenant and Power Platform environments, with deployment pipelines, Application Lifecycle Management, CI/CD and 
+               many other high-level custom-made management solutions
             </p>
           </Card>
         </div>
         <div className="flex-1 px-3 m-6 md:m-2">
           <Card className="p-12 h-full">
             <img src="/assets/img/solutions/Treinamentos.png" className="w-2/6 my-0 mx-auto"/>
-            <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Support</p>
+            <p className="font-semibold text-xl" style={{ color: '#202A45' }}>Consulting</p>
             <p className="mt-4" style={{ color: '#2e2e2e' }}>
-              Treinamentos corporativos in-company ou online elaborados 
-              de forma personalizada para a sua empresa, trazendo aplicações práticas para os setores e 
-              qualificando os colaboradores nas principais ferramentas do
-              mercado
+              In our consulting plans, we map your company's business process to create Power Platform architecture and develop solutions to automate 
+                and digitalize workflows accross your departments, providing training and support for users.
             </p>
           </Card>
         </div>
