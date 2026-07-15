@@ -2,11 +2,10 @@ import PropTypes from 'prop-types';
 import React from "react";
 import * as S from './styled';
 
-const PostItem = ({ date, title, description, slug, thumbnail }) => (
+const PostItem = ({ date, title, description, slug }) => (
     <div className='mt-4'>
         <S.PostLink to={slug}>
             <S.PostItemWrapper>
-                <S.PostImage src={thumbnail ? thumbnail : '/assets/img/blog/dynamicpoa.jpg'} alt={title} />
                 <S.PostTitle>{title}</S.PostTitle>
                 <S.PostDate>{date}</S.PostDate>
                 <S.PostDescription>{description}</S.PostDescription>

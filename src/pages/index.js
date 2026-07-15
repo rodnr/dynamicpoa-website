@@ -49,8 +49,6 @@ export default () => (
 
     
      
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/48031858.js"></script>
-
     <SplitSection
       reverseOrder
       primarySlot={
@@ -101,12 +99,5 @@ export default () => (
       </p>
     </section>
 
-    <script
-      type="text/javascript"
-      id="hs-script-loader"
-      async
-      defer
-      src="//js-na1.hs-scripts.com/22189317.js"
-    ></script>
   </Layout>
 );

@@ -17,14 +17,13 @@ const BlogList = (props) => {
             <SEO title="Blog" />
             <S.BlogTitle>Blog</S.BlogTitle>
             <S.GridContainer>
-                {postList.map(({ node: { frontmatter: { date, description, title, thumbnail }, fields: { slug } } }, i) => (
+                {postList.map(({ node: { frontmatter: { date, description, title }, fields: { slug } } }, i) => (
                     <PostItem
                         key={i}
                         slug={slug}
                         title={title}
                         date={date}
                         description={description}
-                        thumbnail={thumbnail}
                     />
                 ))}
             </S.GridContainer>
@@ -55,7 +54,6 @@ query PostList($skip: Int!, $limit: Int!) {
                     date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
                     description
                     title
-                    thumbnail
                 }
                 fields {
                     slug

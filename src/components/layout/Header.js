@@ -1,25 +1,31 @@
 import { Link } from 'gatsby';
 import React from 'react';
-import DynamicLogo from '../../svg/DynamicLogo';
 import novoDynamicLogo from '../../images/novoLogoDynamic.png';
 import { Whatsapp } from '../../svg/SocialIcons';
 import Button from '../Button';
 
+const PORTAL_URL = 'https://dynamicpoa.powerappsportals.com/';
+
+// Conversion label obtido em Google Ads > Conversões > Portal Login
+const ADS_CONVERSION = 'AW-11059828868/INSERIR_LABEL_AQUI';
+
+const handlePortalLoginClick = () => {
+  if (typeof window !== 'undefined' && window.gtag) {
+    window.gtag('event', 'conversion', { send_to: ADS_CONVERSION });
+  }
+};
+
 const Header = () => (
   <header className="sticky z-10 top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-    <div className="flex items-center text-2xl">
-  <div className="w-40 mr-3">
-    <Link to="/">
-      <img src={novoDynamicLogo} alt="Logo Dynamic" className="w-full h-auto" />
-    </Link>
-  </div>
-</div>
-      <div className="flex mt-4 lg:mr-auto lg:ml-4 sm:mt-0">
-        {/* <Link className="px-4 bg-primary text-white" to="/" activeClassName="bg-primary text-white">
-          Para Empresas
-        </Link> */}
+      <div className="flex items-center text-2xl">
+        <div className="w-40 mr-3">
+          <Link to="/">
+            <img src={novoDynamicLogo} alt="Logo Dynamic" className="w-full h-auto" />
+          </Link>
+        </div>
       </div>
+      <div className="flex mt-4 lg:mr-auto lg:ml-4 sm:mt-0" />
       <Link to="/licenciamento" className="px-4 font-bold mt-3 md:mt-0">
         Licensing
       </Link>
@@ -29,11 +35,6 @@ const Header = () => (
       <Link to="/blog" className="px-4 font-bold mt-3 md:mt-0">
         Blog
       </Link>
-      {/*  <Link to="/planilhas-gratuitas" className="px-4 font-bold mt-3 md:mt-0">
-        Planilhas Gratuitas
-      </Link> */}
-     
-    
       <a
         target="_blank"
         rel="noreferrer"
@@ -43,15 +44,15 @@ const Header = () => (
         <Whatsapp />
       </a>
       <div className="hidden md:block">
-  <a href="https://dynamicpoa.powerappsportals.com/" target="_blank" rel="noopener noreferrer">
-    <Button className="text-sm">Portal Login</Button>
-  </a>
-</div>
-<div className="block pt-4 sm:pt-0 md:hidden">
-  <a className="px-4" href="https://dynamicpoa.powerappsportals.com/" target="_blank" rel="noopener noreferrer">
-  Portal Login
-  </a>
-</div>
+        <a href={PORTAL_URL} target="_blank" rel="noopener noreferrer" onClick={handlePortalLoginClick}>
+          <Button className="text-sm">Portal Login</Button>
+        </a>
+      </div>
+      <div className="block pt-4 sm:pt-0 md:hidden">
+        <a className="px-4" href={PORTAL_URL} target="_blank" rel="noopener noreferrer" onClick={handlePortalLoginClick}>
+          Portal Login
+        </a>
+      </div>
     </div>
   </header>
 );

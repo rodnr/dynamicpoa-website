@@ -41,11 +41,3 @@ export const PostDescription = styled.p`
   font-size: 1.2rem;
   line-height: 1.5
   `;
-
-export const PostImage = styled.img`
-  width: 100%;
-  height: 260px;
-  margin-bottom: 1em;
-
-  object-fit: cover;
-  `
