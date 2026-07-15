@@ -85,6 +85,7 @@ Antes de gerar um post novo, o modelo recebe a lista abaixo (seção 8), com tod
 ## 8. Posts já publicados
 
 <!-- POSTS_LOG_START -->
+- **2026-07-15** — `2026-07-15-power-platform-dlp-politicas-conectores` — "DLP na Power Platform: como definir políticas de conectores sem travar o negócio": ALM e governança: como estruturar políticas de DLP na Power Platform por ambiente, classificando conectores em Business/Non-Business/Blocked, tratando HTTP e custom connectors e usando o CoE Starter Kit para monitoramento.
 - **2026-07-15** — `2026-07-15-power-automate-child-flows-reutilizacao` — "Child flows no Power Automate: como estruturar automações reutilizáveis": Power Automate corporativo: como estruturar child flows reutilizáveis em soluções gerenciadas, com contrato de parâmetros, tratamento de erros, limites e comparação com Azure Functions.
 - **2026-05-13** — `2026-05-13-apresentamos-nossa-plataforma-self-service-de-power-platform` — "Apresentamos nossa plataforma Self-Service de Power Platform": Desenvolvimento de soluções em até 90% mais rápido, com acompanhamento em tempo real e integração entre IA e especialistas humanos.
 - **2026-04-10** — `2026-04-10-5-sinais-de-que-sua-empresa-precisa-de-uma-consultoria-especializada-em-microsoft-365` — "5 sinais de que sua empresa precisa de uma consultoria especializada em Microsoft 365": Como identificar gargalos, reduzir custos operacionais e extrair o máximo valor da Power Platform e do ecossistema Microsoft
