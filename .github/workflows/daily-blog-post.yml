@@ -3,7 +3,8 @@ name: Gerar post diário do blog
 on:
   schedule:
     # 13:00 UTC = 10:00 horário de Brasília (BRT, UTC-3 o ano todo)
-    - cron: "0 13 * * *"
+    # dias ímpares do mês = a cada dois dias, para caber no limite de deploys gratuitos da Netlify
+    - cron: "0 13 1-31/2 * *"
   workflow_dispatch: {}
 
 permissions:
